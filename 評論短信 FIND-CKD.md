@@ -2,17 +2,25 @@
 
 **標的論文**：Heerspink HJL, Neuen BL, Agarwal R, et al. Finerenone in Persons with Chronic Kidney Disease without Diabetes. *N Engl J Med* 2026;395:533-545. DOI 10.1056/NEJMoa2604625 <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄。PMID 42246672 📌（PubMed 索引 metadata，未以本地全文驗證）。線上發表 2026-06-04，2026-06-29 更新，紙本 2026-08-06（Vol. 395, No. 6）<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄
 
-**本檔驗證原則**：所有數字、引號字串均可在下列本地檔案 grep 命中。標 📄 者為本地已落地全文；標 📌 者僅有 metadata（title/authors/journal/year/DOI/PMID），**不對其內文作任何具體斷言**。
+**本檔驗證原則**：所有數字、引號字串均可在下列本地檔案 grep 命中。標 📄 者為本地已落地全文；標 ⚠️📄 者為已落地但**版本受限**（作者自存版／非目標篇章），引用時必須註明限定且不得引頁碼；標 📌 者僅有 metadata（title/authors/journal/year/DOI/PMID），**不對其內文作任何具體斷言**。
 
-| 標記 | 本地檔案 |
-|---|---|
-| 📄 | `/Users/ander/openclaw-research/find-ckd/FIND-CKD main text NEJMoa2604625.md` |
-| 📄 | `/Users/ander/openclaw-research/find-ckd/原始PDF/Bakris_2020_FIDELIO-DKD.md` |
-| 📄 | `/Users/ander/openclaw-research/find-ckd/原始PDF/Heerspink_2020_DAPA-CKD.md`（本檔已落地但**未被引用**；DAPA-CKD 相關內容僅停留在其 correspondence 的 metadata 層級） |
-| 📄 | `/Users/ander/openclaw-research/find-ckd/原始PDF/Heerspink_2025_FIND-CKD-design.md` |
-| 📄 | `/Users/ander/openclaw-research/find-ckd/原始PDF/Hobbs_2024_BARACK-D.md` |
-| 📄 | `/Users/ander/openclaw-research/find-ckd/原始PDF/Juurlink_2004_15295047.md` |
-| 📌 | FIGARO-DKD (NEJMoa2110956)、CONFIDENCE (NEJMoa2410659)、FIDELIO/DAPA-CKD/CONFIDENCE correspondence、JAMA glomerular 分析 (10.1001/jama.2026.9923)、INFINITY pooled (10.1016/S0140-6736(26)01009-3) — **全文未落地，僅可引 metadata** |
+**第二輪更新（2026-08-09）**：FIGARO-DKD、CONFIDENCE、INFINITY pooled、JAMA glomerular、DAPA-CKD correspondence 五者全文已落地並完成 grep 驗證，由 📌 升級為 📄；FIDELIO-DKD correspondence 僅取得其中一封讀者投書之作者自存版，升級為 ⚠️📄；CONFIDENCE correspondence 仍為 📌。
+
+| 標記 | 本地檔案 | 版本 |
+|---|---|---|
+| 📄 | `/Users/ander/openclaw-research/find-ckd/FIND-CKD main text NEJMoa2604625.md` | NEJM 正式版 |
+| 📄 | `/Users/ander/openclaw-research/find-ckd/原始PDF/Bakris_2020_FIDELIO-DKD.md` | NEJM 正式版 |
+| 📄 | `/Users/ander/openclaw-research/find-ckd/原始PDF/Heerspink_2020_DAPA-CKD.md`（本檔已落地但**未被引用**） | NEJM 正式版 |
+| 📄 | `/Users/ander/openclaw-research/find-ckd/原始PDF/Heerspink_2025_FIND-CKD-design.md` | NDT 正式版 |
+| 📄 | `/Users/ander/openclaw-research/find-ckd/原始PDF/Hobbs_2024_BARACK-D.md` | 正式版 |
+| 📄 | `/Users/ander/openclaw-research/find-ckd/原始PDF/Juurlink_2004_15295047.md` | NEJM 正式版 |
+| 📄 **新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Pitt_2021_figaro-dkd.md`（FIGARO-DKD） | Publisher's PDF / Version of Record（CURIS, Univ. of Copenhagen 典藏；頁碼 2252-2263 與正式版一致，**可引頁碼**） |
+| 📄 **新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Agarwal_2025_confidence.md`（CONFIDENCE） | Publisher's Version of Record（pure.rug.nl 典藏；N Engl J Med 2025;393:533-43，**可引頁碼**） |
+| 📄 **新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Neuen_2026_infinity-pooled.md`（INFINITY pooled IPD） | Lancet 正式排版版（`Published online June 5, 2026`；線上版頁碼 1-10，**線上 appendix 未落地，不得引用 appendix 內容**） |
+| 📄 **新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Neuen_2026_jama-glomerular.md`（JAMA glomerular 分析） | JAMA 正式版（ORBi, Univ. de Liège 典藏；分頁為 E1–E10，**引用時用 E 頁碼或僅引 DOI**；eTable/eFigure 等 Supplement 未落地，不得引用） |
+| 📄 **新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Vogt_2021_dapa-ckd-correspondence.md`（DAPA-CKD correspondence） | Publisher's Version of Record（UCL Discovery；含 Vogt 信、Yasuda/Isobe 信、Heerspink/Langkilde/Wheeler 之 Reply 三者全文，頁碼 388-390，**可引頁碼**） |
+| ⚠️📄 **新（受限）** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Bunkete_2021_fidelio-correspondence.md`（FIDELIO-DKD correspondence 之**其中一封讀者投書**） | **作者自存版（HAL, hal-03265574），非出版社正式版；且不是 Bakris/Agarwal 的 Reply 本文。**引用時必須註明「作者自存版」，**不得引用頁碼**，**不得**以此檔對「作者 Reply 的內容」作任何斷言 |
+| 📌 | CONFIDENCE correspondence（*N Engl J Med* 2025;393:1753-1755, DOI 10.1056/NEJMc2513088）— **全文仍未落地，僅可引 metadata** |  |
 
 ---
 
@@ -44,15 +52,50 @@
 | scheduled central-laboratory monitoring | 逐字：`were collected for eGFR and serum potassium assessments at the central laboratory`（訪視為篩選、基準、第 1/3/6/9/12 個月，其後每 4 個月） | 📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
 | rose from 2.4 to 11.0 per 1000 patients | Juurlink abstract 逐字（連續片段）：`1000 patients in 1994 to 11.0 per 1000 patients in 2001 (P<0.001)`，其前一行為 `The rate of hospitalization for hyperkalemia rose from 2.4 per` | 📄 Juurlink <!-- src:原始PDF/Juurlink_2004_15295047.md --> |
 
-> **轉檔注意**：`原始PDF/*.md` 由雙欄 PDF 經 `pdftotext -layout` 轉出，句子常被斷行或連字號拆開，因此本檔對這些檔案的逐字引用一律取**單行連續片段**。核對時請用該片段 grep，不要用跨行重組後的句子。
+> **轉檔注意（第三輪更新）**：`原始PDF/*.md` 目前有兩種轉檔來源，核對規則相同——**一律用單行連續片段 grep，不要用跨行重組後的句子**。
+>
+> - **第二輪 6 檔改為 LlamaParse（agentic tier）轉出**：`Vogt_2021_dapa-ckd-correspondence.md`、`Bunkete_2021_fidelio-correspondence.md`、`Pitt_2021_figaro-dkd.md`、`Agarwal_2025_confidence.md`、`Neuen_2026_infinity-pooled.md`、`Neuen_2026_jama-glomerular.md`。斷行已合併、連字號已接回，故整句多半可一次 grep 命中；但版面會帶 Markdown 標記（`<sup>1</sup>` 上標、`*Journal*` 斜體、`**HEADING**`、表格轉為 HTML `<td>`），選片段時須避開這些標記或連同標記一起取。舊的 pdftotext 版本保留為同名 `.pdftotext.md.bak`，**僅供追溯，不作為引用來源**。
+> - **第一輪 5 檔仍為 `pdftotext -layout`**：`Bakris_2020_FIDELIO-DKD.md`、`Heerspink_2020_DAPA-CKD.md`、`Heerspink_2025_FIND-CKD-design.md`、`Hobbs_2024_BARACK-D.md`、`Juurlink_2004_15295047.md`。雙欄版面會斷行、拆連字號，逐字引用仍須取**單行殘片**（例如 `No fatal hy-` + 次行 `perkalemia adverse events were reported.`）。
+>
+> ⚠️ 換版後已查出一處實質更正：FIGARO-DKD 那句住院比例原被標為出自 Discussion，實為 **Results** 的 `**SAFETY OUTCOMES AND VITAL SIGNS**` 段（pdftotext 雙欄把相鄰右欄的 Discussion 文字併在同一行所致），詳見 §2.5(b) 與 §4.4。
 
 > **注意（給投稿者）**：Juurlink 的母體是安大略、近期因心衰竭住院、正在使用 ACE inhibitor 的高齡病人 <!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄，不是 CKD 族群。若審稿要求更嚴謹，可把最後一句改寫為下列建議句（作者自撰，非引文；+6 words，總計 162 words，仍在 175 上限內）：
 >
 > Among older patients treated with ACE inhibitors after RALES, hyperkalemia-related hospitalizations rose from 2.4 to 11.0 per 1000.³
 
+### 【第二輪新增】主稿強化選項 B（**不取代**上方主稿；作者決定是否採用，採用後須重新逐字稽核）
+
+第二輪落地 INFINITY pooled IPD 全文後，出現一個比 RALES 類比**更直接、且完全在同一研究團隊內部**的證據：INFINITY（Neuen、Heerspink、Agarwal 等，含 FIND-CKD 研究者）將三試驗合併後的「hyperkalaemia requiring hospitalisation」報為 **68（0.9%）vs 15（0.2%）**，並明言其主要安全性終點就是「以住院定義」的高血鉀事件。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
+
+**算術核對（本檔作者自行加總，非任一來源之原文陳述）**：FIDELIO-DKD 40 vs 8 <!-- src:原始PDF/Bakris_2020_FIDELIO-DKD.md --> 📄 ＋ FIGARO-DKD 21 vs 2 <!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄 ＝ 61 vs 10；INFINITY 合計為 68 vs 15 <!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄；差額恰為 **7 vs 5**，與 FIND-CKD Table 2 的 7（0.9%）vs 5（0.6%）完全相同 <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄。
+
+> **這個加總是本檔作者的推論，不是 INFINITY 原文的陳述**；INFINITY 全文並未逐試驗拆分此列（拆分資料位於未落地之 appendix）。投稿前若要在信中主張此點，措辭必須寫成「the totality matches only when FIND-CKD events are included」這類**可由公開數字自行驗證**的敘述，不可寫成「INFINITY reported that FIND-CKD contributed 7 events」。
+
+#### 選項 B 正文（173 words，NEJM 上限 175）
+
+> **TO THE EDITOR:** Heerspink et al. (Aug. 6 issue)¹ report that finerenone slowed the decline in the estimated glomerular filtration rate among adults with chronic kidney disease who did not have diabetes. We seek clarification regarding hyperkalemia-related hospitalization. The Results section and Table 2 state that hyperkalemia led to hospitalization in 7 participants (0.9%) in the finerenone group and 5 (0.6%) in the placebo group. The Discussion, however, describes the potassium increases as "leading to discontinuation of the trial regimen in few participants and no hospitalizations." The INFINITY pooled analysis, which included FIND-CKD, reports 68 (0.9%) versus 15 (0.2%) hyperkalemia hospitalizations across the three trials,² a total that matches the FIDELIO-DKD³ and FIGARO-DKD⁴ counts only with the FIND-CKD events included. Because hospitalization for hyperkalemia was a prespecified safety assessment, does that statement refer to a narrower category, or should it be corrected? Precision matters: eligibility required a serum potassium level of 4.8 mmol per liter or less, and dosing was governed by scheduled central-laboratory monitoring and by interruption above 5.5 mmol per liter.
+
+#### 選項 B 的 References（4 篇，NEJM 上限 5 篇）
+
+1. Heerspink HJL, Neuen BL, Agarwal R, et al. Finerenone in persons with chronic kidney disease without diabetes. *N Engl J Med* 2026;395:533-545. <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄
+2. Neuen BL, Heerspink HJL, Perkovic V, et al. Efficacy and safety of finerenone in patients with chronic kidney disease: an individual participant data pooled analysis (INFINITY). *Lancet* 2026;407:2375-2386. <!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
+3. Bakris GL, Agarwal R, Anker SD, et al. Effect of finerenone on chronic kidney disease outcomes in type 2 diabetes. *N Engl J Med* 2020;383:2219-2229. <!-- src:原始PDF/Bakris_2020_FIDELIO-DKD.md --> 📄
+4. Pitt B, Filippatos G, Agarwal R, et al. Cardiovascular events with finerenone in kidney disease and type 2 diabetes. *N Engl J Med* 2021;385:2252-2263. <!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄
+
+#### 選項 A（現行主稿）vs 選項 B 的取捨
+
+| | 選項 A（RALES 外推） | 選項 B（INFINITY 內部不一致） |
+|---|---|---|
+| 證據距離 | 遠：spironolactone、心衰竭族群、2004 年安大略行政資料 <!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄 | 近：同一藥、同一試驗、同一作者群、2026 年 |
+| 新穎度風險 | **偏高**：2021 年已有讀者投書針對 FIDELIO-DKD 提出「這個第三期試驗的高血鉀安全數據外推到日常實務前應審慎解讀」並引用同一篇 Juurlink（作者自存版逐字：`the safety data concerning hyperkalemia from this phase 3 clinical trial should be` 及參考文獻 `Rates of hyperkalemia after publication of`）<!-- src:原始PDF/Bunkete_2021_fidelio-correspondence.md --> ⚠️📄（作者自存版） | 低：無任何已知前例把 FIND-CKD 的 Table 2／Discussion 矛盾與 INFINITY 總數並列 |
+| 可被反駁的空間 | 作者可回「finerenone 非固醇類、族群不同」 | 幾乎沒有：數字全部出自作者自己的兩篇論文 |
+| 字數 | 156 | 173（更接近上限，編輯若刪節較無餘裕） |
+
+**建議**：若投稿窗口仍開放，優先送選項 B；若編輯要求縮短，退回選項 A。**兩者不可合併**（合併必然超過 175 words）。
+
 ### 投稿欄位備忘
 
-- 作者 ≤3 位、每人 1 個 affiliation、1 位 corresponding author（NEJM Correspondence 規定；此規格請於投稿介面現場再確認，本檔未落地 NEJM instructions 原文，不作引用）。
+- 作者 ≤3 位、每人 1 個 affiliation、1 位 corresponding author。**【第二輪更新】**「≤3 位作者」「≤5 篇參考文獻與 1 個圖或表」「≤175 words（不含 references）」三項已可引 NEJM 2021 年印行之 instructions 原文（見 §4.2 逐字片段）<!-- src:原始PDF/Vogt_2021_dapa-ckd-correspondence.md --> 📄；但**2026 年版本仍須於投稿介面現場確認**，本檔未落地 2026 年規則原文。
 - 揭露：與 Bayer／finerenone 相關之任何酬金、演講費、研究經費；以及 AI/LLM 輔助撰稿之使用情形。
 - 同一內容在 NEJM 決定前不得先行公開發表。
 
@@ -96,6 +139,12 @@ RALES 的自然實驗提供了量級：Juurlink 等人在安大略觀察到，�
 
 （注意：finerenone 是非固醇類 MRA，藥理與 spironolactone 不同；Juurlink 的資料**不是** finerenone 的風險估計，僅用於說明「試驗安全數據外推到常規照護」的普遍失真機制。撰稿時務必維持這個界線。）
 
+> **【第二輪新增．新穎度警訊】** 這條「以 Juurlink／RALES 提醒外推風險」的論證路線**已有前例**：2021 年針對 FIDELIO-DKD 的 NEJM correspondence 中，Bunkete、Mohamadou、Galichon 三位作者即寫道「這個第三期臨床試驗的高血鉀安全數據，在外推至日常實務前應審慎解讀」（作者自存版逐字：`the safety data concerning hyperkalemia from this phase 3 clinical trial should be`，次行 `interpreted with caution before extrapolating it to everyday practice.`），且其參考文獻 2 正是同一篇 Juurlink（逐字：`Rates of hyperkalemia after publication of`）。<!-- src:原始PDF/Bunkete_2021_fidelio-correspondence.md --> ⚠️📄（**作者自存版 / HAL preprint 版，非出版社正式版；不得引用頁碼**）
+>
+> 意涵：**「外推警示 + Juurlink」本身不再是新穎論點**。本信的新穎性必須完全建立在「FIND-CKD 同篇內部 Table 2 與 Discussion 互相排斥」這個事實上，而非建立在 RALES 類比上。此即上方「選項 B」把 Juurlink 換成 INFINITY 的理由。
+>
+> **同時要注意的相反面**：INFINITY 的次群分析顯示，finerenone 對「需住院之嚴重高血鉀」的效應**因糖尿病狀態而異**——有糖尿病者 HR 6.21（95% CI 3.18–12.12，p<0.0001），**無糖尿病者 HR 1.48（95% CI 0.47–4.67，p=0.50），交互作用 p=0.034**。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄 也就是說，在 FIND-CKD 這種非糖尿病族群中，高血鉀住院的**相對風險增幅並未達統計顯著**。這對本信是重要的自我限制：本信主張的是「**紀錄必須正確**」，**不是**「finerenone 在非糖尿病 CKD 造成顯著的高血鉀住院風險」。信中任何措辭都不得越過這條線，否則作者可用此 HR 直接反駁。
+
 ## 2.4 為什麼不用 BARACK-D 當主軸（但值得知道）
 
 FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對照，寫成「約 1400 名 CKD 受試者中超過一半在隨機分派後 6 個月內停用 spironolactone……hyperkalemia 佔停藥原因逾 10%」。<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄
@@ -106,16 +155,61 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 
 ## 2.5 哪些角度已被佔據（因此新穎度不足）
 
-以下僅以 **metadata 層級**陳述，因未取得全文，**不對其內文結論作任何斷言**：
+**第二輪更新**：FIDELIO-DKD correspondence（部分）、DAPA-CKD correspondence（完整）、FIGARO-DKD、CONFIDENCE、JAMA glomerular、INFINITY 六者全文已落地，以下改為**內文層級**的具體比對；僅 CONFIDENCE correspondence 仍為 📌。
 
-- **FIDELIO-DKD 的 correspondence 交流已存在**（*N Engl J Med* 2021, DOI 10.1056/NEJMc2036175, PMID 33730470，含作者 Reply）。📌 僅陳述「存在此交流」，本檔不描述各封信的論點。
-- **DAPA-CKD 的 correspondence 交流已存在**（*N Engl J Med* 2021;384:388-390, DOI 10.1056/NEJMc2032809，含讀者信與作者 Reply）。📌
-- **CONFIDENCE 的 correspondence 交流已存在**（*N Engl J Med* 2025;393:1753-1755, DOI 10.1056/NEJMc2513088，4 篇構成之交流）。📌 僅陳述「存在此交流」。
-- **JAMA 的 FIND-CKD glomerular disease 分析已發表**（Neuen BL, et al. *JAMA* 2026, DOI 10.1001/jama.2026.9923, PMID 42246414）。📌 全文未落地，本檔不對其設計、樣本數、結論作斷言。（可另行陳述之已驗證事實：FIND-CKD 基線有 903/1584（57.0%）為 any glomerular disease <!-- src:原始PDF/Heerspink_2025_FIND-CKD-design.md --> 📄）
-- **INFINITY pooled IPD 分析已發表**（Neuen BL, Heerspink HJL, et al. *Lancet* 2026;407:2375-2386, DOI 10.1016/S0140-6736(26)01009-3, PMID 42248158）。📌 全文未落地，本檔不對其納入試驗組成、樣本數與結論作任何斷言。
-- **FIGARO-DKD**（*N Engl J Med* 2021;385:2252-2263, DOI 10.1056/NEJMoa2110956）📌 與 **CONFIDENCE**（*N Engl J Med* 2025;393:533-543, DOI 10.1056/NEJMoa2410659）📌 全文均未落地，本檔不引用其內文數字。
+### （a）既有 correspondence 各封信的實際論點
 
-> 已落地全文的 FIDELIO-DKD 可安全用於**對照性的量級**：其 hyperkalemia 導致住院為 40/2827（1.4%）vs 8/2831（0.3%），因 hyperkalemia 永久停藥 64（2.3%）vs 25（0.9%），investigator-reported hyperkalemia 516（18.3%）vs 255（9.0%），且未報告致死性高血鉀不良事件（逐字連續片段：`perkalemia adverse events were reported.`，其前一行結尾為 `No fatal hy-`）；納入條件同樣要求篩選時血鉀 ≤4.8 mmol/L，>5.5 停藥、≤5.0 再啟動。<!-- src:原始PDF/Bakris_2020_FIDELIO-DKD.md --> 📄 這說明 FIND-CKD 的住院事件並非孤例，而是這個藥物類別在**受保護的試驗條件下**仍會出現的既知現象——但這一段屬於中文論證，175 字英文稿不放。
+| 交流 | 誰、問了什麼 | 是否與本信重疊 |
+|---|---|---|
+| **FIDELIO-DKD**（*N Engl J Med* 2021, DOI 10.1056/NEJMc2036175）— Bunkete、Mohamadou、Galichon 之投書 ⚠️📄（**作者自存版**，非正式版；**本檔未取得 Bakris/Agarwal 的 Reply 本文**） | 三點：(a) finerenone 的效果可能是非專一性的、取決於血壓改善，因對照組平均收縮壓全程停在 138 mmHg（逐字：`population with a large proportion of patients remaining above therapeutic goals throughout`／`the study (mean systolic blood pressure stable at 138mmHg in control patients).`）；(b) 第三期試驗的高血鉀安全數據外推到日常實務前應審慎解讀（引 Juurlink）；(c) 不同意「因 4.6% 併用 SGLT2i 而低估療效」的解讀，反而**不能排除**併用 finerenone 與 SGLT2i（兩者皆有利尿作用）的有害效應（逐字：`one cannot exclude a deleterious`）。<!-- src:原始PDF/Bunkete_2021_fidelio-correspondence.md --> ⚠️📄 | **(a) 與本檔第三優先（血壓中介）重疊 → 該角度新穎度顯著下降。(c) 與本檔第二優先（SGLT2i）部分重疊。(b) 與本檔 §2.3 的 Juurlink 論證重疊。** 但**沒有任何一封提及「試驗自身安全性表述前後不一致」** → 本信主軸未被佔據。 |
+| **DAPA-CKD**（*N Engl J Med* 2021;384:388-390, DOI 10.1056/NEJMc2032809）📄 正式版 | Vogt（Amsterdam UMC）問：療效是否可完全歸因於矯正容積過多，要求提供受試者每日鈉攝取與利尿劑劑量／種類。Yasuda 與 Isobe（Hamamatsu）問：SGLT2i 能否在無高血糖下經 tubuloglomerular feedback 矯正絲球體高壓，並問無糖尿病者的白蛋白尿降幅、以及 renal functional reserve 之角色。Heerspink、Langkilde、Wheeler 回覆：基線 1882 人（43.7%）使用利尿劑，主要複合終點的 39% 相對風險下降在使用與未使用利尿劑者間一致（P for interaction = 0.96），但試驗未收 24 小時尿液、未測尿量以評估鈉攝取。<!-- src:原始PDF/Vogt_2021_dapa-ckd-correspondence.md --> 📄 | **完全不重疊**：三封信皆為機制／容積／血流動力學題目，無一觸及高血鉀，更無一觸及安全性表述一致性。 |
+| **CONFIDENCE**（*N Engl J Med* 2025;393:1753-1755, DOI 10.1056/NEJMc2513088）📌 | **全文仍未落地**（第二輪逐一嘗試 Unpaywall／OpenAlex／PMC／Europe PMC／CORE／BASE／Semantic Scholar／Tavily／Google Scholar／Sci-Hub 全部失敗，見 `NEED-TO-DO.md`）。已知 metadata：4 筆 PMID 41160829/41160830/41160831/41160832，投書人含 Silver S；Assil／Hough；Romagnani／Soler／Fervenza；回覆為 Agarwal／Rossing／Mann。📌 | **不可判定**。此為本檔目前唯一的新穎度盲點，投稿前必須以機構訂閱人工核對。 |
+
+**結論（對本信的直接意涵）**：在已落地的兩組 correspondence（FIDELIO-DKD 之一封、DAPA-CKD 全部三封）中，**沒有任何一封提出「高血鉀住院」相關的問題，也沒有任何一封指出試驗內部安全性敘述互相矛盾**。本信的角度未被佔據。⚠️ 唯二保留：(1) FIDELIO-DKD 的 Bakris/Agarwal Reply 本文未落地；(2) CONFIDENCE correspondence 完全未落地。
+
+### （b）類別效應對照：FIDELIO-DKD 與 FIGARO-DKD 的高血鉀住院數字
+
+| | FIDELIO-DKD 📄 | FIGARO-DKD 📄 | FIND-CKD 📄 |
+|---|---|---|---|
+| 安全性族群 | N=2827 vs 2831 | N=3683 vs 3658 | N=793 vs 791 |
+| 高血鉀導致住院 | 40（1.4%）vs 8（0.3%） | **21（0.6%）vs 2（0.1%）** | 7（0.9%）vs 5（0.6%） |
+| 因高血鉀永久停藥 | 64（2.3%）vs 25（0.9%） | **46（1.2%）vs 13（0.4%）** | 12（1.5%）vs 1（0.1%） |
+| 研究者通報高血鉀 | 516（18.3%）vs 255（9.0%） | **396（10.8%）vs 193（5.3%）** | — |
+| 中央實驗室 K >5.5 | — | **495/3677（13.5%）vs 233/3655（6.4%）** | 146/776（18.8%）vs 95/776（12.2%） |
+| 中央實驗室 K >6.0 | — | **86/3677（2.3%）vs 43/3655（1.2%）** | 34/786（4.3%）vs 18/784（2.3%） |
+| 納入 K 門檻 | ≤4.8 mmol/L | ≤4.8 mmol/L（逐字：`potassium level of 4.8 mmol per liter or less at`；上調劑量亦要求 `level was no more than 4.8 mmol per liter`） | ≤4.8 mmol/L |
+
+來源：FIDELIO <!-- src:原始PDF/Bakris_2020_FIDELIO-DKD.md --> 📄；FIGARO <!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄；FIND-CKD <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄。FIDELIO 未報告致死性高血鉀不良事件（逐字連續片段：`perkalemia adverse events were reported.`，其前一行結尾為 `No fatal hy-`）<!-- src:原始PDF/Bakris_2020_FIDELIO-DKD.md --> 📄。
+
+> **這張表最有力的一格不是數字，而是措辭。** FIGARO-DKD 在敘述性安全性段落中主動把住院比例寫進正文：`few events led to permanent discontinuation of the regimen (in 1.2% and 0.4% of the patients, respectively) or hospitalization (in 0.6% and 0.1%).`<!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄
+>
+> ⚠️ **章節歸屬更正（LlamaParse 重轉後查明）**：此句位於 FIGARO-DKD 的 **Results**（小標 `**SAFETY OUTCOMES AND VITAL SIGNS**`），**不在 Discussion**。本檔第一版依 pdftotext 雙欄輸出誤判為 Discussion（同一實體行的右欄恰為 Discussion 文字）。FIGARO-DKD 的 Discussion 只寫發生率、未寫住院數（逐字：`the incidence of hyperkalemia with finerenone treatment was lower (10.8% vs. 18.3%)`）。<!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄
+>
+> 更正後的對比仍成立，但層級須寫準：**同一個 finerenone 開發計畫在 2021 年於敘述性安全性文字中如實揭露高血鉀住院比例，而 2026 年 FIND-CKD 的 Discussion 卻寫成 `no hospitalizations`**<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄。這使「這只是措辭疏忽」的辯護變得更難成立，也讓本信的請求顯得合乎該計畫自身的既有標準。此點屬中文論證，175 字英文稿不放（選項 B 已改用更精簡的 INFINITY 算術）。
+
+### （c）INFINITY pooled IPD：同一團隊如何處理同一個數字
+
+- 納入 FIDELIO-DKD、FIGARO-DKD、FIND-CKD 三試驗共 **14 574 名**受試者（逐字：`14 574 participants`），其中 FIND-CKD 為 1584 名非糖尿病 CKD 患者（逐字：`the effects of finerenone in 1584 patients with non-diabetic`）。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
+- **主要安全性終點的定義**：`were hyperkalaemia and acute kidney injury, defined as` / 次行 `events leading to hospitalisation, to focus on clinically` / 再次行 `meaningful events.`——亦即該團隊自己把「導致住院的高血鉀」定義為**臨床上有意義的**安全性事件。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
+- 合併結果：`Any treatment-emergent hyperkalaemia` 1043（14.3%）vs 553（7.6%）；`Any serious hyperkalaemia` 77（1.1%）vs 21（0.3%）；其下 `Requiring hospitalisation` **68（0.9%）vs 15（0.2%）**；`Life threatening` 5（0.1%）vs 5（0.1%）；`With fatal outcome` 0 vs 0。中央實驗室 K >5.5 為 1218/7154（17.0%）vs 565/7128（7.9%），>6.0 為 245/7201（3.4%）vs 98/7179（1.4%）。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
+- 正文逐字：`hospitalisation occurred very infrequently (68 [0·9%]`（其前一行結尾為 `vs 39 [0·5%] with placebo). Hyperkalaemia requiring`）。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
+- **交互作用**：`increased risk observed in participants with diabetes` / `versus without diabetes (HR 6·21 [95% CI 3·18–12·12],` — 有糖尿病者 HR 6.21，無糖尿病者 1.48（0.47–4.67，p=0.50），pinteraction=0.034。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
+- **算術核對（本檔作者自行加總，非原文陳述）**：40+21+7 = 68、8+2+5 = 15。三試驗各自 Table 的住院數恰好加總為 INFINITY 的合計，**FIND-CKD 的 7 與 5 被計入了**。⚠️ 注意：三試驗安全性族群相加為 7303／7280，與 INFINITY 表格分母 7282／7265 不完全相同，故**只能主張事件數相符，不得主張分母相符**。
+
+### （d）JAMA glomerular 分析
+
+- 為 FIND-CKD 的 **prespecified exploratory subgroup analysis**（逐字：`Prespecified exploratory subgroup analysis of a phase 3,`）。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄
+- Abstract RESULTS 段逐字：`Of 1584 participants, 903 (57.0%) had investigator-reported glomerular disease,`，其中 IgA 腎病變 416（46.1%）、FSGS 215（23.8%）、膜性腎病變 90（10.0%）；finerenone n=446 vs placebo n=457。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄 （**注意**：903/1584（57.0%）此一比例在 FIND-CKD **設計論文**中亦可查得 <!-- src:原始PDF/Heerspink_2025_FIND-CKD-design.md --> 📄，但 446/457 的分組人數與各亞型細分**只能掛 JAMA**。）
+- 主要結果：total eGFR slope 至 32 個月為 −3.50 vs −4.23 ml/min/1.73 m²/yr（差 0.73；95% CI 0.22–1.24）；12 個月白蛋白尿降 42%（95% CI 35%–48%）；kidney failure 或 ≥40% eGFR 下降 7.42 vs 9.60 events/100 patient-years，HR 0.74（95% CI 0.57–0.97）。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄
+- **安全性措辭**（逐字連續片段）：`no imbalance in serious investigator-reported hyperkalemia events (0.9% in both treatment arms)`；永久停藥 2.7% vs 3.9%。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄 **JAMA 這篇未報告高血鉀住院數**，故無法從此處佐證或反駁 FIND-CKD 主文的表述；它也**沒有**重複「no hospitalizations」的說法。
+
+### （e）本信角度的最終佔據性判定
+
+| 檢查項 | 結果 |
+|---|---|
+| 是否有前例質疑 FIND-CKD 的 Table 2 vs Discussion 不一致？ | 已落地文獻中**無**（FIND-CKD 2026-06-04 上線，INFINITY 與 JAMA 於 2026-06-05 上線，均未評論此點） |
+| 是否有前例以「高血鉀住院」為題投書 finerenone 試驗？ | 已落地之 FIDELIO 投書（Bunkete）談的是「外推應審慎」，**未指出住院數字**；DAPA-CKD 三封信與高血鉀無關 |
+| 剩餘盲點 | (1) FIDELIO-DKD 之 Bakris/Agarwal Reply 本文未落地；(2) CONFIDENCE correspondence 全部未落地 ⚠️ 投稿前必須以機構訂閱人工核對這兩者 |
 
 ## 2.6 邏輯鏈總結
 
@@ -125,6 +219,7 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 4. 兩者不能同時為真 → 作者必須擇一回答；
 5. 這一格的正確性直接決定臨床醫師如何在**沒有 K≤4.8 門檻、沒有中央實驗室排程**的常規照護中做風險溝通 <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄；
 6. RALES 後的自然實驗證明這種轉譯失真會造成可測量的住院與死亡增量 <!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄。
+7. **【第二輪新增】** 同一研究團隊在 INFINITY 中把「導致住院的高血鉀」定義為主要安全性終點，並報出三試驗合計 68（0.9%）vs 15（0.2%）<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄；同計畫的 FIGARO-DKD Discussion 亦如實寫出住院比例 <!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄。因此「no hospitalizations」既不符合本試驗的表，也不符合本計畫自身的既有敘述標準。
 
 這條鏈上每一環都可 grep，沒有任何一環需要作者未公開的資料。**這是它比其他所有角度都強的唯一理由。**
 
@@ -139,12 +234,23 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 - 可提問：能否提供 **treatment-emergent SGLT2i 使用**（試驗期間新開始者）的資料，或依時間變動的 SGLT2i 暴露分析？
 - **風險**：主文 Discussion 已主動承認此限制（`we hypothesize that the use of both finerenone and SGLT2 inhibitors may provide complementary effects, this was not directly tested in the present trial`）<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄，且 CONFIDENCE 的 correspondence 交流已存在 📌。新穎度中等。
 
+**【第二輪新增】CONFIDENCE 全文落地後，這個角度的證據面貌變得具體——也變得更不利於投書：**
+
+- CONFIDENCE 為三臂隨機試驗（finerenone＋empagliflozin 併用 vs finerenone 單用 vs empagliflozin 單用），安全性族群 268／264／266，合計 798 人。<!-- src:原始PDF/Agarwal_2025_confidence.md --> 📄
+- **主要終點是 180 天的尿白蛋白／肌酸酐比值（UACR）相對變化，不是 eGFR slope，也不是臨床終點**：併用組較 finerenone 單用多降 29%（LS mean ratio 0.71；95% CI 0.61–0.82；P<0.001），較 empagliflozin 單用多降 32%（0.68；95% CI 0.59–0.79；P<0.001）。<!-- src:原始PDF/Agarwal_2025_confidence.md --> 📄
+- **族群為第 2 型糖尿病 CKD**（eGFR 30–90、UACR 100 至 ≤5000 mg/g），**與 FIND-CKD 的非糖尿病族群不同**。<!-- src:原始PDF/Agarwal_2025_confidence.md --> 📄
+- 安全性：高血鉀 25（9.3%）併用 vs 30（11.4%）finerenone 單用 vs 10（3.8%）empagliflozin 單用；K >5.5 為 40/262（15.3%）vs 48/258（18.6%）vs 25/257（9.7%）；K >6.0 為 12/263（4.6%）vs 12/262（4.6%）vs 7/262（2.7%）。<!-- src:原始PDF/Agarwal_2025_confidence.md --> 📄 作者敘述併用時高血鉀頻率「相對低約 15 至 20%」（逐字：`tively lower by approximately 15 to 20% with`）。<!-- src:原始PDF/Agarwal_2025_confidence.md --> 📄 **CONFIDENCE 的 Table 3 完全未列「高血鉀導致住院」一列**——這反而再次凸顯本檔主軸（住院這一格的紀錄品質）在整個 finerenone 計畫中並未被系統性處理。
+- INFINITY 亦已把此題處理掉：合併三試驗基線 SGLT2i 使用者僅 1142（7.8%），且複合腎臟終點的療效在 SGLT2i 使用與否間一致（森林圖交互作用 p=0.99），作者並在 limitations 自承試驗開始時 SGLT2i 尚非 CKD 指引建議用藥（逐字：`before SGLT2 inhibitors were guideline-recommended`）。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
+- **判定**：CONFIDENCE（併用起始的 180 天 UACR 證據）＋ INFINITY（一致性與 limitation 自陳）已把這個角度的可提問空間壓縮到很小；再加上 2021 年 FIDELIO 投書已提過「不能排除 finerenone＋SGLT2i 併用的有害效應」<!-- src:原始PDF/Bunkete_2021_fidelio-correspondence.md --> ⚠️📄（作者自存版）。**維持第二優先，但新穎度應下修為「低至中等」。**
+
 ## 第三優先：約 5 mmHg 的收縮壓差異是否中介腎臟效益
 
 - 事實：第 3 個月收縮壓變化 −5.1 mmHg（finerenone）vs −0.1 mmHg（placebo）；舒張壓 −3.1 vs 小於 −0.1 mmHg。<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄
 - 對照：FIDELIO-DKD 的血壓效應較小（第 1、12 個月收縮壓變化 −3.0 與 −2.1 mmHg vs placebo −0.1 與 0.9 mmHg）。<!-- src:原始PDF/Bakris_2020_FIDELIO-DKD.md --> 📄 FIND-CKD 的 5.0 mmHg 差距明顯較大，提問有立足點。
 - 正確措辭：血壓是**隨機化之後**產生的變項，屬 mediator 而非 confounder；應要求 causal mediation analysis 或依早期血壓反應分層的描述性結果，**不可**要求「調整血壓後重算」。
 - **風險**：需要作者做新分析，175 字內難以說清方法學要求。
+- **【第二輪新增．新穎度下修】** 這個角度**已有明確前例**：2021 年 FIDELIO-DKD 的 correspondence 中，Bunkete 等人第一點即主張 finerenone 的效果可能是非專一性的、取決於血壓改善（逐字：`finerenone's effect might be non-specific, depending on blood pressure improvement in a`）。<!-- src:原始PDF/Bunkete_2021_fidelio-correspondence.md --> ⚠️📄（作者自存版）**由於本檔未取得 Bakris/Agarwal 的 Reply 本文，無法判斷作者當時如何回應**——這反而使重複投同一題的風險更高（可能被編輯視為已答覆過的問題）。建議由第三優先**下修至第四優先之後**。
+- 另可補充的量級對照（已落地）：FIGARO-DKD 明言 finerenone 對血壓的效應「modest」——finerenone 與 placebo 在收縮壓變化上的平均差為第 4 個月 −3.5 mm Hg、第 24 個月 −2.6 mm Hg（逐字連續片段：`sure was –3.5 mm Hg at month 4 and –2.6 mm Hg`）；基線收縮壓 135.8±14.0 mm Hg、基線血鉀 4.33±0.43 mmol/L。<!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄 對照 FIND-CKD 第 3 個月的 5.0 mm Hg 組間差 <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄，FIND-CKD 的血壓效應確實較大——**但這強化的是「該問」，不改變上述「已被 FIDELIO 投書問過」的新穎度問題。**
 
 ## 第四優先：hierarchical testing 的解讀邊界
 
@@ -156,8 +262,9 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 
 | 角度 | 不建議原因 |
 |---|---|
-| 各 glomerular disease 亞型效果是否一致 | 已有 JAMA 2026 相關分析發表（DOI 10.1001/jama.2026.9923）📌，僅陳述「此分析已存在」 |
-| 「整體證據是否足夠」 | 已有 INFINITY pooled IPD 分析發表（Lancet 2026, DOI 10.1016/S0140-6736(26)01009-3）📌，僅陳述「此分析已存在」 |
+| 各 glomerular disease 亞型效果是否一致 | **已被完整回答**：JAMA 2026 的 prespecified exploratory 分析涵蓋 903/1584（57.0%）有 glomerular disease 者（IgAN 416、FSGS 215、膜性 90），並明示效果在各亞型間一致、亦不因基線 SGLT2i 使用而異（P for interaction = .16 與 .34）。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄 再問即為 ghost novelty |
+| 「整體證據是否足夠」／跨病因一致性 | **已被完整回答**：INFINITY 合併 14 574 人，複合腎臟終點 HR 0.76（95% CI 0.68–0.86），且在 glycaemic status、CKD aetiology、baseline eGFR、albuminuria、SGLT2i 使用各層一致。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄 |
+| 「非糖尿病 CKD 的高血鉀住院風險是否被低估」 | **不可投**：INFINITY 顯示無糖尿病者的高血鉀住院 HR 為 1.48（95% CI 0.47–4.67，p=0.50）。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄 本檔主張的是**紀錄一致性**，不是風險大小；越線即被此數據直接反駁 |
 | 族群代表性（33.8% 女性、56.4% 亞裔、Black 僅 2.8%/1.9%）<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄 | 主文 limitations 已逐項自陳，屬 ghost novelty |
 | 用 flawed／misleading／invalid 等對抗性措辭 | NEJM 通信欄語域不符，且此題根本不需要 |
 | 一封信同時談 hyperkalemia + SGLT2i + 血壓 + surrogate endpoint | 175 字必定失焦（本檔作者之編輯判斷，非引自任何來源） |
@@ -172,9 +279,20 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 - 紙本卷期：`N Engl J Med 2026;395:533-45.`，頁眉為 `AUGUST 6, 2026`，Vol. 395 No. 6。<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄
 - 今日為 2026-08-09。
 
-## 4.2 三週規則的不確定性（必須現場確認，不可自行假設）
+## 4.2 三週規則：條文原文已落地（2021 年版），但起算日仍須現場確認
 
-本檔**未落地** NEJM letters instructions 原文，因此不對「3 週」規則的字面文字作引用性斷言。可確定的只是**三個候選起算日彼此相差近兩個月**：6/4（online）、6/29（updated）、8/6（print issue）。三種可能：
+**【第二輪更新】規則原文已落地（但為 2021 年版本）。** DAPA-CKD correspondence 的出版社正式版 PDF（*N Engl J Med* 2021;384:390）在版面右欄印有標題為 `INSTRUCTIONS FOR LETTERS TO THE EDITOR` 的欄位，逐字連續片段包括：
+
+- `article must not exceed 175 words (excluding references) and must be received within 3 weeks after publication of the article.`（該句以 `Letters in reference to a *Journal* article` 起首，`*Journal*` 為斜體標記，故 grep 取其後之連續片段）
+- `* A letter can have no more than five references and one figure or table.`
+- `* A letter can be signed by no more than three authors.`
+- `* All letters must be submitted through our online submission system at NEJM.org.`
+
+<!-- src:原始PDF/Vogt_2021_dapa-ckd-correspondence.md --> 📄
+
+> ⚠️ **重大限定**：這是 **2021 年 1 月 28 日該期**所印的 instructions。本檔**未落地** 2026 年版之 NEJM 投稿規則，**不得**據此斷言 2026 年仍為同樣條文。此段只證明「175 words／5 references／3 authors／3 weeks 這組規則在 2021 年確實存在且為官方文字」，可用於**規劃**，不可用於**保證**。
+
+「3 週」自何日起算，原文並未定義（僅寫 `after publication of the article`）。可確定的只是**三個候選起算日彼此相差近兩個月**：6/4（online）、6/29（updated）、8/6（print issue）。三種可能：
 
 | 起算日 | 截止日（若為 3 週） | 今日狀態 |
 |---|---|---|
@@ -193,6 +311,10 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 - [ ] 重新檢視 NEJM 線上全文與 PDF，確認 2026-06-29 那次 update **是否已經修掉**「no hospitalizations」這句。若已修正，本信失去標的，應立即停止投稿。**這是最高優先的查核項。**
 - [ ] 確認是否已有 erratum／correction 掛在 DOI 10.1056/NEJMoa2604625 下。
 - [ ] 確認 Supplementary Appendix（Table S8 等）是否對 hyperkalemia 住院有第三種數字；本檔僅有主文，未含 Supplementary Appendix。**未落地內容一律不得引用。**
+- [ ] **【第二輪新增】** 以機構訂閱人工取得 **CONFIDENCE correspondence（DOI 10.1056/NEJMc2513088，4 封信）** 全文，確認其中是否已有人提出高血鉀住院或安全性敘述一致性的問題。**這是目前唯一未被排除的新穎度風險。**
+- [ ] **【第二輪新增】** 以機構訂閱人工取得 **FIDELIO-DKD correspondence 之 Bakris/Agarwal/Filippatos Reply（PMID 33730470）**，確認作者當年如何回應「高血鉀安全數據外推應審慎」與「血壓中介」兩題；若已有明確回覆，第三優先（血壓）角度應直接放棄。
+- [ ] **【第二輪新增】** 取得 INFINITY 線上 appendix（pp 2–16、p 33），確認其中是否已逐試驗拆分高血鉀住院數。若已拆分且明列 FIND-CKD 為 7 vs 5，則「選項 B」可改為直接引用該表，措辭上更安全；若未拆分，維持「總數僅在納入 FIND-CKD 時才吻合」的寫法。
+- [ ] **【第二輪新增】** 於投稿介面確認 **2026 年版** NEJM letters instructions（175 words／5 refs／3 authors／3 weeks 是否仍適用）；本檔僅落地 2021 年版原文。
 - [ ] 正文嚴格維持單一問題，不加入 SGLT2i、血壓、surrogate endpoint。
 - [ ] 所有共同作者逐字核對 Table 2 與 Discussion 原文。
 - [ ] 依投稿介面揭露利益衝突與 AI/LLM 輔助撰稿。
@@ -204,14 +326,29 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 
 - Table 2 已把住院列在 `Serious adverse event related to hyperkalemia` 之下，該層 Overall 為 8（1.0%）vs 5（0.6%），`Leading to hospitalization` 為 7（0.9%）vs 5（0.6%）——**已經是最窄的類別了**，不存在更窄的層級可供退守。<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄
 - 設計論文的 prespecified safety 條列僅寫到高血鉀住院此一層級，未再細分（逐字連續片段：`for hyperkalaemia and permanent discontinuation of study`）。<!-- src:原始PDF/Heerspink_2025_FIND-CKD-design.md --> 📄
+- **【第二輪新增，最強的一段】** 同一團隊（Neuen、Heerspink、Agarwal 等）在 INFINITY 中把「以住院定義的高血鉀」明訂為主要安全性終點，理由正是要聚焦於臨床上有意義的事件（逐字連續片段：`were hyperkalaemia and acute kidney injury, defined as` / `events leading to hospitalisation, to focus on clinically` / `meaningful events.`）。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄 若作者主張 FIND-CKD Discussion 指的是某個「更窄的類別」，將與其自身於 INFINITY 採用的定義相衝突。
+- **【第二輪新增，已於第三輪更正章節歸屬】** 同一開發計畫的 FIGARO-DKD 曾在**正文敘述**中如實寫出住院比例（逐字連續片段：`few events led to permanent discontinuation of the regimen (in 1.2% and 0.4% of the patients, respectively) or hospitalization (in 0.6% and 0.1%).`）。<!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄 ⚠️ 該句在 **Results**（小標 `**SAFETY OUTCOMES AND VITAL SIGNS**`）而非 Discussion（先前的 Discussion 標註為 pdftotext 雙欄誤判，已更正）。前例存在，故「正文敘述慣例上不寫住院比例」不成立；但**不得**再主張「FIGARO 的 Discussion 寫了住院數」。
 
 ---
 
-## 附：本檔未使用的「危險數字」警示
+## 附：「危險數字」清單（第二輪已大幅解封）
 
-以下數字**曾在前期備忘錄（ChatGPT 版）出現，但本地無全文可驗**，故本檔全部未引用，投稿時亦不得寫入：
+**【第二輪已解除的封鎖】**（原因：全文落地並完成 grep 驗證）
 
-- JAMA glomerular 分析的任何內文數字（納入人數、eGFR slope difference）📌（全文未落地，一律不得引用；903/1584 是 FIND-CKD **設計論文**的基線人數 <!-- src:原始PDF/Heerspink_2025_FIND-CKD-design.md --> 📄，不得掛在 JAMA 名下）
-- INFINITY 的任何內文數字（樣本數、HR）📌（全文未落地，一律不得引用；n=14,574 僅出自未驗證之 ChatGPT 備忘錄，已從本檔移除）
-- Nature Reviews Nephrology 評論的內容 📌（連 metadata 都未經本流程驗證，**完全不引用**）
-- FIDELIO/DAPA-CKD/CONFIDENCE correspondence 各封信的具體論點 📌（僅可引「存在此交流」）
+| 原被封鎖的數字 | 現況 | 正確掛法 |
+|---|---|---|
+| JAMA glomerular 分析的內文數字 | ✅ **解除** | 903/1584（57.0%）、IgAN 416（46.1%）／FSGS 215（23.8%）／膜性 90（10.0%）、n=446 vs 457、slope −3.50 vs −4.23（差 0.73；95% CI 0.22–1.24）、UACR −42%（35%–48%）、HR 0.74（0.57–0.97）→ 掛 <!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄。**注意**：903/1584 亦可掛設計論文，但 446/457 與各亞型細分**只能**掛 JAMA |
+| INFINITY 的 n=14,574 與 HR | ✅ **解除** | `14 574 participants`、複合腎臟終點 HR 0.76（0.68–0.86）、kidney failure 0.85（0.74–0.99）、複合心血管 0.80（0.70–0.91）、HF 住院 0.78（0.66–0.92）、CV death 0.82（0.67–0.999）、all-cause death 0.88（0.79–0.99）、高血鉀住院 68（0.9%）vs 15（0.2%）→ 掛 <!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄 |
+| FIGARO-DKD 內文數字 | ✅ **解除** | 高血鉀住院 21（0.6%）vs 2（0.1%）、永久停藥 46（1.2%）vs 13（0.4%）、K>5.5 495/3677（13.5%）vs 233/3655（6.4%）、主要複合終點 458/3686（12.4%）vs 519/3666（14.2%），HR 0.87（0.76–0.98），P=0.03 → 掛 <!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄 |
+| CONFIDENCE 內文數字 | ✅ **解除** | 三臂 268/264/266（合計 798）、UACR ratio 0.71（0.61–0.82）與 0.68（0.59–0.79）、高血鉀 9.3%/11.4%/3.8% → 掛 <!-- src:原始PDF/Agarwal_2025_confidence.md --> 📄 |
+| DAPA-CKD correspondence 各信論點 | ✅ **解除**（正式版全文） | Vogt／Yasuda-Isobe／Heerspink-Langkilde-Wheeler Reply 之論點與 1882（43.7%）用利尿劑、P for interaction = 0.96 → 掛 <!-- src:原始PDF/Vogt_2021_dapa-ckd-correspondence.md --> 📄 |
+
+**【仍然封鎖，投稿時不得寫入】**
+
+- **CONFIDENCE correspondence（DOI 10.1056/NEJMc2513088）各封信的具體論點** 📌 — 全文仍未落地（第二輪已窮盡 10 條管道，見 `NEED-TO-DO.md`）。僅可引「存在此交流」。
+- **FIDELIO-DKD correspondence 中 Bakris/Agarwal/Filippatos 之 Reply 本文** 📌 — 本地僅有同 DOI 下 Bunkete 等人投書之**作者自存版**，**不得**用它推斷作者當時如何回覆。
+- **Bunkete 投書的頁碼** ⚠️ — 該檔為 HAL 作者自存版，雖 metadata 標 `pp.e42`，本檔仍**不引用頁碼**、且引用時一律註明「作者自存版」。
+- **INFINITY 線上 appendix（pp 2–16、p 20、p 24、p 25、p 26、p 33 等）與 JAMA 之 Supplement 1–3（eTable 4、eFigure 3/5/6/7 等）** 📌 — 均未落地，**一律不得引用**（含逐試驗拆分的高血鉀住院數）。
+- **FIND-CKD 主文之 Supplementary Appendix（Table S8 等）** 📌 — 未落地，不得引用。
+- **Nature Reviews Nephrology 評論的內容** 📌 — 連 metadata 都未經本流程驗證，**完全不引用**。
+- **「FIND-CKD 貢獻了 7 與 5 件住院給 INFINITY」的敘述** ⚠️ — 這是本檔作者的**算術推論**（40+21+7=68、8+2+5=15），**不是**任何來源的原文陳述。投稿措辭必須寫成可自行驗證的形式（見 §1「選項 B」注意事項）。

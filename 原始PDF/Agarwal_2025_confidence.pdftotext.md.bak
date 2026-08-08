@@ -1,0 +1,738 @@
+                         new england
+                                 The
+                     journal of medicine
+                      established in 1812                            August 7, 2025                                   vol. 393       no. 6
+
+
+
+           Finerenone with Empagliflozin in Chronic Kidney Disease
+                            and Type 2 Diabetes
+             Rajiv Agarwal, M.D.,1,2 Jennifer B. Green, M.D.,3 Hiddo J.L. Heerspink, Ph.D.,4 Johannes F.E. Mann, M.D.,5,6
+                    Janet B. McGill, M.D.,7 Amy K. Mottl, M.D.,8 Julio Rosenstock, M.D.,9 Peter Rossing, M.D.,10,11
+         Muthiah Vaduganathan, M.D., M.P.H.,12 Meike Brinker, M.D.,13 Robert Edfors, M.D., Ph.D.,14 Na Li, M.D., Ph.D.,15
+     Markus F. Scheerer, Ph.D.,16 Charlie Scott, M.Sc.,17 and Masaomi Nangaku, M.D., Ph.D.,18 for the CONFIDENCE Investigators*​​
+
+                                                                      a bs t r ac t
+
+     BACKGROUND
+     Limited evidence exists to support the simultaneous initiation of sodium–glucose                           Author affiliations are listed at the end
+     cotransporter-2 inhibitors and finerenone, a nonsteroidal mineralocorticoid receptor                       of the article. Dr. Agarwal can be contact-
+                                                                                                                ed at r­agarwal@​­iu​.­edu or at Richard L.
+     antagonist, in persons with chronic kidney disease and type 2 diabetes.                                    Roudebush VA Medical Center, 1481 W.
+                                                                                                                10th St., 111N, Indianapolis, IN 46202.
+     METHODS
+     We randomly assigned participants with chronic kidney disease (estimated glomerular                        *The investigators in the CONFIDENCE
+                                                                                                                 trial are listed in the Supplementary Ap-
+     filtration rate [eGFR], 30 to 90 ml per minute per 1.73 m2 of body-surface area), albu-                     pendix, available at NEJM.org.
+     minuria (a urinary albumin-to-creatinine ratio of 100 to ≤5000 [with albumin mea-
+                                                                                                                This article was published on June 5, 2025,
+     sured in milligrams and creatinine measured in grams]), and type 2 diabetes, who                           at NEJM.org.
+     were already taking a renin–angiotensin system inhibitor, in a 1:1:1 ratio to receive
+                                                                                                                N Engl J Med 2025;393:533-43.
+     finerenone (with empagliflozin-matching placebo) at a dose of 10 or 20 mg per day,                         DOI: 10.1056/NEJMoa2410659
+     empagliflozin at a dose of 10 mg per day (with finerenone-matching placebo), or a                          Copyright © 2025 Massachusetts Medical Society.
+     combination of finerenone and empagliflozin. The primary outcome was the relative
+     change in the log-transformed mean urinary albumin-to-creatinine ratio from base-                            CME
+     line to 180 days. Safety was assessed.
+     RESULTS
+     At baseline, the urinary albumin-to-creatinine ratio was similar among the partici-
+     pants in the three groups; the median value was 579 (interquartile range, 292 to 1092)
+     among those with available data (265 in the combination-therapy group, 258 in the
+     finerenone group, and 261 participants in the empagliflozin group). At day 180, the
+     reduction in the urinary albumin-to-creatinine ratio with combination therapy was
+     29% greater than that with finerenone alone (least-squares mean ratio of the differ-
+     ence in the change from baseline, 0.71; 95% confidence interval [CI], 0.61 to 0.82;
+     P<0.001) and 32% greater than that with empagliflozin alone (least-squares mean ratio
+     of the difference in the change from baseline, 0.68; 95% CI, 0.59 to 0.79; P<0.001).
+     Neither agent, alone or in combination, led to unexpected adverse events. Symptom-
+     atic hypotension, acute kidney injury, and hyperkalemia leading to drug discontinua-
+     tion were uncommon.
+     CONCLUSIONS
+     Among persons with both chronic kidney disease and type 2 diabetes, initial therapy
+     with finerenone plus empagliflozin led to a greater reduction in the urinary albumin-
+     to-creatinine ratio than either treatment alone. (Funded by Bayer; CONFIDENCE
+     ClinicalTrials.gov number, NCT05254002.)
+
+                                            n engl j med 393;6   nejm.org    August 7, 2025                                                                 533
+              The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                               Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+                                                   T h e n e w e ng l a n d j o u r na l o f m e dic i n e
+
+
+
+
+                        P
+                                ersons with both chronic kidney                    previously published.6,7 The trial protocol with the
+                                disease and type 2 diabetes face increased         statistical analysis plan is available with the full
+                                risks of cardiovascular disease and kidney         text of this article at NEJM.org.
+                        failure.1,2 Current medical management in persons             The trial was approved by the institutional
+                        with chronic kidney disease and type 2 diabetes            review board at each participating site. All the
+       A Quick Take
+                        includes the use of renin–angiotensin system               participants provided written informed consent.
+      is available at   blockers, sodium–glucose cotransporter-2 (SGLT2)           An independent data and safety monitoring com-
+           NEJM.org     inhibitors, finerenone (a nonsteroidal mineralo-           mittee oversaw participant safety. The first au-
+                        corticoid receptor antagonist), and glucagon-like          thor wrote the initial draft of the manuscript,
+                        peptide-1 receptor agonists. All these therapies           had full access to the data, and analyzed and
+                        aim to reduce the risk of chronic kidney disease           confirmed the data independently. All the au-
+                        progression and cardiovascular complications.3             thors reviewed subsequent drafts, including the
+                        Secondary analyses of clinical trials of finere-           version submitted for publication. Earlier versions
+                        none have shown that reductions in the urinary             of the manuscript were developed with editorial
+                        albumin-to-creatinine ratio with finerenone were           and medical writing assistance that was finan-
+                        not modified according to background use of                cially supported by Bayer (the sponsor). All the
+                        SGLT2 inhibitors, which suggests that finerenone           authors and the sponsor participated in the deci-
+                        may have potential additive effects for reducing           sion to submit the manuscript for publication.
+                        the urinary albumin-to-creatinine ratio and re-            The authors vouch for the completeness and ac-
+                        lated outcomes.4 Because post hoc analyses have            curacy of the data, and the sponsor and investi-
+                        limitations and do not address the clinical ef-            gators vouch for the fidelity of the trial to the
+                        fects of the simultaneous initiation of both drugs,        protocol.
+                        rigorous randomized trials to evaluate the effi-
+                        cacy and safety of this combination would be               Participants
+                        useful.5 Although a step-up combination approach           Eligible participants had type 2 diabetes with gly-
+                        is practiced, the basis of current guidance rests          cated hemoglobin levels of less than 11%, an eGFR
+                        on expert opinion.                                         between 30 and 90 ml per minute per 1.73 m2 of
+                            We hypothesized that among participants with           body surface area, and albuminuria, defined as
+                        both chronic kidney disease and type 2 diabetes,           a urinary albumin-to-creatinine ratio (with albu-
+                        a combination of finerenone and empagliflozin              min measured in milligrams and creatinine mea-
+                        would decrease the urinary albumin-to-creatinine           sured in grams) between 100 and 5000, as deter-
+                        ratio more than either treatment alone. We also            mined according to the mean value of the first
+                        tested the safety of simultaneous initiation of            urine specimens on three consecutive mornings.
+                        these two drugs by measuring the blood pressure,           We excluded patients who had chronic heart fail-
+                        serum potassium level, and estimated glomerular            ure with a reduced ejection fraction and persistent
+                        filtration rate (eGFR) at frequent predefined in-          symptoms, those who had a serum potassium
+                        tervals and by monitoring adverse events.                  level above 4.8 mmol per liter, and those who
+                                                                                   had had a stroke or myocardial infarction or had
+                                                                                   been hospitalized for worsening heart failure
+                                          Me thods
+                                                                                   within 90 days before the screening visit. Par-
+                        Trial Design and Oversight                                 ticipants with type 1 diabetes were excluded, as
+                        The CONFIDENCE (Combination Effect of Finere-              were those who had undergone or were sched-
+                        none and Empagliflozin in Participants with                uled to undergo kidney transplantation. All the
+                        Chronic Kidney Disease and Type 2 Diabetes                 participants were required to have been receiving
+                        Using a Urinary Albumin-to-Creatinine Ratio                an angiotensin-converting–enzyme inhibitor or
+                        Endpoint) trial was a double-blind, randomized,            angiotensin-receptor blocker (at the maximum
+                        active-controlled trial of finerenone alone, em-           labeled dose that has not been found to cause
+                        pagliflozin alone, or the combination of the two           unacceptable side effects) for more than 1 month
+                        therapies in persons with chronic kidney disease           at the screening visit and must not have taken an
+                        with albuminuria and type 2 diabetes. The trial            SGLT2 inhibitor or potassium-binding agent with-
+                        design and baseline characteristics have been              in the 8 weeks before screening.
+
+
+
+534                                                      n engl j med 393;6    nejm.org    August 7, 2025
+
+                The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                 Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+  Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+                              Finerenone with Empagliflozin in CKD and Diabetes
+
+
+     Trial Visits                                                    and the relative reduction in the urinary albumin-
+     There were seven prespecified trial visits (Fig. S1             to-creatinine ratio according to prespecified thresh-
+     in the Supplementary Appendix, available at NEJM                olds (>30%, >40%, or >50%) at 180 days. Secondary
+     .org). Urine specimens that were collected on three             safety outcomes included the change in the eGFR
+     consecutive mornings for the screening visit and                from baseline to day 30 and its reversibility with
+     two consecutive mornings for subsequent visits                  stopping the drug therapy, acute kidney injury, hy-
+     were used for the assessment of the urinary al-                 perkalemia, the change from baseline in the serum
+     bumin-to-creatinine ratio, and blood was drawn                  potassium level, symptomatic hypotension, keto-
+     for measurement of the serum potassium level                    acidosis, severe hypoglycemia, and genital mycotic
+     and eGFR (derived from the serum creatinine level)              infections. Subgroup analyses were planned for
+     at each visit. The urinary albumin-to-creatinine                the primary efficacy outcome on the basis of the
+     ratio and serum potassium and creatinine levels                 following baseline variables: geographic region,
+     were analyzed at a central laboratory. At every                 screening eGFR category, screening urinary albu-
+     visit, consistent, seated blood-pressure measure-               min-to-creatinine ratio category, history of athero-
+     ments (after ≥5 minutes of rest) were obtained                  sclerotic cardiovascular disease, serum potassium
+     three times. The assigned trial regimen was                     level, systolic blood pressure, sex, and age.
+     stopped at 180 days after randomization, and
+     30 days later, the urinary albumin-to-creatinine                Statistical Analysis
+     ratio, blood pressure, eGFR, and serum potassium                Assuming that a maximum of 15% of partici-
+     level were again measured.                                      pants would discontinue the trial, we calculated
+                                                                     that a total of 807 participants would provide the
+     Randomization                                                   trial with at least 80% power to detect a reduc-
+     Participants were randomly assigned in a 1:1:1                  tion from baseline in the urinary albumin-to-
+     ratio to receive finerenone at a dose of 10 or 20 mg            creatinine ratio that was at least 20% greater
+     per day (and empagliflozin-matching placebo),                   with combination therapy than with either ther-
+     empagliflozin at a dose of 10 mg per day (and                   apy alone. We applied a two-sided, two-sample
+     finerenone-matching placebo), or a combination                  t-test, assuming equal variance, with an overall
+     of the two therapies. Randomization was per-                    two-sided alpha level of 0.05. To adjust for the
+     formed with the use of an interactive Web-response              multiple testing of two hypotheses, the Holm–
+     system. Finerenone was initiated at 20 mg per day               Bonferroni method was applied. The two-sided
+     when the eGFR was 60 ml per minute per 1.73 m2                  P values were first arranged in ascending order.
+     or greater and at 10 mg per day when the base-                  If the lower P value (for the comparison between
+     line eGFR was less than 60 ml per minute per                    combination therapy and finerenone alone or
+     1.73 m2. Randomization was stratified accord-                   empagliflozin alone, whichever was lower) was
+     ing to the eGFR (<60 and ≥60 ml per minute per                  lower than 0.025, the corresponding null hypoth-
+     1.73 m2) and urinary albumin-to-creatinine ratio                esis could be rejected, and the comparison be-
+     (≤850 and >850) measurements at screening. The                  tween combination therapy and the other therapy
+     trial-group assignments were concealed from the                 alone could be performed at the 0.05 alpha level.
+     investigators, the treating physicians, the partici-            If the higher P value was lower than 0.05, the
+     pants, and the outcome assessors.                               second null hypothesis could also be rejected.
+                                                                         All efficacy analyses were performed in the
+     Trial Outcomes                                                  full analysis population (all the participants who
+     The primary efficacy outcome was the relative                   had undergone randomization, with the exclusion
+     change in the log-transformed mean urinary albu-                of those who had not received at least one dose of
+     min-to-creatinine ratio from baseline to 180 days.              a trial drug and those with critical violations of
+     Secondary efficacy outcomes were the relative                   Good Clinical Practice guidelines). The primary
+     change in the urinary albumin-to-creatinine ratio               analysis was performed with a mixed model for
+     between the end-of-treatment visit and 30 days after            repeated measures that included the log-trans-
+     the end-of-treatment visit; the relative change in the          formed urinary albumin-to-creatinine ratio mea-
+     urinary albumin-to-creatinine ratio between base-               sured throughout the trial as the dependent
+     line and 30 days after the end-of-treatment visit;              variable; further details are provided in the Sup-
+
+
+
+                                            n engl j med 393;6   nejm.org    August 7, 2025                                                         535
+              The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                               Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+                                                   T h e n e w e ng l a n d j o u r na l o f m e dic i n e
+
+
+
+                   plementary Appendix. Changes in the serum                       The mean glycated hemoglobin level at baseline
+                   potassium level and blood pressure were sum-                    was 7.3±1.2%. A diverse population of participants
+                   marized with the use of descriptive statistics.                 representative of persons with both chronic kid-
+                   Changes in the eGFR were estimated with the                     ney disease and type 2 diabetes were enrolled in
+                   use of a mixed model (see the Supplementary                     the trial (Table S2).
+                   Appendix). The eGFR was calculated with the
+                   use of the Chronic Kidney Disease Epidemiolo-                   Primary Outcome
+                   gy Collaboration equation,8 which was modified                  At day 180, the reduction in the urinary albumin-
+                   for Japanese participants.9                                     to-creatinine ratio with combination therapy was
+                      Multiple imputation was used to account for                  29% greater than that with finerenone alone
+                   missing data in the primary analysis, with the                  (least-squares mean ratio of the difference in the
+                   assumption that data were missing at random.                    change from baseline, 0.71; 95% confidence in-
+                   In the prespecified tipping-point analysis it was               terval [CI], 0.61 to 0.82; P<0.001) and 32% greater
+                   assumed that data were not missing at random.                   than that with empagliflozin alone (least-squares
+                                                                                   mean ratio of the difference in the change from
+                                                                                   baseline, 0.68; 95% CI, 0.59 to 0.79; P<0.001). At
+                                          R e sult s
+                                                                                   baseline, the median urinary albumin-to-creati-
+                   Trial Population                                                nine ratio was 574 (interquartile range, 274 to 999)
+                   From June 23, 2022, to August 14, 2024, a total                 in the combination-therapy group, 578 (292 to
+                   of 1664 participants underwent screening, among                 1289) in the finerenone group, and 583 (301 to
+                   whom 818 were randomly assigned to a treat-                     1114) in the empagliflozin group. At 180 days
+                   ment group and entered the double-blind treat-                  after randomization, data on the urinary albumin-
+                   ment period (Fig. S2). The date of the last partici-            to-creatinine ratio were available for 714 partici-
+                   pant visit was March 14, 2025, and the database                 pants (Table 2).
+                   was locked on April 8, 2025. Four participants                     The change in urinary albumin-to-creatinine
+                   underwent randomization in error and had not                    ratio over time is shown in Figure 1A. After 14
+                   taken at least one dose of a trial drug, and 14                 days, the urinary albumin-to-creatinine ratio
+                   participants from one site were excluded because                among the participants in the combination-therapy
+                   of violations of the Good Clinical Practice guide-              group was reduced by more than 30% from base-
+                   lines that were not related to the conduct of this              line, and after 90 days, it was reduced by more
+                   trial; the data from these participants were not                than 40% from baseline. The least-squares mean
+                   included in the analyses. Therefore, 800 partici-               ratio of the change in the urinary albumin-to-
+                   pants were included in the full analysis popula-                creatinine ratio (comparing baseline with day 180)
+                   tion for the efficacy analyses (269 were assigned               was 0.48 (95% CI, 0.44 to 0.54) in the combination-
+                   to the combination-therapy group, 264 to the                    therapy group, 0.68 (95% CI, 0.61 to 0.76) in the
+                   finerenone group, and 267 to the empagliflozin                  finerenone group, and 0.71 (95% CI, 0.64 to 0.79)
+                   group). A total of 798 participants received at least           in the empagliflozin group. The urinary albumin-
+                   one dose of a trial drug and were included in the               to-creatinine ratio was measured 30 days after
+                   safety analyses (268 in the combination-therapy                 stopping the trial medication at 180 days after
+                   group, 264 in the finerenone group, and 266 in the              randomization. The urinary albumin-to-creatinine
+                   empagliflozin group). A total of 746 participants               ratio increased from the end of treatment to the
+                   completed the 30-day follow-up period.                          end of follow-up, with least-squares mean ratios
+                      Selected baseline characteristics of the partici-            (comparing day 180 with day 210) of 1.63 (95% CI,
+                   pants who had undergone randomization are                       1.49 to 1.78) in the combination-therapy group,
+                   provided in Table 1 (a detailed list of baseline                1.45 (95% CI, 1.32 to 1.59) in the finerenone
+                   characteristics is provided in Table S1). At base-              group, and 1.44 (95% CI, 1.32 to 1.58) in the
+                   line, 787 of 800 participants (98.4%) were receiv-              empagliflozin group. At day 180, more partici-
+                   ing an angiotensin-converting–enzyme inhibitor                  pants in the combination-therapy group than those
+                   or an angiotensin-receptor blocker, the mean (±SD)              in the finerenone group or the empagliflozin
+                   eGFR was 54.2±17.1 ml per minute per 1.73 m2,                   group had reductions in the urinary albumin-to-
+                   and the median urinary albumin-to-creatinine                    creatinine ratio from baseline of greater than 30%,
+                   ratio was 579 (interquartile range, 292 to 1092).               40%, and 50% (Table 2).
+
+
+536                                                      n engl j med 393;6    nejm.org    August 7, 2025
+
+                The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                 Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+  Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+                              Finerenone with Empagliflozin in CKD and Diabetes
+
+
+
+       Table 1. Demographic and Clinical Characteristics of the Participants at Baseline.*
+
+                                                                  Finerenone plus
+                                                                   Empagliflozin          Finerenone            Empagliflozin              Total
+       Characteristic                                                (N = 269)             (N = 264)              (N = 267)              (N = 800)
+       Age — yr                                                      67.7±10.0               65.5±10.7            66.2±10.1             66.5±10.3
+       Female sex — no. (%)                                           67 (24.9)               61 (23.1)            70 (26.2)            198 (24.8)
+       Race or ethnic group — no. (%)†
+           White                                                    130 (48.3)               105 (39.8)          116 (43.4)             351 (43.9)
+           Asian                                                    114 (42.4)               132 (50.0)          125 (46.8)             371 (46.4)
+           Asian Indian                                              34 (12.6)                54 (20.5)           45 (16.9)             133 (16.6)
+           Black                                                     22 (8.2)                 21 (8.0)            24 (9.0)               67 (8.4)
+           Other                                                      2 (0.7)                  2 (0.8)             1 (0.4)                5 (0.6)
+       Geographic region — no. (%)
+           Europe                                                     81 (30.1)            62 (23.5)              72 (27.0)            215 (26.9)
+           North America                                              75 (27.9)            79 (29.9)              71 (26.6)            225 (28.1)
+           Asia                                                      113 (42.0)           123 (46.6)             124 (46.4)            360 (45.0)
+       Glycated hemoglobin — %‡                                       7.3±1.2               7.3±1.2                7.3±1.2               7.3±1.2
+       Body weight — kg                                              83.0±21.7            81.9±20.3              80.8±19.5             81.9±20.5
+       Body-mass index§                                               29.8±6.7             29.1±5.7               29.0±5.7              29.3±6.1
+       eGFR — ml/min/1.73 m2¶                                        53.9±16.9            54.3±17.8              54.2±16.6             54.2±17.1
+       Median urinary albumin-to-creatinine ratio (IQR)‖           574 (274–999)        578 (292–1289)         583 (301–1114)        579 (292–1092)
+       Urinary albumin-to-creatinine ratio category — no. (%)**
+           ≤850                                                     184 (68.4)             166 (62.9)            170 (63.7)             520 (65.0)
+           >850                                                      81 (30.1)              92 (34.8)             91 (34.1)             264 (33.0)
+       Systolic blood pressure — mm Hg                              135.0±13.7             135.1±13.7            135.4±12.6             135.2±13.3
+       Serum potassium — mmol/liter††                                4.4±0.4                4.5±0.5                4.5±0.4                4.5±0.4
+       History of atherosclerotic cardiovascular disease             75 (27.9)              71 (26.9)             78 (29.2)             224 (28.0)
+               — no. (%)‡‡
+       Concomitant medications — no. (%)
+           ACE inhibitor or ARB§§                                   267 (99.3)               260 (98.5)          260 (97.4)             787 (98.4)
+           Statins                                                  209 (77.7)               197 (74.6)          191 (71.5)             597 (74.6)
+           Diuretics                                                108 (40.1)                97 (36.7)           84 (31.5)             289 (36.1)
+           Antihyperglycemic agents — no. (%)
+           Insulin                                                  108 (40.1)                96 (36.4)          113 (42.3)             317 (39.6)
+           GLP-1 RA                                                  68 (25.3)                52 (19.7)           62 (23.2)             182 (22.8)
+
+     *	Plus–minus values are means ±SD. Percentages may not total 100 because of rounding. GLP-1 RA denotes glucagon-like peptide-1 recep-
+          tor agonist, and IQR interquartile range.
+     †	Race or ethnic group was reported by the participant. “Other” includes American Indian, Alaska Native, Native Hawaiian, or other Pacific
+         Islander.
+     ‡	Data on the glycated hemoglobin level were missing for 19 participants (9 [3.3%] in the combination-therapy [finerenone plus empa-
+         gliflozin] group, 7 [2.7%] in the finerenone group, and 3 [1.1%] in the empagliflozin group).
+     §	The body-mass index is the weight in kilograms divided by the square of the height in meters.
+     ¶	The estimated glomerular filtration rate (eGFR) was calculated with the use of the Chronic Kidney Disease Epidemiology Collaboration
+         equation,8 which was modified for the Japanese participants.9 Data were missing for 4 participants (2 [0.8%] in the finerenone group and
+         2 [0.7%] in the empagliflozin group).
+     ‖	The urinary albumin-to-creatinine ratio was calculated with albumin measured in milligrams and creatinine measured in grams. Data were miss-
+         ing for 16 participants (4 [1.5%] in the combination-therapy group, 6 [2.3%] in the finerenone group, and 6 [2.2%] in the empagliflozin group).
+     **	Albuminuria was defined as a urinary albumin-to-creatinine ratio between 100 and 5000, as determined according to the mean value of the
+         first urine specimens on three consecutive mornings.
+     ††	Data on the serum potassium level were missing for 5 participants (2 [0.7%] in the combination-therapy group, 1 [0.4%] in the finerenone
+         group, and 2 [0.7%] in the empagliflozin group).
+     ‡‡	A history of atherosclerotic cardiovascular disease was based on a group of preferred terms for coronary artery disease, cerebral infarction,
+         and stroke (a transient ischemic attack alone is not sufficient), as well as for peripheral artery disease and carotid revascularization, in the
+         Medical Dictionary for Regulatory Activities, version 27.1.
+     §§	According to the protocol, all the participants were required to be taking an angiotensin-converting–enzyme (ACE) inhibitor or angioten-
+         sin-receptor blocker (ARB) at the clinically maximum tolerated dose.
+
+
+
+                                            n engl j med 393;6    nejm.org   August 7, 2025                                                          537
+              The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                               Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+                                                                                                                                                        538
+
+
+                                                                                                                                                                              Table 2. Primary and Secondary Outcomes for the Change in Urinary Albumin-to-Creatinine Ratio.
+
+                                                                                                                                                                                                                                  Finerenone plus Empagliflozin                               Finerenone                                Empagliflozin
+                                                                                                                                                                              Variable                                                      (N = 269)                                          (N = 264)                                  (N = 267)
+
+                                                                                                                                                                                                                                                                                                   Least-Squares Mean                            Least-Squares Mean
+                                                                                                                                                                                                                                 No. of            Least-Squares Mean            No. of            Ratio or Odds Ratio         No. of            Ratio or Odds Ratio
+                                                                                                                                                                                                                               Participants          Ratio (95% CI)*           Participants             (95% CI)*            Participants             (95% CI)*
+                                                                                                                                                                              Change in urinary albumin-to-creatinine
+                                                                                                                                                                                    ratio
+              The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+
+
+
+                                                                                                                                                                              Primary outcome: change from baseline                240               0.48 (0.44–0.54)              236               0.68 (0.61–0.76)            238               0.71 (0.64–0.79)
+                                                                                                                                                                                    to day 180
+                                                                                                                                                                                  Difference in change, combination vs.                                                                              0.71 (0.61–0.82)†                            0.68 (0.59–0.79)†
+                                                                                                                                                                                      monotherapy
+                                                                                                                                                                              Change from baseline to day 210                      238               0.82 (0.73–0.91)              227               0.85 (0.76–0.96)            232               0.90 (0.80–1.00)
+                                                                                                                                                                                  Difference in change, combination vs.                                                                              0.96 (0.82–1.12)                              0.91 (0.79–1.06)
+                                                                                                                                                                                      monotherapy
+                                                                                                                                                                              Change from day 180 to day 210                       239               1.63 (1.49–1.78)              234               1.45 (1.32–1.59)            238               1.44 (1.32–1.58)
+                                                                                                                                                                                  Difference in change, combination vs.                                                                              1.13 (1.00–1.27)                              1.13 (1.00–1.28)
+                                                                                                                                                        n engl j med 393;6
+                                                                                                                                                                                      monotherapy
+                                                                                                                                                                                                                           No. with Reduction/                             No. with Reduction/                           No. with Reduction/
+                                                                                                                                                                                                                             Total No. (%)                                   Total No. (%)                                 Total No. (%)
+                                                                                                                                                        nejm.org
+                                                                                                                                                                              Reduction in urinary albumin-to-creatinine
+                                                                                                                                                                                    ratio according to prespecified
+                                                                                                                                                                                    thresholds
+                               Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+
+
+
+                                                                                                                                                                              Reduction from baseline to day 180
+                                                                                                                                                        August 7, 2025            >30%                                        168/240 (70.0)                                 123/236 (52.1)          2.17 (1.49–3.17)      123/238 (51.7)          2.21 (1.52–3.22)
+                                                                                                                                                                                  >40%                                        154/240 (64.2)                                 104/236 (44.1)          2.31 (1.59–3.34)      103/238 (43.3)          2.38 (1.64–3.44)
+                                                                                                                                                                                  >50%                                        131/240 (54.6)                                   84/236 (35.6)         2.20 (1.52–3.19)       76/238 (31.9)          2.59 (1.78–3.77)
+                                                                                                                                                                                                                                                                                                                                                                         T h e n e w e ng l a n d j o u r na l o f m e dic i n e
+
+
+
+
+                                                                                                                                                                              Reduction from baseline to day 210
+                                                                                                                                                                                  >30%                                        111/238 (46.6)                                   78/227 (34.4)                                92/232 (39.7)
+                                                                                                                                                                                  >40%                                         85/238 (35.7)                                   62/227 (27.3)                                69/232 (29.7)
+                                                                                                                                                                                  >50%                                         65/238 (27.3)                                   50/227 (22.0)                                47/232 (20.3)
+
+                                                                                                                                                                             *	Least-squares mean ratios are shown for the changes in the urinary albumin-to-creatinine ratio, and odds ratios (combination vs. monotherapy) are shown for the reductions in the uri-
+                                                                                                                                                                                nary albumin-to-creatinine ratio according to prespecified thresholds. The widths of the 95% confidence intervals for outcomes other than the primary outcome have not been adjusted
+                                                                                                                                                                                for multiplicity and should not be used to test for efficacy.
+                                                                                                                                                                             †	P<0.001.
+Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+                                                         Finerenone with Empagliflozin in CKD and Diabetes
+
+
+
+      A Change in Urinary Albumin-to-Creatinine Ratio                                                             B Change in Serum Potassium Level
+                                                1.2                                                                                             0.40
+
+
+
+
+              Least-Squares Mean Ratio of the
+                                                                                                                                                0.35
+                                                1.0                                                                                             0.30                            Empagliflozin+
+
+
+                                                                                                                        Change from Baseline
+                                                                                                                                                                                 Finerenone
+                                                                                                                                                0.25
+                                                0.8                                Empagliflozin
+                                                                                                                                                0.20
+                                                                                                                                                                                     Finerenone
+
+                                                                                                                            (mmol/liter)
+                   Change from Baseline
+                                                                                    Finerenone                                                  0.15
+                                                0.6
+                                                                                                                                                0.10
+                                                                                   Empagliflozin+                                               0.05                                Empagliflozin
+                                                0.4
+                                                                                    Finerenone                                                  0.00
+                                                0.0                                                                                            −0.05
+                                                      Base- 14   30    60     90     120   150     180   210                                           Base- 14   30    60     90     120   150     180   210
+                                                       line                                                                                             line
+                                                                            Days                                                                                             Days
+        No. of Patients                                                                                             No. of Patients
+        Finerenone                                    258 247    248         237                   236   227        Finerenone                         264 250    252         242                   240   235
+        Empagliflozin                                 261 254    252         246                   238   232        Empagliflozin                      266 260    254         250                   244   245
+        Empagliflozin+                                265 248    253         248                   240   238        Empagliflozin+                     267 253    261         254                   244   253
+          finerenone                                                                                                  finerenone
+
+      C Change in eGFR                                                                                           D Change in Systolic Blood Pressure
+                                                 0                                                                                                4
+
+
+
+
+              Least-Squares Mean Change from
+                                                                                                                                                  2
+                                                −2
+
+
+                                                                                                                        Change from Baseline
+                                                                                   Empagliflozin                                                  0
+
+                                                −4                                  Finerenone                                                   −2                                  Finerenone
+
+
+
+
+                 Baseline (ml/min/1.73 m2)
+                                                                                                                             (mm Hg)
+                                                                                                                                                 −4                                 Empagliflozin
+                                                −6
+                                                                                   Empagliflozin+
+                                                                                    Finerenone                                                   −6
+                                                                                                                                                                                Empagliflozin+
+                                                                                                                                                 −8
+                                                −8                                                                                                                               Finerenone
+                                                                                                                                                −10
+                                                      Base- 14   30    60     90     120   150     180   210                                           Base- 14   30    60     90     120   150     180   210
+                                                       line                                                                                             line
+                                                                            Days                                                                                             Days
+        No. of Patients                                                                                             No. of Patients
+        Finerenone                                    262 250    251         243                   239   234        Finerenone                         264 257    256         248                   244   243
+        Empagliflozin                                 265 258    255         249                   242   243        Empagliflozin                      266 261    259         253                   247   248
+        Empagliflozin+                                269 253    261         254                   243   253        Empagliflozin+                     268 255    262         256                   247   253
+          finerenone                                                                                                  finerenone
+
+
+       Figure 1. Urinary Albumin-to-Creatinine Ratio, Serum Potassium Level, Estimated Glomerular Filtration Rate, and Systolic Blood Pressure
+       over Time.
+       Panel A shows the least-squares mean ratio of the change from baseline in the urinary albumin-to-creatinine ratio in the full analysis
+       population (all the participants who had undergone randomization, with the exclusion of those who had not received at least one dose
+       of a trial drug and those with critical violations of Good Clinical Practice guidelines). Multiple imputation was used to account for miss-
+       ing data, with the assumption that data were missing at random. Panel B shows the mean serum potassium level at each visit in the
+       safety analysis population (all the participants who had undergone randomization and received at least one dose of a trial medication).
+       Panel C shows the least-squares mean change in the estimated glomerular filtration rate (eGFR) in the safety analysis population. The
+       eGFR was calculated with the use of the Chronic Kidney Disease Epidemiology Collaboration equation,8 which was modified for the
+       Japanese participants,9 and the analysis was performed with the use of a mixed model for repeated measures. Panel D shows the mean
+       systolic blood pressure at each visit in the safety analysis population. Summary statistics for systolic blood pressure were derived from
+       the mean value of all assessments (i.e., three assessments per visit per participant).
+
+
+
+
+        The results of prespecified subgroup analyses pants with missing data was low, and a prespeci-
+     were consistent with those of the findings for the fied tipping-point analysis of the primary outcome
+     primary outcome (Fig. S3). The number of partici- supported the robustness of the results (Table S3).
+
+
+                                                                       n engl j med 393;6        nejm.org      August 7, 2025                                                                              539
+              The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                               Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+                                                     T h e n e w e ng l a n d j o u r na l o f m e dic i n e
+
+
+
+
+                     Table 3. Adverse Events and Safety Assessments after Treatment Initiation (Safety Analysis Population).*
+
+                                                            Finerenone plus
+                                                             Empagliflozin          Finerenone            Empagliflozin            Total
+                     Event or Assessment                       (N = 268)             (N = 264)              (N = 266)            (N = 798)
+
+                                                                                               number (percent)
+                     Investigator-reported adverse
+                            events†
+                     Any adverse event                          144 (53.7)           136 (51.5)                 135 (50.8)       415 (52.0)
+                     Adverse event leading to treatment          12 (4.5)              9 (3.4)                    9 (3.4)         30 (3.8)
+                           discontinuation
+                     Any serious adverse event                   19 (7.1)             16 (6.1)                   17 (6.4)         52 (6.5)
+                     Serious adverse event leading to              3 (1.1)             3 (1.1)                    2 (0.8)          8 (1.0)
+                            treatment discontinuation
+                     Adverse event with death as the               3 (1.1)                0                       3 (1.1)          6 (0.8)
+                           outcome
+                     Hyperkalemia‡                               25 (9.3)             30 (11.4)                  10 (3.8)         65 (8.1)
+                     Safety assessments
+                     >30% Decline in eGFR from base-             17 (6.3)             10 (3.8)                    3 (1.1)         30 (3.8)
+                           line to 30 days§
+                     Serum potassium level — no./total
+                           no.(%)¶
+                        >5.5 mmol/liter                       40/262 (15.3)         48/258 (18.6)              25/257 (9.7)   113/777 (14.5)
+                        >5.5 to ≤6.0 mmol/liter               34/262 (13.0)         43/258 (16.7)              21/257 (8.2)    98/777 (12.6)
+                        >6.0 mmol/liter                       12/263 (4.6)          12/262 (4.6)                7/262 (2.7)    31/787 (3.9)
+
+                   *	The safety analysis population comprised all the participants who had undergone randomization and received at least
+                      one dose of a trial drug.
+                   †	The participants with an adverse event reported here were those who had received at least one dose of a trial drug and
+                      had an adverse event that had started or worsened after the first dose and up to 3 days after any temporary or perma-
+                      nent interruption of the trial treatment.
+                   ‡	In the assessment of hyperkalemia, the investigators used the preferred terms “hyperkalemia” and “blood potassium
+                      increased” in the Medical Dictionary for Regulatory Activities, version 27.1.
+                   §	The eGFR was calculated with the use of the Chronic Kidney Disease Epidemiology Collaboration equation,8 which was
+                      modified for the Japanese participants.9
+                   ¶	The denominator represents all the participants at risk for an abnormal laboratory result. Participants must have had
+                      both a baseline and postbaseline (after the first dose and up to 3 days after any temporary or permanent interruption
+                      of the trial treatment) value, with the baseline value not exceeding the displayed threshold. The numerator represents
+                      the number of participants at risk who had at least one postbaseline laboratory assessment that met the criterion.
+
+
+
+                   Safety and Other Efficacy Variables                             ment was stopped. Empagliflozin therapy was
+                   Changes from baseline in the serum potassium                    not associated with changes in the serum potas-
+                   level over time are shown in Figure 1B and Table                sium level from baseline.
+                   S4. The mean increase from baseline in the serum                   The least-squares mean change from base-
+                   potassium level was 0.27 mmol per liter (95% CI,                line in the eGFR over time is shown in Figure 1C
+                   0.22 to 0.32) after 14 days in the combination-                 and Table S5. Most of the early decline in the
+                   therapy group, and the levels declined to near                  eGFR was reversible with drug discontinuation
+                   baseline levels 30 days after the trial treatment               at 180 days.
+                   was stopped (day 210). The mean serum potas-                       The pattern of change from baseline in sys-
+                   sium level increased from baseline by 0.19 mmol                 tolic blood pressure is shown in Figure 1D. The
+                   per liter (95% CI, 0.14 to 0.24) after 14 days in               systolic blood pressure initially decreased, with
+                   the finerenone group; this increase declined to                 the most pronounced reduction occurring in the
+                   near baseline levels 30 days after the trial treat-             combination-therapy group, before returning to
+
+
+
+540                                                       n engl j med 393;6   nejm.org       August 7, 2025
+
+                The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                 Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+  Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+                              Finerenone with Empagliflozin in CKD and Diabetes
+
+
+     baseline levels after discontinuation of the trial                                   Discussion
+     treatment at 180 days. Table S6 shows that
+     combination therapy resulted in a 7.4–mm Hg                     In this double-blind, randomized, international,
+     reduction from baseline within 30 days and a                    multicenter trial involving persons with both
+     7.5–mm Hg increase in the 30-day follow-up                      chronic kidney disease and type 2 diabetes who
+     period after treatment discontinuation (from day                were receiving an angiotensin-converting–enzyme
+     180 to day 210). Both monotherapies were as-                    inhibitor or an angiotensin-receptor blocker at
+     sociated with changes in the systolic blood                     baseline, simultaneous initiation of the nonste-
+     pressure during the treatment period of gener-                  roidal mineralocorticoid receptor antagonist fin­
+     ally less than half the magnitude observed with                 erenone and the SGLT2 inhibitor empagliflozin
+     combination therapy. The change from baseline                   led to a reduction in the urinary albumin-to-
+     in the glycated hemoglobin level is shown in                    creatinine ratio that was 32% greater than that
+     Figure S4; no meaningful differences between                    with empagliflozin alone and 29% greater than
+     the treatment groups at 180 days after random-                  that with finerenone alone. After 180 days, the
+     ization were observed.                                          urinary albumin-to-creatinine ratio was reduced
+                                                                     by 52% with combination therapy, which is in line
+     Adverse Events and Safety Assessment                            with the full additive effect that was expected on
+     Adverse events that led to discontinuation of the               the basis of the reductions observed with finere-
+     trial treatment were recorded in less than 5% of                none alone (32%) and empagliflozin alone (29%).
+     the participants in each group (Table 3). Serious               After the therapy was stopped, urinary albumin-
+     adverse events occurred in 19 of 268 participants               to-creatinine ratio levels increased but remained
+     (7.1%) in the combination-therapy group, in 16 of               below baseline in the combination and finerenone
+     264 participants (6.1%) in the finerenone group,                treatment groups.
+     and in 17 of 266 participants (6.4%) in the em-                    The time course of the changes in the urinary
+     pagliflozin group. Serious adverse events leading               albumin-to-creatinine ratio suggests that most
+     to treatment discontinuation occurred in less than              of the reduction occurred within 4 weeks after
+     2% of the participants in each group. Six par-                  the initiation of therapy. The change in the uri-
+     ticipants died after treatment initiation (3 in the             nary albumin-to-creatinine ratio over a 6-month
+     combination-therapy group and 3 in the empa-                    period has been considered to be a valid surro-
+     gliflozin group) (Table S7).                                    gate for progression of chronic kidney disease,
+         A decrease in the eGFR of greater than 30%                  potentially predicting a reduction in the incidence
+     at day 30 occurred in 17 participants (6.3%) in the             of adverse kidney and cardiovascular events.10,11
+     combination-therapy group, 10 participants (3.8%)               A reduction in the urinary albumin-to-creatinine
+     in the finerenone group, and 3 participants (1.1%)              ratio has been considered to be a key mediator
+     in the empagliflozin group (Table 3). Three par-                of the effects of SGLT2 inhibitors on composite
+     ticipants (1 in each treatment group) permanently               kidney outcomes and as a principal mediator of
+     discontinued the trial treatment owing to hyper-                the effects of finerenone on composite kidney
+     kalemia. Increases in serum potassium level ac-                 outcomes.12-14 We speculate that, taken together,
+     cording to prespecified thresholds are shown in                 these data suggest that the reductions observed
+     Table 3.                                                        with combination therapy with empagliflozin and
+         Acute kidney injury was reported in 8 partici-              finerenone will probably correlate with meaningful
+     pants (5 in the combination therapy group and                   reductions in the risk of progression of chronic
+     3 in the finerenone group) (Table S8). Symptom-                 kidney disease. Trial-level meta-analyses have
+     atic hypotension was reported in 3 participants                 shown that every 30% reduction in the urinary
+     in the combination-therapy group. Genital mycotic               albumin-to-creatinine ratio was associated with
+     infections were reported in 4 participants each                 a 27% reduction in a composite kidney end point
+     in the combination-therapy group and the empa-                  comprising end-stage kidney disease, a doubling
+     gliflozin group; urosepsis–pyelonephritis occurred              of the serum creatinine concentration, or an eGFR
+     in 1 participant in each of these two groups. Dis-              lower than 15 ml per minute per 1.73 m2.10
+     ease-related events were few and were balanced                     The current trial provides clinically important
+     among the treatment groups (Table S9).                          information regarding both the efficacy and safety
+
+
+
+                                            n engl j med 393;6   nejm.org    August 7, 2025                                                         541
+              The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                               Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+                                                   T h e n e w e ng l a n d j o u r na l o f m e dic i n e
+
+
+
+                   of combination therapy with empagliflozin and                   of the findings. The reduction in the urinary
+                   finerenone. We observed that 30 days after the                  albumin-to-creatinine ratio as a valid biomarker
+                   simultaneous initiation of empagliflozin and fin­               of risk10,11 also supports the use of this outcome
+                   erenone, the incidence of a decline in the eGFR                 to potentially predict cardiovascular and kidney
+                   of more than 30% was greater than that with                     protection in persons with both chronic kidney
+                   either finerenone or empagliflozin alone. How-                  disease and type 2 diabetes.
+                   ever, the eGFR stabilized after the initial decline,               In this trial involving persons with chronic
+                   and the incidence of acute kidney injury was un-                kidney disease, albuminuria, and type 2 diabetes,
+                   common in the combination-therapy group (1.9%)                  combination therapy with finerenone and empa-
+                   in this trial. Although the increase in the mean                gliflozin was more effective in rapidly reducing
+                   serum potassium level was similar with combi-                   the urinary albumin-to-creatinine ratio over 180
+                   nation therapy and finerenone alone, the fre-                   days than either of the two drugs alone.
+                   quency of hyperkalemia, as reported by the site                    Supported by Bayer.
+                   investigators or assessed by the central labora-                   Disclosure forms provided by the authors are available with
+                   tory (serum potassium level of >5.5 mmol per                    the full text of this article at NEJM.org.
+                                                                                      A data sharing statement provided by the authors is available
+                   liter or >5.5 and ≤6.0 mmol per liter), was rela-               with the full text of this article at NEJM.org.
+                   tively lower by approximately 15 to 20% with                       We thank the staff and participants in the trial; Margriet
+                   combination therapy. This finding is consistent                 Elshout, M.Sc., Pernilla Aarskog, M.Sc., Anna Smutek, M.Pharm.,
+                                                                                   and Lisa Chung, M.Sc., at Fortrea (a clinical research organiza-
+                   with those from a meta-analysis of randomized,                  tion) for their contributions (funded by Bayer, Berlin); Samuel T.
+                   controlled trials that showed a reduced risk of                 Fatoba, Ph.D., (a former employee of Bayer, United States), Alain
+                   severe hyperkalemia with SGLT2 inhibitors, in-                  Gay, M.D. (a former employee of Bayer, Germany), and Pravin
+                                                                                   Manjrekar, M.D. (Bayer Pharmaceuticals, India) for their contri-
+                   cluding in persons who were receiving a miner-                  butions; Ken Sutor, B.Sc., Moamen Hammad, Ph.D., Charlotte
+                   alocorticoid receptor antagonist at baseline.15 Com-            Simpson, Ph.D., Abegale Templar, Ph.D., and Fiona Van, Ph.D.,
+                   bination therapy resulted in a greater reduction in             for medical writing support, including assisting authors with fact-
+                                                                                   checking of information in the initial draft of the manuscript, and
+                   blood pressure than either therapy alone, which                 Melissa Ward, B.A., for editorial support, including formatting,
+                   was generally reversible with drug discontinuation              with earlier versions of the manuscript (all of Scion, a division of
+                   in all treatment groups. The incidence of symp-                 Prime, London), which was supported by Bayer and performed
+                                                                                   according to Good Publication Practice guidelines.
+                   tomatic hypotension was low in this trial.                         We dedicate this article to the memory of our colleague
+                       Stepwise therapy may prolong the time to ef-                George L. Bakris, M.D., who was a member of the steering com-
+                   fective treatment and can lead to clinical inertia.             mittee.
+                   Current guidelines suggest serial measurement
+                   of the urinary albumin-to-creatinine ratio to guide             Author Information
+                                                                                   1
+                                                                                     Division of Nephrology, Richard L. Roudebush VA Medical
+                   treatment adjustments for effectiveness and in-                 Center, Indianapolis; 2 Indiana University School of Medicine,
+                   form decisions regarding the need for additional                Indianapolis; 3 Division of Endocrinology, Department of Medi-
+                   therapies.16 However, in clinical practice, follow-             cine and Duke Clinical Research Institute, Duke University
+                                                                                   School of Medicine, Durham, NC; 4 Department of Clinical
+                   up testing to assess the urinary albumin-to-cre-                Pharmacy and Pharmacology, University Medical Center Gron-
+                   atinine ratio is infrequently performed, which may              ingen, University of Groningen, Groningen, the Netherlands;
+                   in turn underestimate the ongoing risk and add to
+                                                                                   5
+                                                                                     KfH (Kuratorium für Dialyse und Nierentransplantation) Kid-
+                                                                                   ney Center, Munich, Germany; 6 Department of Nephrology
+                   clinical inertia.17 In contrast, initial combination            and Hypertension, Friedrich Alexander University, Erlangen,
+                   therapy may provide a greater and a more rapid                  Germany; 7 Division of Endocrinology, Metabolism and Lipid
+                   reduction in urinary albumin-to-creatinine ratio                Research, Washington University in St. Louis, School of Medi-
+                                                                                   cine, St. Louis; 8 University of North Carolina (UNC) Kidney
+                   than monotherapy with either an SGLT2 inhibi-                   Center, UNC School of Medicine, Chapel Hill; 9 Velocity Clinical
+                   tor or finerenone.                                              Research at Medical City, Dallas; 10 Steno Diabetes Center Co-
+                       Our trial has certain limitations. The trial                penhagen, Copenhagen; 11 Department of Clinical Medicine,
+                                                                                   University of Copenhagen, Copenhagen; 12 Division of Cardio-
+                   used a surrogate end point, and we did not fol-                 vascular Medicine, Brigham and Women’s Hospital–Harvard
+                   low the participants long enough to adequately                  Medical School, Boston; 13 Cardiology and Nephrology Clinical
+                   measure differences among groups in cardiovas-                  Development, Bayer, Wuppertal, Germany; 14 Department of
+                                                                                   Clinical Sciences, Danderyd University Hospital, Division of
+                   cular outcomes or clinical kidney disease pro-                  Cardiovascular Medicine, Karolinska Institutet, Stockholm;
+                   gression. The strengths of our trial include the                15
+                                                                                      Bayer Healthcare, Chaoyang District, Beijing; 16 Global Medi-
+                   high percentage of participants who completed                   cal Affairs and Pharmacovigilance, Bayer, Berlin; 17 Clinical
+                                                                                   Statistics and Analytics, Bayer, Whippany, NJ; 18 Division of Ne-
+                   the trial and the inclusion of persons from many                phrology and Endocrinology, University of Tokyo Graduate
+                   countries, which improved the generalizability                  School of Medicine, Tokyo.
+
+
+
+542                                                      n engl j med 393;6    nejm.org    August 7, 2025
+
+                The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                                 Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+  Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+                               Finerenone with Empagliflozin in CKD and Diabetes
+
+
+     References
+     1. Cook S, Schmedt N, Broughton J,           point study (CONFIDENCE). Nephrol Dial          12. Agarwal R, Tu W, Farjat AE, et al. Im-
+     Kalra PA, Tomlinson LA, Quint JK. Char-      Transplant 2023;​38:​894-903.                   pact of finerenone-induced albuminuria
+     acterising the burden of chronic kidney      7. Agarwal R, Green JB, Heerspink HJL,          reduction on chronic kidney disease out-
+     disease among people with type 2 diabe-      et al. COmbinatioN effect of FInerenone         comes in type 2 diabetes: a mediation anal-
+     tes in England: a cohort study using the     anD EmpaglifloziN in participants with          ysis. Ann Intern Med 2023;​176:​1606-16.
+     Clinical Practice Research Datalink. BMJ     chronic kidney disease and type 2 diabetes      13. Li J, Neal B, Perkovic V, et al. Media-
+     Open 2023;​13(3):​e065927.                   using a UACR Endpoint (CONFIDENCE)              tors of the effects of canagliflozin on kid-
+     2. Fried LF, Folkerts K, Smeta B, et al.     trial: baseline clinical characteristics.       ney protection in patients with type 2 dia-
+     Targeted literature review of the burden     Nephrol Dial Transplant 2025 February 7         betes. Kidney Int 2020;​98:​769-77.
+     of illness in patients with chronic kidney   (Epub ahead of print).                          14. Wanner C, Nangaku M, Kraus BJ, et
+     disease and type 2 diabetes. Am J Manag      8. Levey AS, Stevens LA, Schmid CH, et          al. How do SGLT2 inhibitors protect
+     Care 2021;​27:​Suppl:​S168-S177.             al. A new equation to estimate glomerular       the kidney? A mediation analysis of the
+     3. American Diabetes Association Pro-        filtration rate. Ann Intern Med 2009;​150:​     EMPA-REG OUTCOME trial. Nephrol
+     fessional Practice Committee. Chronic        604-12.                                         Dial Transplant 2024;​39:​1504-13.
+     kidney disease and risk management:          9. Horio M, Imai E, Yasuda Y, Watanabe          15. Neuen BL, Oshima M, Agarwal R, et
+     standards of care in diabetes — 2025.        T, Matsuo S. Modification of the CKD            al. Sodium-glucose cotransporter 2 in-
+     Diabetes Care 2025;​48:​Suppl 1:​S239-       epidemiology collaboration (CKD-EPI)            hibitors and risk of hyperkalemia in peo-
+     S251.                                        equation for Japanese: accuracy and use         ple with type 2 diabetes: a meta-analysis
+     4. Rossing P, Anker SD, Filippatos G, et     for population estimates. Am J Kidney Dis       of individual participant data from ran-
+     al. Finerenone in patients with chronic      2010;​56:​32-8.                                 domized controlled trials. Circulation
+     kidney disease and type 2 diabetes by so-    10. Heerspink HJL, Greene T, Tighiouart         2022;​145:​1460-70.
+     dium-glucose cotransporter 2 inhibitor       H, et al. Change in albuminuria as a sur-       16. Kidney Disease: Improving Global
+     treatment: the FIDELITY analysis. Diabe-     rogate endpoint for progression of kidney       Outcomes (KDIGO) CKD Work Group.
+     tes Care 2022;​45:​2991-8.                   disease: a meta-analysis of treatment ef-       KDIGO 2024 clinical practice guideline
+     5. Rebelos E, Tentolouris N. Complemen-      fects in randomised clinical trials. Lancet     for the evaluation and management of
+     tary actions of finerenone and SGLT2-i       Diabetes Endocrinol 2019;​7:​128-39.            chronic kidney disease. Kidney Int 2024;​
+     on renal outcomes? An urgent need for        11. Levey AS, Gansevoort RT, Coresh J, et       105:​S117-S314.
+     more information. Nephrology (Carlton)       al. Change in albuminuria and GFR as end        17. Folkerts K, Petruski-Ivleva N, Comer-
+     2022;​27:​915-6.                             points for clinical trials in early stages of   ford E, et al. Adherence to chronic kidney
+     6. Green JB, Mottl AK, Bakris G, et al.      CKD: a scientific workshop sponsored by         disease screening guidelines among pa-
+     Design of the COmbinatioN effect of          the National Kidney Foundation in col-          tients with type 2 diabetes in a US admin-
+     FInerenone anD Empaglif loziN in par-        laboration with the US Food and Drug            istrative claims database. Mayo Clin Proc
+     ticipants with chronic kidney disease        Administration and European Medicines           2021;​96:​975-86.
+     and type 2 diabetes using a UACR End-        Agency. Am J Kidney Dis 2020;​75:​84-104.       Copyright © 2025 Massachusetts Medical Society.
+
+
+
+
+                                             n engl j med 393;6     nejm.org      August 7, 2025                                                    543
+              The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society.
+                               Downloaded from nejm.org at Rijksuniversiteit Groningen on January 21, 2026.
+Copyright © 2025 Massachusetts Medical Society. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+
