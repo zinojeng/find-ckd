@@ -28,17 +28,28 @@
 
 **Suggested title:** Hyperkalemia-Related Hospitalization in FIND-CKD
 
-### Body（正文，156 words）
+**主稿採選項 B（INFINITY 內部一致性版）**；原 RALES 外推版（選項 A）降為備選，附於取捨表之後。理由見取捨表：選項 B 的數字全部出自同一研究團隊自己的論文，證據距離最近、新穎度風險最低（選項 A 的 Juurlink/RALES 論證已有 2021 年 Bunkete 投書前例）。
 
-> **TO THE EDITOR:** Heerspink et al. (Aug. 6 issue)¹ report that finerenone slowed the decline in the estimated glomerular filtration rate among adults with chronic kidney disease who did not have diabetes. We seek clarification regarding hyperkalemia-related hospitalization. The Results section and Table 2 state that hyperkalemia led to hospitalization in 7 participants (0.9%) in the finerenone group and 5 (0.6%) in the placebo group. The Discussion, however, describes the potassium increases as "leading to discontinuation of the trial regimen in few participants and no hospitalizations." Because hospitalization for hyperkalemia was a prespecified safety assessment,² does the latter statement refer to a narrower category of events, or should it be corrected? Precision matters for implementation: eligibility required a serum potassium level of 4.8 mmol per liter or less, and dosing was governed by scheduled central-laboratory monitoring and by interruption above 5.5 mmol per liter. After RALES, hyperkalemia-related hospitalizations rose from 2.4 to 11.0 per 1000 patients.³
+### Body（正文，173 words）
 
-**Word count:** 156 words（NEJM 上限 175；正文不含 references、標題、作者資訊）。
+> **TO THE EDITOR:** Heerspink et al. (Aug. 6 issue)¹ report that finerenone slowed the decline in the estimated glomerular filtration rate among adults with chronic kidney disease who did not have diabetes. We seek clarification regarding hyperkalemia-related hospitalization. The Results section and Table 2 state that hyperkalemia led to hospitalization in 7 participants (0.9%) in the finerenone group and 5 (0.6%) in the placebo group. The Discussion, however, describes the potassium increases as "leading to discontinuation of the trial regimen in few participants and no hospitalizations." The INFINITY pooled analysis, which included FIND-CKD, reports 68 (0.9%) versus 15 (0.2%) hyperkalemia hospitalizations across the three trials,² a total that matches the FIDELIO-DKD³ and FIGARO-DKD⁴ counts only with the FIND-CKD events included. Because hospitalization for hyperkalemia was a prespecified safety assessment, does that statement refer to a narrower category, or should it be corrected? Precision matters: eligibility required a serum potassium level of 4.8 mmol per liter or less, and dosing was governed by scheduled central-laboratory monitoring and by interruption above 5.5 mmol per liter.
 
-### References（3 篇，NEJM 上限 5 篇）
+**Word count:** 173 words（NEJM 上限 175；正文不含 references、標題、作者資訊）。
+
+### References（4 篇，NEJM 上限 5 篇）
 
 1. Heerspink HJL, Neuen BL, Agarwal R, et al. Finerenone in persons with chronic kidney disease without diabetes. *N Engl J Med* 2026;395:533-545. <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄
-2. Heerspink HJL, Agarwal R, Bakris GL, et al. Design and baseline characteristics of the Finerenone, in addition to standard of care, on the progression of kidney disease in patients with Non-Diabetic Chronic Kidney Disease (FIND-CKD) randomized trial. *Nephrol Dial Transplant* 2025;40:308-319. <!-- src:原始PDF/Heerspink_2025_FIND-CKD-design.md --> 📄
-3. Juurlink DN, Mamdani MM, Lee DS, et al. Rates of hyperkalemia after publication of the Randomized Aldactone Evaluation Study. *N Engl J Med* 2004;351:543-551. <!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄
+2. Neuen BL, Heerspink HJL, Perkovic V, et al. Efficacy and safety of finerenone in patients with chronic kidney disease: an individual participant data pooled analysis (INFINITY). *Lancet* 2026;407:2375-2386. <!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
+3. Bakris GL, Agarwal R, Anker SD, et al. Effect of finerenone on chronic kidney disease outcomes in type 2 diabetes. *N Engl J Med* 2020;383:2219-2229. <!-- src:原始PDF/Bakris_2020_FIDELIO-DKD.md --> 📄
+4. Pitt B, Filippatos G, Agarwal R, et al. Cardiovascular events with finerenone in kidney disease and type 2 diabetes. *N Engl J Med* 2021;385:2252-2263. <!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄
+
+### 主稿的核心論證基礎（INFINITY 算術）
+
+INFINITY（Neuen、Heerspink、Agarwal 等，含 FIND-CKD 研究者）將三試驗合併後的「hyperkalaemia requiring hospitalisation」報為 **68（0.9%）vs 15（0.2%）**，並明言其主要安全性終點就是「以住院定義」的高血鉀事件。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
+
+**算術核對（本檔作者自行加總，非任一來源之原文陳述）**：FIDELIO-DKD 40 vs 8 <!-- src:原始PDF/Bakris_2020_FIDELIO-DKD.md --> 📄 ＋ FIGARO-DKD 21 vs 2 <!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄 ＝ 61 vs 10；INFINITY 合計為 68 vs 15 <!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄；差額恰為 **7 vs 5**，與 FIND-CKD Table 2 的 7（0.9%）vs 5（0.6%）完全相同 <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄。
+
+> **這個加總是本檔作者的推論，不是 INFINITY 原文的陳述**；INFINITY 全文並未逐試驗拆分此列（拆分資料位於未落地之 appendix）。主稿措辭因此寫成「a total that matches ... only with the FIND-CKD events included」——可由公開數字自行驗證的敘述——**不可**改寫成「INFINITY reported that FIND-CKD contributed 7 events」。
 
 ### 逐句可核對表（投稿前作者逐字覆核用）
 
@@ -50,7 +61,8 @@
 | eligibility required a serum potassium level of 4.8 mmol per liter or less | Participants 段逐字：`Eligibility criteria included a serum potassium level of 4.8 mmol per liter or less` | 📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
 | interruption above 5.5 mmol per liter | Trial procedures 段逐字：`If the serum potassium level exceeded 5.5 mmol per liter, finerenone or placebo was withheld for 72 hours` | 📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
 | scheduled central-laboratory monitoring | 逐字：`were collected for eGFR and serum potassium assessments at the central laboratory`（訪視為篩選、基準、第 1/3/6/9/12 個月，其後每 4 個月） | 📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
-| rose from 2.4 to 11.0 per 1000 patients | Juurlink abstract 逐字（連續片段）：`1000 patients in 1994 to 11.0 per 1000 patients in 2001 (P<0.001)`，其前一行為 `The rate of hospitalization for hyperkalemia rose from 2.4 per` | 📄 Juurlink <!-- src:原始PDF/Juurlink_2004_15295047.md --> |
+| 68 (0.9%) versus 15 (0.2%) hyperkalemia hospitalizations | INFINITY Table 2 列 `Requiring hospitalisation` 之兩格 `68 (0·9%)` 與 `15 (0·2%)`（Lancet 用中點小數 `0·9`，稿中依 NEJM 慣例改為句點）；正文同句 `68 [0·9%] with finerenone vs 15 [0·2%] with placebo` | 📄 INFINITY <!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> |
+| a total that matches ... only with the FIND-CKD events included | **本檔作者之算術推論**（40+21+7=68、8+2+5=15），非任一來源原文；各加數逐一可 grep（FIDELIO `40 (1.4)`／FIGARO `21 (0.6)`／FIND-CKD `7 (0.9)`）| 📄 三試驗各檔（見上方「核心論證基礎」段） |
 
 > **轉檔注意（第三輪更新）**：`原始PDF/*.md` 目前有兩種轉檔來源，核對規則相同——**一律用單行連續片段 grep，不要用跨行重組後的句子**。
 >
@@ -59,39 +71,32 @@
 >
 > ⚠️ 換版後已查出一處實質更正：FIGARO-DKD 那句住院比例原被標為出自 Discussion，實為 **Results** 的 `**SAFETY OUTCOMES AND VITAL SIGNS**` 段（pdftotext 雙欄把相鄰右欄的 Discussion 文字併在同一行所致），詳見 §2.5(b) 與 §4.4。
 
+### 備選：選項 A（RALES 外推版，156 words；編輯要求縮短時使用）
+
+> **TO THE EDITOR:** Heerspink et al. (Aug. 6 issue)¹ report that finerenone slowed the decline in the estimated glomerular filtration rate among adults with chronic kidney disease who did not have diabetes. We seek clarification regarding hyperkalemia-related hospitalization. The Results section and Table 2 state that hyperkalemia led to hospitalization in 7 participants (0.9%) in the finerenone group and 5 (0.6%) in the placebo group. The Discussion, however, describes the potassium increases as "leading to discontinuation of the trial regimen in few participants and no hospitalizations." Because hospitalization for hyperkalemia was a prespecified safety assessment,² does the latter statement refer to a narrower category of events, or should it be corrected? Precision matters for implementation: eligibility required a serum potassium level of 4.8 mmol per liter or less, and dosing was governed by scheduled central-laboratory monitoring and by interruption above 5.5 mmol per liter. After RALES, hyperkalemia-related hospitalizations rose from 2.4 to 11.0 per 1000 patients.³
+
+#### 選項 A 的 References（3 篇）
+
+1. Heerspink HJL, Neuen BL, Agarwal R, et al. Finerenone in persons with chronic kidney disease without diabetes. *N Engl J Med* 2026;395:533-545. <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄
+2. Heerspink HJL, Agarwal R, Bakris GL, et al. Design and baseline characteristics of the Finerenone, in addition to standard of care, on the progression of kidney disease in patients with Non-Diabetic Chronic Kidney Disease (FIND-CKD) randomized trial. *Nephrol Dial Transplant* 2025;40:308-319. <!-- src:原始PDF/Heerspink_2025_FIND-CKD-design.md --> 📄
+3. Juurlink DN, Mamdani MM, Lee DS, et al. Rates of hyperkalemia after publication of the Randomized Aldactone Evaluation Study. *N Engl J Med* 2004;351:543-551. <!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄
+
+> **選項 A 專屬核對句**：`rose from 2.4 to 11.0 per 1000 patients` ← Juurlink abstract 逐字（連續片段）：`1000 patients in 1994 to 11.0 per 1000 patients in 2001 (P<0.001)`，其前一行為 `The rate of hospitalization for hyperkalemia rose from 2.4 per`。<!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄
+>
 > **注意（給投稿者）**：Juurlink 的母體是安大略、近期因心衰竭住院、正在使用 ACE inhibitor 的高齡病人 <!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄，不是 CKD 族群。若審稿要求更嚴謹，可把最後一句改寫為下列建議句（作者自撰，非引文；+6 words，總計 162 words，仍在 175 上限內）：
 >
 > Among older patients treated with ACE inhibitors after RALES, hyperkalemia-related hospitalizations rose from 2.4 to 11.0 per 1000.³
 
-### 【第二輪新增】主稿強化選項 B（**不取代**上方主稿；作者決定是否採用，採用後須重新逐字稽核）
+#### 選項 B（主稿）vs 選項 A（備選）的取捨
 
-第二輪落地 INFINITY pooled IPD 全文後，出現一個比 RALES 類比**更直接、且完全在同一研究團隊內部**的證據：INFINITY（Neuen、Heerspink、Agarwal 等，含 FIND-CKD 研究者）將三試驗合併後的「hyperkalaemia requiring hospitalisation」報為 **68（0.9%）vs 15（0.2%）**，並明言其主要安全性終點就是「以住院定義」的高血鉀事件。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
-
-**算術核對（本檔作者自行加總，非任一來源之原文陳述）**：FIDELIO-DKD 40 vs 8 <!-- src:原始PDF/Bakris_2020_FIDELIO-DKD.md --> 📄 ＋ FIGARO-DKD 21 vs 2 <!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄 ＝ 61 vs 10；INFINITY 合計為 68 vs 15 <!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄；差額恰為 **7 vs 5**，與 FIND-CKD Table 2 的 7（0.9%）vs 5（0.6%）完全相同 <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄。
-
-> **這個加總是本檔作者的推論，不是 INFINITY 原文的陳述**；INFINITY 全文並未逐試驗拆分此列（拆分資料位於未落地之 appendix）。投稿前若要在信中主張此點，措辭必須寫成「the totality matches only when FIND-CKD events are included」這類**可由公開數字自行驗證**的敘述，不可寫成「INFINITY reported that FIND-CKD contributed 7 events」。
-
-#### 選項 B 正文（173 words，NEJM 上限 175）
-
-> **TO THE EDITOR:** Heerspink et al. (Aug. 6 issue)¹ report that finerenone slowed the decline in the estimated glomerular filtration rate among adults with chronic kidney disease who did not have diabetes. We seek clarification regarding hyperkalemia-related hospitalization. The Results section and Table 2 state that hyperkalemia led to hospitalization in 7 participants (0.9%) in the finerenone group and 5 (0.6%) in the placebo group. The Discussion, however, describes the potassium increases as "leading to discontinuation of the trial regimen in few participants and no hospitalizations." The INFINITY pooled analysis, which included FIND-CKD, reports 68 (0.9%) versus 15 (0.2%) hyperkalemia hospitalizations across the three trials,² a total that matches the FIDELIO-DKD³ and FIGARO-DKD⁴ counts only with the FIND-CKD events included. Because hospitalization for hyperkalemia was a prespecified safety assessment, does that statement refer to a narrower category, or should it be corrected? Precision matters: eligibility required a serum potassium level of 4.8 mmol per liter or less, and dosing was governed by scheduled central-laboratory monitoring and by interruption above 5.5 mmol per liter.
-
-#### 選項 B 的 References（4 篇，NEJM 上限 5 篇）
-
-1. Heerspink HJL, Neuen BL, Agarwal R, et al. Finerenone in persons with chronic kidney disease without diabetes. *N Engl J Med* 2026;395:533-545. <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄
-2. Neuen BL, Heerspink HJL, Perkovic V, et al. Efficacy and safety of finerenone in patients with chronic kidney disease: an individual participant data pooled analysis (INFINITY). *Lancet* 2026;407:2375-2386. <!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄
-3. Bakris GL, Agarwal R, Anker SD, et al. Effect of finerenone on chronic kidney disease outcomes in type 2 diabetes. *N Engl J Med* 2020;383:2219-2229. <!-- src:原始PDF/Bakris_2020_FIDELIO-DKD.md --> 📄
-4. Pitt B, Filippatos G, Agarwal R, et al. Cardiovascular events with finerenone in kidney disease and type 2 diabetes. *N Engl J Med* 2021;385:2252-2263. <!-- src:原始PDF/Pitt_2021_figaro-dkd.md --> 📄
-
-#### 選項 A（現行主稿）vs 選項 B 的取捨
-
-| | 選項 A（RALES 外推） | 選項 B（INFINITY 內部不一致） |
+| | 選項 A（RALES 外推，**備選**） | 選項 B（INFINITY 內部不一致，**主稿**） |
 |---|---|---|
 | 證據距離 | 遠：spironolactone、心衰竭族群、2004 年安大略行政資料 <!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄 | 近：同一藥、同一試驗、同一作者群、2026 年 |
 | 新穎度風險 | **偏高**：2021 年已有讀者投書針對 FIDELIO-DKD 提出「這個第三期試驗的高血鉀安全數據外推到日常實務前應審慎解讀」並引用同一篇 Juurlink（作者自存版逐字：`the safety data concerning hyperkalemia from this phase 3 clinical trial should be` 及參考文獻 `Rates of hyperkalemia after publication of`）<!-- src:原始PDF/Bunkete_2021_fidelio-correspondence.md --> ⚠️📄（作者自存版） | 低：無任何已知前例把 FIND-CKD 的 Table 2／Discussion 矛盾與 INFINITY 總數並列 |
 | 可被反駁的空間 | 作者可回「finerenone 非固醇類、族群不同」 | 幾乎沒有：數字全部出自作者自己的兩篇論文 |
 | 字數 | 156 | 173（更接近上限，編輯若刪節較無餘裕） |
 
-**建議**：若投稿窗口仍開放，優先送選項 B；若編輯要求縮短，退回選項 A。**兩者不可合併**（合併必然超過 175 words）。
+**決定（2026-08-09）**：主稿採**選項 B**；選項 A 僅在編輯要求縮短、或 INFINITY 算術論證被質疑時作為退路。**兩者不可合併**（合併必然超過 175 words）。
 
 ### 投稿欄位備忘
 
