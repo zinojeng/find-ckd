@@ -50,7 +50,7 @@
 ### References（2 篇，NEJM 上限 5 篇）
 
 1. Heerspink HJL, Neuen BL, Agarwal R, et al. Finerenone in persons with chronic kidney disease without diabetes. *N Engl J Med* 2026;395:533-45. <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄（頁碼採 NEJM 壓縮式，主文自身引用格式逐字 `N Engl J Med 2026;395:533-45.`）
-2. Neuen BL, Heerspink HJL, Perkovic V, et al. Efficacy and safety of finerenone in patients with chronic kidney disease: an individual participant data pooled analysis (INFINITY). *Lancet* 2026;407:2375-2386. <!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄（⚠️ 卷期頁碼 `407:2375-2386` 出自第一輪 Crossref metadata 驗證 📌，本地 Lancet 線上排版版僅有 online 日期與 DOI，無紙本卷期頁碼；投稿前請再以 Crossref/期刊頁面確認）
+2. Neuen BL, Heerspink HJL, Perkovic V, et al. Efficacy and safety of finerenone in patients with chronic kidney disease: an individual participant data pooled analysis (INFINITY). *Lancet* 2026;407:2375-86. <!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄（卷期頁碼**已由使用者提供之 PubMed 完整書目確認**：*Lancet*. 2026 Jun 13;407(10546):2375-2386. Epub 2026 Jun 5. PMID 42248158——與第一輪 Crossref metadata 一致；頁碼依 NEJM 壓縮式寫為 `2375-86`，與 Ref 1 的 `533-45` 同慣例）
 
 ### 主稿的核心論證基礎（第三輪升級：INFINITY appendix Table S6 直接引用）
 
