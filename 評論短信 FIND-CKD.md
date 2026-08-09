@@ -2,9 +2,11 @@
 
 **標的論文**：Heerspink HJL, Neuen BL, Agarwal R, et al. Finerenone in Persons with Chronic Kidney Disease without Diabetes. *N Engl J Med* 2026;395:533-545. DOI 10.1056/NEJMoa2604625 <!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄。PMID 42246672 📌（PubMed 索引 metadata，未以本地全文驗證）。線上發表 2026-06-04，2026-06-29 更新，紙本 2026-08-06（Vol. 395, No. 6）<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄
 
-**本檔驗證原則**：所有數字、引號字串均可在下列本地檔案 grep 命中。標 📄 者為本地已落地全文；標 ⚠️📄 者為已落地但**版本受限**（作者自存版／非目標篇章），引用時必須註明限定且不得引頁碼；標 📌 者僅有 metadata（title/authors/journal/year/DOI/PMID），**不對其內文作任何具體斷言**。
+**本檔驗證原則**：所有數字、引號字串均可在下列本地檔案 grep 命中。標 📄 者為本地已落地全文；標 ⚠️📄 者為已落地但**版本受限**（作者自存版／非目標篇章），引用時必須註明限定且不得引頁碼；標 📌 者僅有 metadata（title/authors/journal/year/DOI/PMID），**不對其內文作任何具體斷言**；**【第四輪新增標記】**標 ⚠️ **PDF-only** 者為本機已有 PDF 但**未轉為 MD**，因無法 grep 驗證，**與 📌 同等對待，一律不得引用內文**。
 
 **第二輪更新（2026-08-09）**：FIGARO-DKD、CONFIDENCE、INFINITY pooled、JAMA glomerular、DAPA-CKD correspondence 五者全文已落地並完成 grep 驗證，由 📌 升級為 📄；FIDELIO-DKD correspondence 僅取得其中一封讀者投書之作者自存版，升級為 ⚠️📄；CONFIDENCE correspondence 仍為 📌。
+
+**第四輪更新（2026-08-09，使用者以機構權限下載）**：FIND-CKD 主文之 **NEJM Supplementary Appendix** 與 JAMA glomerular 分析之 **Supplement 2（eTables/eFigures）** 兩者全文已落地並完成 grep 驗證，由 📌 升級為 📄；兩份 **protocol PDF**（NEJM protocol 301 頁、JAMA supplement 1 protocol）依指示**僅存 PDF、未轉 MD**，故**不得引用**。至此仍未落地者僅剩 **CONFIDENCE correspondence** 與 **FIDELIO-DKD 之 Bakris/Agarwal Reply 本文**。
 
 | 標記 | 本地檔案 | 版本 |
 |---|---|---|
@@ -18,7 +20,11 @@
 | 📄 **新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Agarwal_2025_confidence.md`（CONFIDENCE） | Publisher's Version of Record（pure.rug.nl 典藏；N Engl J Med 2025;393:533-43，**可引頁碼**） |
 | 📄 **新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Neuen_2026_infinity-pooled.md`（INFINITY pooled IPD） | Lancet 正式排版版（`Published online June 5, 2026`；線上版頁碼 1-10） |
 | 📄 **第三輪新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Neuen_2026_infinity-appendix.md`（INFINITY supplementary appendix，35 頁） | 出版社官方 appendix（Elsevier CDN `ars.els-cdn.com` 直接下載之 mmc1.pdf；首頁載明 `Supplement to: Neuen BL, Heerspink HJL, Perkovic V, et al.`）。**Table S6（appendix p 23）之 Without diabetes 欄 N=793/791，即 FIND-CKD 全體受試者** |
-| 📄 **新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Neuen_2026_jama-glomerular.md`（JAMA glomerular 分析） | JAMA 正式版（ORBi, Univ. de Liège 典藏；分頁為 E1–E10，**引用時用 E 頁碼或僅引 DOI**；eTable/eFigure 等 Supplement 未落地，不得引用） |
+| 📄 **新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Neuen_2026_jama-glomerular.md`（JAMA glomerular 分析） | JAMA 正式版（ORBi, Univ. de Liège 典藏；分頁為 E1–E10，**引用時用 E 頁碼或僅引 DOI**）。**【第四輪更新】其 Supplement 2（eTables/eFigures）已另行落地，見下列；Supplement 1（protocol）仍不可引用** |
+| 📄 **第四輪新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/FIND-CKD_2026_nejm-appendix.md`（FIND-CKD 主文 NEJM Supplementary Appendix，42 頁） | 出版社官方 appendix（使用者以機構權限自 NEJM 文章頁下載；首頁載明 `Supplement to: Heerspink HJL, Neuen BL, Agarwal R, et al. Finerenone in persons with chronic kidney disease without diabetes. N Engl J Med 2026;395:533-45.`）。轉檔 converter = LlamaParse（agentic tier）。深讀者已核對 MD 涵蓋全部 42 頁、無截斷，並抽 4 處與 `pdftotext` 逐字交叉比對一致。**內含 Supplementary Methods、Figure S1–S9、Table S1–S8** |
+| 📄 **第四輪新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Neuen_2026_jama-glomerular-supp2.md`（JAMA glomerular 之 Supplement 2：eTable 1–4、eFigure 1–7） | JAMA 官方 supplement（使用者以機構權限下載）。轉檔 converter = LlamaParse（agentic tier）。深讀者已做 3 處與來源 PDF 的逐字／逐位交叉比對（標題頁、eTable 4 之 PDF p.16、eFigure 6 之 PDF p.22）皆一致 |
+| ⚠️ **PDF-only（不可引用）** | `/Users/ander/openclaw-research/find-ckd/原始PDF/FIND-CKD_2026_nejm-protocol.pdf`（NEJM protocol＋amendment＋SAP，301 頁） | **依指示僅落地 PDF、未轉 MD**。身分已以 `pdftotext` 首頁核對（`Protocol for: Heerspink HJL, ... N Engl J Med 2026;395:533-45.`）。因無 MD 可 grep，本檔**任何內容一律不得引用**；若日後需引用（例如高血鉀 stop/restart 門檻、AESI 通報規則），必須先完成 LlamaParse 轉檔並正式列入本表 |
+| ⚠️ **PDF-only（不可引用）** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Neuen_2026_jama-glomerular-supp1-protocol.pdf`（JAMA Supplement 1：Bayer 臨床試驗計畫書 BAY 94-8862/21177） | **依指示僅落地 PDF、未轉 MD**。⚠️ **更嚴重的限制**：該 PDF 全部文字為 Type 3 自訂編碼字型、無 ToUnicode CMap，`pdftotext` 抽取結果為亂碼，**即使轉檔也無法以文字層 grep 驗證**；身分係以 `pdftoppm` 轉圖後目視確認（封面 `FIND-CKD`／Protocol Number 21177／09 JUN 2021）。**一律不得引用，亦不得聲稱曾對其做 grep 驗證** |
 | 📄 **新** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Vogt_2021_dapa-ckd-correspondence.md`（DAPA-CKD correspondence） | Publisher's Version of Record（UCL Discovery；含 Vogt 信、Yasuda/Isobe 信、Heerspink/Langkilde/Wheeler 之 Reply 三者全文，頁碼 388-390，**可引頁碼**） |
 | ⚠️📄 **新（受限）** | `/Users/ander/openclaw-research/find-ckd/原始PDF/Bunkete_2021_fidelio-correspondence.md`（FIDELIO-DKD correspondence 之**其中一封讀者投書**） | **作者自存版（HAL, hal-03265574），非出版社正式版；且不是 Bakris/Agarwal 的 Reply 本文。**引用時必須註明「作者自存版」，**不得引用頁碼**，**不得**以此檔對「作者 Reply 的內容」作任何斷言 |
 | 📌 | CONFIDENCE correspondence（*N Engl J Med* 2025;393:1753-1755, DOI 10.1056/NEJMc2513088）— **全文仍未落地，僅可引 metadata** |  |
@@ -31,11 +37,13 @@
 
 **主稿採選項 B（INFINITY 內部一致性版）**；原 RALES 外推版（選項 A）降為備選，附於取捨表之後。理由見取捨表：選項 B 的數字全部出自同一研究團隊自己的論文，證據距離最近、新穎度風險最低（選項 A 的 Juurlink/RALES 論證已有 2021 年 Bunkete 投書前例）。
 
-### Body（正文，167 words）
+### Body（正文，170 words）
 
-> **TO THE EDITOR:** Heerspink et al. (Aug. 6 issue)¹ report that finerenone slowed the decline in the estimated glomerular filtration rate among adults with chronic kidney disease who did not have diabetes. We seek clarification regarding hyperkalemia-related hospitalization. The Results section and Table 2 state that hyperkalemia led to hospitalization in 7 participants (0.9%) in the finerenone group and 5 (0.6%) in the placebo group. The Discussion, however, describes the potassium increases as "leading to discontinuation of the trial regimen in few participants and no hospitalizations." The INFINITY pooled analysis likewise reports serious hyperkalemia requiring hospitalization in 7 participants (0.9%) versus 5 (0.6%) in the subgroup without diabetes, which was enrolled entirely from FIND-CKD.² Because hospitalization for hyperkalemia was a prespecified safety assessment, does that statement refer to a narrower category, or should it be corrected? Precision matters: eligibility required a serum potassium level of 4.8 mmol per liter or less, and dosing was governed by scheduled central-laboratory monitoring and by interruption above 5.5 mmol per liter.
+> **【第四輪唯一一處正文修訂】** 原句「dosing was governed by scheduled **central-laboratory** monitoring」已改為「dosing was governed by scheduled **potassium monitoring at each visit**」。理由：NEJM Supplementary Appendix 的 Central Laboratory Assessment 段明寫**劑量決策依據的是當地實驗室**，中央實驗室僅用於計算論文所報告的 >5.5／>6.0 mmol/L 安全性分類——逐字：`Central laboratory assessments were used for calculation of the primary and all other eGFR-based outcomes, and for the calculation of potassium cutoffs (>5.5 and >6.0 mmol/L). In addition, potassium and eGFR were assessed at local laboratories for dosing decisions at each visit.`<!-- src:原始PDF/FIND-CKD_2026_nejm-appendix.md --> 📄 原措辭把 central-laboratory 與 dosing 直接搭配，與附錄原文不符，會被作者或審稿人抓到而削弱信件的技術權威性。修訂後字數由 167 增為 **170 words**（仍在 175 上限內），其餘句子一字未動。
 
-**Word count:** 167 words（NEJM 上限 175；正文不含 references、標題、作者資訊）。
+> **TO THE EDITOR:** Heerspink et al. (Aug. 6 issue)¹ report that finerenone slowed the decline in the estimated glomerular filtration rate among adults with chronic kidney disease who did not have diabetes. We seek clarification regarding hyperkalemia-related hospitalization. The Results section and Table 2 state that hyperkalemia led to hospitalization in 7 participants (0.9%) in the finerenone group and 5 (0.6%) in the placebo group. The Discussion, however, describes the potassium increases as "leading to discontinuation of the trial regimen in few participants and no hospitalizations." The INFINITY pooled analysis likewise reports serious hyperkalemia requiring hospitalization in 7 participants (0.9%) versus 5 (0.6%) in the subgroup without diabetes, which was enrolled entirely from FIND-CKD.² Because hospitalization for hyperkalemia was a prespecified safety assessment, does that statement refer to a narrower category, or should it be corrected? Precision matters: eligibility required a serum potassium level of 4.8 mmol per liter or less, and dosing was governed by scheduled potassium monitoring at each visit and by interruption above 5.5 mmol per liter.
+
+**Word count:** 170 words（NEJM 上限 175；正文不含 references、標題、作者資訊。計數含開頭 `TO THE EDITOR:` 四字、不含上標參考文獻號，與第三輪 167 words 之計數慣例相同）。
 
 ### References（2 篇，NEJM 上限 5 篇）
 
@@ -57,9 +65,9 @@
 | hospitalization in 7 participants (0.9%) ... and 5 (0.6%) | Results 逐字：`Hyperkalemia led to hospitalization in 7 participants (0.9%) with finerenone and 5 participants (0.6%) with placebo`；Table 2 列名 `Leading to hospitalization`，其下兩格為 `7 (0.9)` 與 `5 (0.6)` | 📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
 | "leading to discontinuation of the trial regimen in few participants and no hospitalizations" | Discussion 逐字：`leading to discontinuation of the trial regimen in few participants and no hospitalizations` | 📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
 | hospitalization for hyperkalemia was a prespecified safety assessment | 設計論文 Safety 段逐字（雙欄轉檔後之連續片段）：`for hyperkalaemia and permanent discontinuation of study` + 次行 `medication due to hyperkalaemia.`；主文 Outcomes 段逐字：`hospitalization for serious hyperkalemia` | 📄 設計論文 <!-- src:原始PDF/Heerspink_2025_FIND-CKD-design.md --> ／📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
-| eligibility required a serum potassium level of 4.8 mmol per liter or less | Participants 段逐字：`Eligibility criteria included a serum potassium level of 4.8 mmol per liter or less` | 📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
+| eligibility required a serum potassium level of 4.8 mmol per liter or less | Participants 段逐字：`Eligibility criteria included a serum potassium level of 4.8 mmol per liter or less`；**【第四輪新增第二來源】**附錄 Table S1（Inclusion and Exclusion Criteria）逐字：`Serum potassium level ≤4.8 mmol/l` | 📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> ／📄 附錄 <!-- src:原始PDF/FIND-CKD_2026_nejm-appendix.md --> |
 | interruption above 5.5 mmol per liter | Trial procedures 段逐字：`If the serum potassium level exceeded 5.5 mmol per liter, finerenone or placebo was withheld for 72 hours` | 📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
-| scheduled central-laboratory monitoring | 逐字：`were collected for eGFR and serum potassium assessments at the central laboratory`（訪視為篩選、基準、第 1/3/6/9/12 個月，其後每 4 個月） | 📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
+| scheduled potassium monitoring at each visit（**第四輪修訂**） | 附錄逐字：`potassium and eGFR were assessed at local laboratories for dosing decisions at each visit`；主文逐字：`were collected for eGFR and serum potassium assessments at the central laboratory`（訪視為篩選、基準、第 1/3/6/9/12 個月，其後每 4 個月）。⚠️ **不得**再寫成「central-laboratory 主導 dosing」——附錄明示 dosing 用 local lab、central lab 僅用於計算 >5.5／>6.0 分類 | 📄 附錄 <!-- src:原始PDF/FIND-CKD_2026_nejm-appendix.md --> ／📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
 | serious hyperkalemia requiring hospitalization in 7 participants (0.9%) versus 5 (0.6%) | Appendix Table S6 hyperkalaemia SAE 之 `Requiring hospitalisation` 列，Without diabetes 兩格 `7 (0·9%)` 與 `5 (0·6%)`（Lancet 用中點小數，稿中依 NEJM 慣例改為句點） | 📄 INFINITY appendix <!-- src:原始PDF/Neuen_2026_infinity-appendix.md --> |
 | in the subgroup without diabetes, which was enrolled entirely from FIND-CKD | Table S6 表頭 `Without diabetes` 欄 `(N=793)`／`(N=791)`，與 FIND-CKD 主文 `793 were assigned to the finerenone group, and 791 to the placebo group` 完全一致；三試驗中僅 FIND-CKD 為非糖尿病族群（Table S1 study design 對照） | 📄 INFINITY appendix <!-- src:原始PDF/Neuen_2026_infinity-appendix.md --> ／📄 主文 <!-- src:FIND-CKD main text NEJMoa2604625.md --> |
 
@@ -70,9 +78,11 @@
 >
 > ⚠️ 換版後已查出一處實質更正：FIGARO-DKD 那句住院比例原被標為出自 Discussion，實為 **Results** 的 `**SAFETY OUTCOMES AND VITAL SIGNS**` 段（pdftotext 雙欄把相鄰右欄的 Discussion 文字併在同一行所致），詳見 §2.5(b) 與 §4.4。
 
-### 備選：選項 A（RALES 外推版，156 words；編輯要求縮短時使用）
+### 備選：選項 A（RALES 外推版，159 words；編輯要求縮短時使用）
 
-> **TO THE EDITOR:** Heerspink et al. (Aug. 6 issue)¹ report that finerenone slowed the decline in the estimated glomerular filtration rate among adults with chronic kidney disease who did not have diabetes. We seek clarification regarding hyperkalemia-related hospitalization. The Results section and Table 2 state that hyperkalemia led to hospitalization in 7 participants (0.9%) in the finerenone group and 5 (0.6%) in the placebo group. The Discussion, however, describes the potassium increases as "leading to discontinuation of the trial regimen in few participants and no hospitalizations." Because hospitalization for hyperkalemia was a prespecified safety assessment,² does the latter statement refer to a narrower category of events, or should it be corrected? Precision matters for implementation: eligibility required a serum potassium level of 4.8 mmol per liter or less, and dosing was governed by scheduled central-laboratory monitoring and by interruption above 5.5 mmol per liter. After RALES, hyperkalemia-related hospitalizations rose from 2.4 to 11.0 per 1000 patients.³
+> **【第四輪同步修訂】** 同上，`scheduled central-laboratory monitoring` → `scheduled potassium monitoring at each visit`，字數由 156 增為 **159 words**。
+
+> **TO THE EDITOR:** Heerspink et al. (Aug. 6 issue)¹ report that finerenone slowed the decline in the estimated glomerular filtration rate among adults with chronic kidney disease who did not have diabetes. We seek clarification regarding hyperkalemia-related hospitalization. The Results section and Table 2 state that hyperkalemia led to hospitalization in 7 participants (0.9%) in the finerenone group and 5 (0.6%) in the placebo group. The Discussion, however, describes the potassium increases as "leading to discontinuation of the trial regimen in few participants and no hospitalizations." Because hospitalization for hyperkalemia was a prespecified safety assessment,² does the latter statement refer to a narrower category of events, or should it be corrected? Precision matters for implementation: eligibility required a serum potassium level of 4.8 mmol per liter or less, and dosing was governed by scheduled potassium monitoring at each visit and by interruption above 5.5 mmol per liter. After RALES, hyperkalemia-related hospitalizations rose from 2.4 to 11.0 per 1000 patients.³
 
 #### 選項 A 的 References（3 篇）
 
@@ -82,7 +92,7 @@
 
 > **選項 A 專屬核對句**：`rose from 2.4 to 11.0 per 1000 patients` ← Juurlink abstract 逐字（連續片段）：`1000 patients in 1994 to 11.0 per 1000 patients in 2001 (P<0.001)`，其前一行為 `The rate of hospitalization for hyperkalemia rose from 2.4 per`。<!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄
 >
-> **注意（給投稿者）**：Juurlink 的母體是安大略、近期因心衰竭住院、正在使用 ACE inhibitor 的高齡病人 <!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄，不是 CKD 族群。若審稿要求更嚴謹，可把最後一句改寫為下列建議句（作者自撰，非引文；+6 words，總計 162 words，仍在 175 上限內）：
+> **注意（給投稿者）**：Juurlink 的母體是安大略、近期因心衰竭住院、正在使用 ACE inhibitor 的高齡病人 <!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄，不是 CKD 族群。若審稿要求更嚴謹，可把最後一句改寫為下列建議句（作者自撰，非引文；+6 words，總計 **165** words，仍在 175 上限內）：
 >
 > Among older patients treated with ACE inhibitors after RALES, hyperkalemia-related hospitalizations rose from 2.4 to 11.0 per 1000.³
 
@@ -93,7 +103,7 @@
 | 證據距離 | 遠：spironolactone、心衰竭族群、2004 年安大略行政資料 <!-- src:原始PDF/Juurlink_2004_15295047.md --> 📄 | 近：同一藥、同一試驗、同一作者群、2026 年 |
 | 新穎度風險 | **偏高**：2021 年已有讀者投書針對 FIDELIO-DKD 提出「這個第三期試驗的高血鉀安全數據外推到日常實務前應審慎解讀」並引用同一篇 Juurlink（作者自存版逐字：`the safety data concerning hyperkalemia from this phase 3 clinical trial should be` 及參考文獻 `Rates of hyperkalemia after publication of`）<!-- src:原始PDF/Bunkete_2021_fidelio-correspondence.md --> ⚠️📄（作者自存版） | 低：無任何已知前例把 FIND-CKD 的 Table 2／Discussion 矛盾與 INFINITY 總數並列 |
 | 可被反駁的空間 | 作者可回「finerenone 非固醇類、族群不同」 | 幾乎沒有：數字全部出自作者自己的兩篇論文 |
-| 字數 | 156 | 167 |
+| 字數 | 159（第四輪修訂後） | 170（第四輪修訂後） |
 | 證據形式 | RALES 類比（外部、間接） | INFINITY appendix Table S6 **直接刊載** FIND-CKD 族群 7 vs 5（第三輪落地後由算術推論升級為直接引用） |
 
 **決定（2026-08-09）**：主稿採**選項 B**；選項 A 僅在編輯要求縮短、或 INFINITY 算術論證被質疑時作為退路。**兩者不可合併**（合併必然超過 175 words）。
@@ -206,7 +216,43 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 - 為 FIND-CKD 的 **prespecified exploratory subgroup analysis**（逐字：`Prespecified exploratory subgroup analysis of a phase 3,`）。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄
 - Abstract RESULTS 段逐字：`Of 1584 participants, 903 (57.0%) had investigator-reported glomerular disease,`，其中 IgA 腎病變 416（46.1%）、FSGS 215（23.8%）、膜性腎病變 90（10.0%）；finerenone n=446 vs placebo n=457。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄 （**注意**：903/1584（57.0%）此一比例在 FIND-CKD **設計論文**中亦可查得 <!-- src:原始PDF/Heerspink_2025_FIND-CKD-design.md --> 📄，但 446/457 的分組人數與各亞型細分**只能掛 JAMA**。）
 - 主要結果：total eGFR slope 至 32 個月為 −3.50 vs −4.23 ml/min/1.73 m²/yr（差 0.73；95% CI 0.22–1.24）；12 個月白蛋白尿降 42%（95% CI 35%–48%）；kidney failure 或 ≥40% eGFR 下降 7.42 vs 9.60 events/100 patient-years，HR 0.74（95% CI 0.57–0.97）。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄
-- **安全性措辭**（逐字連續片段）：`no imbalance in serious investigator-reported hyperkalemia events (0.9% in both treatment arms)`；永久停藥 2.7% vs 3.9%。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄 **JAMA 這篇未報告高血鉀住院數**，故無法從此處佐證或反駁 FIND-CKD 主文的表述；它也**沒有**重複「no hospitalizations」的說法。
+- **安全性措辭**（逐字連續片段）：`no imbalance in serious investigator-reported hyperkalemia events (0.9% in both treatment arms)`；永久停藥 2.7% vs 3.9%。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄 **JAMA 主文未報告高血鉀住院數**；它也**沒有**重複「no hospitalizations」的說法。
+
+#### 【第四輪新增】Supplement 2 之 eTable 4：glomerular 次群的完整安全性表（已解封，可引用）
+
+`eTable 4. Summary of Participants With Glomerular Diseases With Treatment-Emergent AEs`（finerenone n=446 vs placebo n=457）<!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄：
+
+| 列名（逐字） | Finerenone (n=446) | Placebo (n=457) |
+|---|---|---|
+| `Any hyperkalemia (AESI)` | 73（16.4%） | 70（15.3%） |
+| 　`Related to study drug` | 54（12.1%） | 49（10.7%） |
+| 　`Leading to permanent discontinuation of study drug` | **8（1.8%）** | **2（0.4%）** |
+| `Any serious hyperkalemia` | 4（0.9%） | 4（0.9%） |
+| 　`Related to study drug` | 2（0.4%） | 1（0.2%） |
+| 　`Leading to hospitalization` | **3（0.7%）** | **4（0.9%）** |
+| 　`Life-threatening` | 1（0.2%） | 0 |
+| 　`Leading to death` | 0 | 0 |
+| `Any SAE` | 87（19.5%） | 98（21.4%） |
+| 　`Leading to hospitalization`（全因） | 85（19.1%） | 94（20.6%） |
+| 　`Life-threatening`（全因） | 2（0.4%） | 5（1.1%） |
+| 　`Leading to death`（全因） | 2（0.4%） | 1（0.2%） |
+
+<!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄
+
+**判讀（三點，請嚴格區分）：**
+
+1. **對本信主軸是強化，但方向與直覺相反。** eTable 4 顯示：即使把範圍縮到 FIND-CKD 的 glomerular 次群（903 人中的安全性族群），`Any serious hyperkalemia` 之 `Leading to hospitalization` 仍是 **3 vs 4，不是零**。<!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄 換言之，**在整個 finerenone 開發計畫已公開的所有層級中，沒有任何一格的高血鉀住院數為 0**——這正是 §4.4「更窄類別」退路被封死的第三條佐證（見 §4.4）。
+2. **定義注意（極重要）**：eTable 4 的 hyperkalemia 是 **AESI、investigator-reported、MedDRA preferred term** 定義，**不是**中央實驗室血鉀門檻計數——腳註逐字：`Hyperkalemia was an AESI and defined as any investigator-reported AEs with MedDRA codes corresponding to the preferred terms hyperkalemia or blood potassium increased.`<!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄 因此 **eTable 4 不得被用來支持任何關於 K>5.5／>6.0 mmol/L 事件數的陳述**；那類數字只能掛 FIND-CKD 主文。
+3. **對本信是重要的自我限制（必須內化，不可越線）**：在此次群中，`Any hyperkalemia (AESI)` 兩組幾乎相同（16.4% vs 15.3%），`Any serious hyperkalemia` 完全相同（0.9% vs 0.9%），住院數**在數值上還略低於安慰劑**（3 vs 4），且 `Any SAE`、全因住院、life-threatening、death 均**未見 finerenone 較高**。<!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄 唯一明顯不對稱的是**因高血鉀永久停藥 8（1.8%）vs 2（0.4%）**。**任何把 eTable 4 寫成「顯示廣泛額外傷害」的措辭都不被資料支持**，且會被作者一句話反駁。本信主張始終只有一句：**紀錄必須正確**。
+
+> ⚠️ **eTable 4 的一處來源端內部不一致（勿引用該列）**：`Related to study drug`（Any AE 之下）finerenone 欄印為 `177 (26.2)`，但 177/446 = 39.7%，26.2% 對應的是 117/446；placebo 欄 `86 (18.8)` 則自洽（86/457 = 18.8%）。已用 `pdftotext -f 16 -l 16` 核對來源 PDF，**PDF 原文即為 `177 (26.2)`**，故此為 **JAMA supplement 本身的印刷／製表不一致，非轉檔錯誤**。<!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄 **本檔一律不引用該列**；若日後需要「藥物相關 AE」比率，須另行向作者確認。
+
+#### 【第四輪新增】Supplement 2 之亞型層級數據（biopsy-confirmed cohort，n=712）
+
+- eFigure 2A（total eGFR slope 差）：Overall `0.89 (0.31 to 1.47)`；IgAN `0.66 (-0.12 to 1.45)`（n=213/174）；FSGS `1.36 (0.16 to 2.56)`（n=73/94）；Membranous nephropathy `1.26 (-0.51 to 3.03)`（n=42/34）；MPGN `0.12 (-3.17 to 3.41)`（n=8/17）；P_interaction `0.865`。<!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄
+- eFigure 6（kidney failure 或 ≥40% eGFR 下降）：Overall `0.74 (0.55 to 0.99)`；IgAN `0.81 (0.54 to 1.21)`；FSGS `0.68 (0.38 to 1.21)`；Membranous `0.87 (0.30 to 2.54)`；MPGN `0.54 (0.06 to 5.23)`；P_interaction `0.956`。<!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄
+- **對本信的意涵：無**（本信不談療效異質性）。但這組數字**進一步關閉**「各 glomerular 亞型效果是否一致」這個備選角度——所有 P_interaction 均遠大於 0.05，且 MPGN（n=8 vs 17）之 CI 寬到完全不具資訊量，任何以 MPGN 為題的提問都會被視為 ghost novelty。詳見「不建議的角度」表。
+- ⚠️ **轉檔風險註記**：eFigure 2／3／6／7 的數字在來源 PDF 中**以圖形（forest plot）呈現、不在文字層**，`pdftotext` 抓不到，僅能靠 LlamaParse 的視覺抽取。深讀者已將 eFigure 6 之 PDF p.22 轉圖目視逐位核對一致；**eFigure 2／3／7 僅做結構性抽查**。若要在正式稿件中逐字使用 eFigure 2／3／7 的個別 CI，**須先再做一次 pdftoppm 目視核對**。
 
 ### （e）本信角度的最終佔據性判定
 
@@ -214,7 +260,7 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 |---|---|
 | 是否有前例質疑 FIND-CKD 的 Table 2 vs Discussion 不一致？ | 已落地文獻中**無**（FIND-CKD 2026-06-04 上線，INFINITY 與 JAMA 於 2026-06-05 上線，均未評論此點） |
 | 是否有前例以「高血鉀住院」為題投書 finerenone 試驗？ | 已落地之 FIDELIO 投書（Bunkete）談的是「外推應審慎」，**未指出住院數字**；DAPA-CKD 三封信與高血鉀無關 |
-| 剩餘盲點 | (1) FIDELIO-DKD 之 Bakris/Agarwal Reply 本文未落地；(2) CONFIDENCE correspondence 全部未落地 ⚠️ 投稿前必須以機構訂閱人工核對這兩者 |
+| 剩餘盲點 | (1) FIDELIO-DKD 之 Bakris/Agarwal Reply 本文未落地；(2) CONFIDENCE correspondence 全部未落地 ⚠️ 投稿前必須以機構訂閱人工核對這兩者。**【第四輪更新】**原列為盲點的 FIND-CKD NEJM appendix 與 JAMA Supplement 2 已落地並查核完畢，**均未出現「no hospitalizations」式的表述、亦未提供可供退守的第三種住院數字**（見 §4.3、§4.4） |
 
 ## 2.6 邏輯鏈總結
 
@@ -267,7 +313,7 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 
 | 角度 | 不建議原因 |
 |---|---|
-| 各 glomerular disease 亞型效果是否一致 | **已被完整回答**：JAMA 2026 的 prespecified exploratory 分析涵蓋 903/1584（57.0%）有 glomerular disease 者（IgAN 416、FSGS 215、膜性 90），並明示效果在各亞型間一致、亦不因基線 SGLT2i 使用而異（P for interaction = .16 與 .34）。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄 再問即為 ghost novelty |
+| 各 glomerular disease 亞型效果是否一致 | **已被完整回答**：JAMA 2026 的 prespecified exploratory 分析涵蓋 903/1584（57.0%）有 glomerular disease 者（IgAN 416、FSGS 215、膜性 90），並明示效果在各亞型間一致、亦不因基線 SGLT2i 使用而異（P for interaction = .16 與 .34）。<!-- src:原始PDF/Neuen_2026_jama-glomerular.md --> 📄 **【第四輪加強】** Supplement 2 的 biopsy-confirmed cohort（n=712）逐亞型森林圖亦全數無異質性：eGFR slope P_interaction `0.865`、kidney failure/≥40% 下降 P_interaction `0.956`，且 MPGN（n=8 vs 17）之 CI 寬至 `0.12 (-3.17 to 3.41)`／`0.54 (0.06 to 5.23)` 完全不具資訊量。<!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄 再問即為 ghost novelty |
 | 「整體證據是否足夠」／跨病因一致性 | **已被完整回答**：INFINITY 合併 14 574 人，複合腎臟終點 HR 0.76（95% CI 0.68–0.86），且在 glycaemic status、CKD aetiology、baseline eGFR、albuminuria、SGLT2i 使用各層一致。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄 |
 | 「非糖尿病 CKD 的高血鉀住院風險是否被低估」 | **不可投**：INFINITY 顯示無糖尿病者的高血鉀住院 HR 為 1.48（95% CI 0.47–4.67，p=0.50）。<!-- src:原始PDF/Neuen_2026_infinity-pooled.md --> 📄 本檔主張的是**紀錄一致性**，不是風險大小；越線即被此數據直接反駁 |
 | 族群代表性（33.8% 女性、56.4% 亞裔、Black 僅 2.8%/1.9%）<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄 | 主文 limitations 已逐項自陳，屬 ghost novelty |
@@ -315,10 +361,16 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 
 - [ ] 重新檢視 NEJM 線上全文與 PDF，確認 2026-06-29 那次 update **是否已經修掉**「no hospitalizations」這句。若已修正，本信失去標的，應立即停止投稿。**這是最高優先的查核項。**
 - [ ] 確認是否已有 erratum／correction 掛在 DOI 10.1056/NEJMoa2604625 下。
-- [ ] 確認 Supplementary Appendix（Table S8 等）是否對 hyperkalemia 住院有第三種數字；本檔僅有主文，未含 Supplementary Appendix。**未落地內容一律不得引用。**
+- [x] **【第四輪完成，2026-08-09】確認 Supplementary Appendix（Table S8 等）是否對 hyperkalemia 住院有第三種數字 →「沒有」。** FIND-CKD 主文之 NEJM Supplementary Appendix（42 頁）已落地為 `原始PDF/FIND-CKD_2026_nejm-appendix.md` 📄。逐項結論：
+  - 附錄目錄僅列 Table S1–S8，其中**唯一涉及不良事件者為 `Table S8. Adverse Events by Primary System Organ Class (Safety Analysis Set).`**，粒度僅到 MedDRA **System Organ Class** 層級（例：`Metabolism and nutrition disorders` 209（26.4%）vs 176（22.3%）），**未拆出 hyperkalemia 這個 preferred term，亦無任何 hospitalization 子分類**；表格腳註逐字：`Participants were counted only once within each primary system organ class.`<!-- src:原始PDF/FIND-CKD_2026_nejm-appendix.md --> 📄
+  - 對整份附錄以 `grep -ci` 計數：`hyperkalemia` = 0、`hyperkalaemia` = 0、`serious` = 0、`adjudicat` = 0。**附錄完全沒有 hyperkalemia 專屬表格、沒有安全性事件定義章節、沒有 SAE／adjudication 流程說明。**<!-- src:原始PDF/FIND-CKD_2026_nejm-appendix.md --> 📄（Supplementary Methods 之全部小節皆為統計方法：Central Laboratory Assessment、Primary Estimand、Alternative Estimand、Main Analytical Approach、Multiple Testing Procedure、Handling of Missing Data、Sensitivity Analyses for the Primary Endpoint、Analysis of eGFR Slopes Using Other eGFR Equations）
+  - **對 §4.4 的影響**：作者**無法**從自家附錄裡找出「第三種住院數字」來退守 → §4.4 的「更窄類別」退路再少一條。但務必區分兩件事：**(a) 已證實**＝附錄不存在可供退守的第三種數字；**(b) 不成立**＝「附錄排除了 adjudicated vs investigator-reported 的定義差異」——附錄對 adjudication **保持沉默**，沉默不等於排除。§4.4 行文已依此措辭處理。
+  - 副產品（非核心，存為第二輪材料）：Figure S7（`Change from Baseline in Serum Potassium`）之數值表顯示：第 0 個月兩組平均血鉀同為 4.5 mmol/L（N=793／791），其後 finerenone 組持續高於 placebo（例：第 6 個月 4.68 vs 4.52；第 44 個月 4.69 vs 4.55），組間差約 0.10–0.16 mmol/L 且維持至第 44 個月；圖說逐字：`Effects of finerenone and placebo on serum potassium levels from baseline to 44 months in the safety analysis set.`<!-- src:原始PDF/FIND-CKD_2026_nejm-appendix.md --> 📄 **175 字內用不到，不放主稿。**
+  - 資料缺口（供作者回覆後追問用）：附錄 Table S2（Medications of Interest）**未列任何鉀結合劑**（patiromer／sodium zirconium cyclosilicate），全文 binder/patiromer/zirconium 均 0 命中 → 無法從附錄判斷高血鉀處置是否倚賴鉀結合劑。<!-- src:原始PDF/FIND-CKD_2026_nejm-appendix.md --> 📄
+- [x] **【第四輪完成，2026-08-09】JAMA glomerular 之 Supplement 2（eTables/eFigures）已落地** 為 `原始PDF/Neuen_2026_jama-glomerular-supp2.md` 📄；eTable 4 顯示 glomerular 次群 `Any serious hyperkalemia` 之 `Leading to hospitalization` = 3（0.7%）vs 4（0.9%），**同樣不是零**（定義為 investigator-reported AESI，非中央實驗室門檻）。詳見 §2.5(d)。⚠️ 兩份 protocol PDF 依指示僅存 PDF、未轉 MD，**不得引用**。
 - [ ] **【第二輪新增】** 以機構訂閱人工取得 **CONFIDENCE correspondence（DOI 10.1056/NEJMc2513088，4 封信）** 全文，確認其中是否已有人提出高血鉀住院或安全性敘述一致性的問題。**這是目前唯一未被排除的新穎度風險。**
 - [ ] **【第二輪新增】** 以機構訂閱人工取得 **FIDELIO-DKD correspondence 之 Bakris/Agarwal/Filippatos Reply（PMID 33730470）**，確認作者當年如何回應「高血鉀安全數據外推應審慎」與「血壓中介」兩題；若已有明確回覆，第三優先（血壓）角度應直接放棄。
-- [x] **【第三輪完成，2026-08-09】** INFINITY 線上 appendix（35 頁，mmc1.pdf 自 Elsevier CDN 直接下載）已落地為 `原始PDF/Neuen_2026_infinity-appendix.md`。**Table S6（appendix p 23）確認：Without diabetes 欄（N=793/791，即 FIND-CKD 全體）之 hyperkalaemia SAE `Requiring hospitalisation` = `7 (0·9%)` vs `5 (0·6%)`** <!-- src:原始PDF/Neuen_2026_infinity-appendix.md --> 📄。主稿選項 B 已依此從「算術吻合」升級為「直接引用」寫法（167 words、2 refs）。Figure S9（appendix p 33）另有依糖尿病狀態的森林圖。
+- [x] **【第三輪完成，2026-08-09】** INFINITY 線上 appendix（35 頁，mmc1.pdf 自 Elsevier CDN 直接下載）已落地為 `原始PDF/Neuen_2026_infinity-appendix.md`。**Table S6（appendix p 23）確認：Without diabetes 欄（N=793/791，即 FIND-CKD 全體）之 hyperkalaemia SAE `Requiring hospitalisation` = `7 (0·9%)` vs `5 (0·6%)`** <!-- src:原始PDF/Neuen_2026_infinity-appendix.md --> 📄。主稿選項 B 已依此從「算術吻合」升級為「直接引用」寫法（當時 167 words、2 refs；第四輪修訂措辭後為 **170 words**）。Figure S9（appendix p 33）另有依糖尿病狀態的森林圖。
 - [ ] **【第二輪新增】** 於投稿介面確認 **2026 年版** NEJM letters instructions（175 words／5 refs／3 authors／3 weeks 是否仍適用）；本檔僅落地 2021 年版原文。
 - [ ] 正文嚴格維持單一問題，不加入 SGLT2i、血壓、surrogate endpoint。
 - [ ] 所有共同作者逐字核對 Table 2 與 Discussion 原文。
@@ -326,6 +378,16 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 - [ ] 在 NEJM 做出決定前，不將同一英文內容公開於社群、部落格或其他期刊。
 
 ## 4.4 若作者回覆「指的是更窄的類別」
+
+> **【第四輪結論：這條退路已正式封死（但封死的方式要說準）】**
+>
+> **(1) 附錄裡沒有第三種數字。** FIND-CKD 的 NEJM Supplementary Appendix 全部 42 頁中，唯一與不良事件相關的表是 `Table S8. Adverse Events by Primary System Organ Class (Safety Analysis Set).`，僅到 System Organ Class 層級、**未拆出 hyperkalemia、亦無 hospitalization 子分類**（腳註逐字：`Participants were counted only once within each primary system organ class.`），且全文 `hyperkalemia`／`hyperkalaemia`／`serious`／`adjudicat` 之 `grep -ci` 命中數皆為 **0**。<!-- src:原始PDF/FIND-CKD_2026_nejm-appendix.md --> 📄 **作者無法從自家附錄取得任何比 Table 2 更窄、且住院數為 0 的類別。**
+>
+> **(2) 連 glomerular 次群這個「更窄的族群」也不是零。** JAMA glomerular 分析的 eTable 4（finerenone n=446 vs placebo n=457）在**最窄的定義下**（investigator-reported AESI、MedDRA preferred term、且限 serious）仍報 `Leading to hospitalization` **3（0.7%）vs 4（0.9%）**。<!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄 亦即：同一團隊在同一批受試者上，**用了與主文不同的定義、切了更小的族群，得到的住院數依然不是 0。**
+>
+> **(3) 必須守住的界線（勿過度推論）**：附錄**沒有討論** adjudication 流程（`adjudicat` 0 命中），因此**不能**宣稱「附錄排除了 adjudicated vs investigator-reported 的定義差異」。若要在第二輪回應中援引此點，建議措辭為：*the Supplementary Appendix contains no table or definitional section that could supply such a narrower number, though it also does not address adjudication procedures directly*（作者自撰句，非引文）。**沉默 ≠ 排除**。
+>
+> **(4) 兩份 protocol PDF 不可用**：NEJM protocol（301 頁）與 JAMA Supplement 1（Bayer protocol）依指示僅落地 PDF、未轉 MD；後者更因 Type 3 自訂字型而**根本無法以文字層 grep**。其中可能存在的 stop/restart 門檻（>5.5 暫停、≤5.0 恢復）與 AESI 通報規則，**一律不得在本檔或稿件中引用**。所幸「>5.5 暫停 72 小時」這一點本檔原就掛在**主文** Trial procedures 段（逐字：`If the serum potassium level exceeded 5.5 mmol per liter, finerenone or placebo was withheld for 72 hours`）<!-- src:FIND-CKD main text NEJMoa2604625.md --> 📄，不受影響。
 
 預備第二輪回應素材（皆已落地、可 grep）：
 
@@ -348,12 +410,22 @@ FIND-CKD 的 Discussion 引用 BARACK-D 作為固醇類 MRA 耐受性差的對�
 | CONFIDENCE 內文數字 | ✅ **解除** | 三臂 268/264/266（合計 798）、UACR ratio 0.71（0.61–0.82）與 0.68（0.59–0.79）、高血鉀 9.3%/11.4%/3.8% → 掛 <!-- src:原始PDF/Agarwal_2025_confidence.md --> 📄 |
 | DAPA-CKD correspondence 各信論點 | ✅ **解除**（正式版全文） | Vogt／Yasuda-Isobe／Heerspink-Langkilde-Wheeler Reply 之論點與 1882（43.7%）用利尿劑、P for interaction = 0.96 → 掛 <!-- src:原始PDF/Vogt_2021_dapa-ckd-correspondence.md --> 📄 |
 
+**【第四輪新解除的封鎖】**（原因：使用者以機構權限下載，LlamaParse 轉 MD 並完成 grep／逐字交叉驗證）
+
+| 原被封鎖的數字 | 現況 | 正確掛法與紅線 |
+|---|---|---|
+| FIND-CKD 主文 Supplementary Appendix（Table S1–S8、Figure S1–S9、Supplementary Methods） | ✅ **解除** | Table S8 之 SOC 層級數字（例：`Metabolism and nutrition disorders` 209（26.4%）vs 176（22.3%）；Overall adverse events 542（68.3%）vs 517（65.4%））、Table S1 之 `Serum potassium level ≤4.8 mmol/l`、Central Laboratory Assessment 段之 local-lab dosing 陳述、Figure S7 血鉀時間曲線 → 掛 <!-- src:原始PDF/FIND-CKD_2026_nejm-appendix.md --> 📄。**紅線：附錄無 hyperkalemia 專項數字、無 serious／adjudication 定義（4 個關鍵字 grep 0 命中），不得從附錄推導任何高血鉀住院數。** |
+| JAMA glomerular 之 Supplement 2（eTable 1–4、eFigure 1–7） | ✅ **解除** | eTable 4 之 `Any hyperkalemia (AESI)` 73（16.4%）vs 70（15.3%）、因高血鉀永久停藥 8（1.8%）vs 2（0.4%）、`Any serious hyperkalemia` 4（0.9%）vs 4（0.9%）、其 `Leading to hospitalization` 3（0.7%）vs 4（0.9%）；eFigure 2A／6 之亞型 CI 與 P_interaction；baseline 903（57.0%）→ 掛 <!-- src:原始PDF/Neuen_2026_jama-glomerular-supp2.md --> 📄。**三條紅線：(1) eTable 4 是 investigator-reported AESI，不得用來陳述 K>5.5／>6.0 事件數；(2) `Related to study drug` 之 `177 (26.2)` 列為來源端內部不一致（177/446=39.7%），一律不引；(3) eFigure 2／3／7 的數字僅存在於圖形層、pdftotext 抓不到，逐字使用前須再做 pdftoppm 目視核對。** |
+| ~~JAMA Supplement 1（protocol）／NEJM protocol~~ | ❌ **仍封鎖** | 僅落地 PDF、未轉 MD → 見下方「仍然封鎖」 |
+
 **【仍然封鎖，投稿時不得寫入】**
 
 - **CONFIDENCE correspondence（DOI 10.1056/NEJMc2513088）各封信的具體論點** 📌 — 全文仍未落地（第二輪已窮盡 10 條管道，見 `NEED-TO-DO.md`）。僅可引「存在此交流」。
 - **FIDELIO-DKD correspondence 中 Bakris/Agarwal/Filippatos 之 Reply 本文** 📌 — 本地僅有同 DOI 下 Bunkete 等人投書之**作者自存版**，**不得**用它推斷作者當時如何回覆。
 - **Bunkete 投書的頁碼** ⚠️ — 該檔為 HAL 作者自存版，雖 metadata 標 `pp.e42`，本檔仍**不引用頁碼**、且引用時一律註明「作者自存版」。
-- ~~INFINITY 線上 appendix~~ **【第三輪解封】** INFINITY appendix 已全文落地（`原始PDF/Neuen_2026_infinity-appendix.md`，35 頁）📄，Table S6 之 FIND-CKD 族群 7 vs 5 住院數已可直接引用（見 §1 核心論證基礎）。**JAMA 之 Supplement 1–3（eTable 4、eFigure 3/5/6/7 等）** 📌 — 仍未落地，不得引用。
-- **FIND-CKD 主文之 Supplementary Appendix（Table S8 等）** 📌 — 未落地，不得引用。
+- ~~INFINITY 線上 appendix~~ **【第三輪解封】** INFINITY appendix 已全文落地（`原始PDF/Neuen_2026_infinity-appendix.md`，35 頁）📄，Table S6 之 FIND-CKD 族群 7 vs 5 住院數已可直接引用（見 §1 核心論證基礎）。
+- ~~JAMA 之 Supplement（eTable 4、eFigure 2/3/5/6/7 等）~~ **【第四輪解封】** 已全文落地為 `原始PDF/Neuen_2026_jama-glomerular-supp2.md` 📄 — 詳見下方新增解封表。
+- ~~FIND-CKD 主文之 Supplementary Appendix（Table S8 等）~~ **【第四輪解封】** 已全文落地為 `原始PDF/FIND-CKD_2026_nejm-appendix.md` 📄 — 詳見下方新增解封表。
+- **兩份 protocol PDF 的任何內容** ⚠️ — `FIND-CKD_2026_nejm-protocol.pdf`（301 頁）與 `Neuen_2026_jama-glomerular-supp1-protocol.pdf` 依指示**僅落地 PDF、未轉 MD**，**一律不得引用**；後者且因 Type 3 自訂字型無 ToUnicode CMap，`pdftotext` 輸出為亂碼，**即使轉檔也不可能以文字層 grep 驗證**，**不得聲稱曾對其做過 grep**。特別點名禁止引用的內容：高血鉀 stop/restart 具體門檻（>5.5 暫停／≤5.0 恢復）、AESI 通報時限規則、SAP 條文原文。
 - **Nature Reviews Nephrology 評論的內容** 📌 — 連 metadata 都未經本流程驗證，**完全不引用**。
 - **「FIND-CKD 貢獻了 7 與 5 件住院給 INFINITY」的敘述** ⚠️ — 這是本檔作者的**算術推論**（40+21+7=68、8+2+5=15），**不是**任何來源的原文陳述。投稿措辭必須寫成可自行驗證的形式（見 §1「選項 B」注意事項）。

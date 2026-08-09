@@ -4,7 +4,9 @@
 
 **狀態欄定義**：`fetched=false` 表示未取得任何可用全文；`content_verified=false` 表示內容未經本地 grep 驗證。凡下載工具回傳「不相符文獻」（title/DOI 與目標不符），一律視為 **POLLUTED**，立即刪除，不計入 fetched。
 
-**最後更新**：2026-08-09（第二輪 PDF 深挖完成）
+**最後更新**：2026-08-09（**第四輪**：0-A／0-B 兩項補充材料經使用者以機構權限下載後落地完成）
+
+**第四輪狀態摘要**：原「❌ 仍未取得」中的 **0-A（FIND-CKD 主文 NEJM Supplementary Appendix）** 與 **0-B（JAMA glomerular Supplement）** 已改列 **✅ 已取得**（見 A-8、A-9）。**仍未取得清單至此只剩一項：CONFIDENCE correspondence（§2）**；另有一項為「部分取得」之殘缺（§4：FIDELIO-DKD 之 Bakris/Agarwal Reply 本文）。
 
 ---
 
@@ -104,29 +106,60 @@
 | 轉檔 | **converter = llamaparse（agentic tier，第三輪重轉）**；第二輪的 `pdftotext -layout` 版保存為 `Bunkete_2021_fidelio-correspondence.pdftotext.md.bak`，僅供追溯 |
 | 仍缺 | **Bakris/Agarwal/Filippatos 之 Reply 本文**，以及該交流中其餘投書。詳見下方「未取得」§2。 |
 
+## A-8. FIND-CKD 主文 Supplementary Appendix（NEJM）— ✅ **第四輪已取得（原 0-A）**
+
+| 項目 | 內容 |
+|---|---|
+| id | `FIND-CKD_2026_nejm-appendix` |
+| 內容 | FIND-CKD 主文之 NEJM Supplementary Appendix 全文 **42 頁**（Investigators、Supplementary Methods、Figure S1–S9、Table S1–S8、References） |
+| 狀態 | **fetched=true, content_verified=true** |
+| 落地檔案 | `原始PDF/FIND-CKD_2026_nejm-appendix.pdf` ／ `原始PDF/FIND-CKD_2026_nejm-appendix.md` |
+| 取得管道 | **使用者以機構／訂閱權限自 NEJM 文章頁（10.1056/NEJMoa2604625）直接下載**。第三輪所有自動化管道皆失敗之紀錄保留於本節下方「第三輪嘗試記錄（保留）」。 |
+| 版本 | 出版社官方 appendix；首頁載明 `Supplement to: Heerspink HJL, Neuen BL, Agarwal R, et al. Finerenone in persons with chronic kidney disease without diabetes. N Engl J Med 2026;395:533-45. DOI: 10.1056/NEJMoa2604625` |
+| 轉檔 | converter = **llamaparse（agentic tier）** |
+| 防污染驗證 | 通過。`pdfinfo` 42 頁；MD 結尾 References #11–12 標記 page_number 41，與 `pdftotext -f 42 -l 42`（頁腳頁碼 41）逐字相同 → **MD 完整涵蓋全 42 頁、無截斷**。另抽 4 處逐字交叉核對全部精確吻合：Table S8（MD 2154 起 vs PDF p40）、Investigators 首段（MD 71 vs PDF p4，`National lead investigator coordinator: Panteleimon (Pantelis) Sarafidis`）、Central Laboratory Assessment（MD 223 vs PDF p14）、Table S1（MD 1497 vs PDF p31，`Serum potassium level ≤4.8 mmol/l`）。英文、作者／標題與主文一致，無語言污染。 |
+| **關鍵發現（對投稿的直接影響）** | **附錄對 hyperkalemia 住院「沒有第三種數字」。** 唯一與 AE 相關的表為 `Table S8. Adverse Events by Primary System Organ Class (Safety Analysis Set).`，僅到 MedDRA System Organ Class 層級（腳註 `Participants were counted only once within each primary system organ class.`），未拆 hyperkalemia、無 hospitalization 子分類；全文 `grep -ci` 之 `hyperkalemia`／`hyperkalaemia`／`serious`／`adjudicat` 皆 **0** 命中。→ `評論短信 FIND-CKD.md` §4.3 該項已改為 [x]、§4.4「更窄類別」退路已封死。 |
+| **附帶更正稿件** | 附錄 Central Laboratory Assessment 段逐字：`In addition, potassium and eGFR were assessed at local laboratories for dosing decisions at each visit.` → 主稿英文正文原句 `dosing was governed by scheduled central-laboratory monitoring` 用詞不精確，已改為 `scheduled potassium monitoring at each visit`（選項 B 由 167→**170 words**，選項 A 由 156→**159 words**）。 |
+| 第三輪嘗試記錄（保留） | (1) 標準 suppl_file URL curl → Cloudflare 403；(2) tavily_extract → 空；(3) r.jina.ai → CAPTCHA；(4) vanilla Playwright（headless/headed + stealth）→ Turnstile；(5) Patchright + 真 Chrome → 文章頁載入成功但 Appendix/Protocol 下載鈕 `aria-disabled="true"` 無 href（權限鎖定）。 |
+
+### A-8b. FIND-CKD NEJM Protocol — ⚠️ **僅落地 PDF，未轉 MD，不可引用**
+
+| 項目 | 內容 |
+|---|---|
+| 落地檔案 | `原始PDF/FIND-CKD_2026_nejm-protocol.pdf`（301 頁，3.27 MB） |
+| 狀態 | **fetched=true, content_verified=false（未轉 MD，無法 grep）** |
+| 取得管道 | 使用者以機構權限自 NEJM 文章頁下載 |
+| 身分驗證 | `pdftotext -f 1 -l 1` 頁 1：`Protocol for: Heerspink HJL, Neuen BL, Agarwal R, et al. Finerenone in persons with chronic kidney disease without diabetes. N Engl J Med 2026;395:533-45.`；頁 2 目次含 Protocol(2-79)／Protocol Amendment(80-170)／Summary of Changes(171-178)／SAP(179-230)／SAP Update(231-300)。與 appendix、主文完全一致，無污染。 |
+| **限制** | **依指示不轉 MD**。因無 MD 可 grep，**任何內容一律不得引用**——特別點名：高血鉀 stop/restart 具體門檻（>5.5 暫停／≤5.0 恢復）、AESI 通報時限規則、SAP 條文原文。若日後需引用，**必須先完成 LlamaParse 全文轉檔並正式列入 `評論短信 FIND-CKD.md` 來源表**。 |
+
+## A-9. JAMA glomerular 分析 Supplement — ✅ **第四輪已取得（原 0-B）**
+
+| 項目 | 內容 |
+|---|---|
+| id | `Neuen_2026_jama-glomerular-supp2` |
+| 內容 | JAMA Supplement 2：**eTable 1–4、eFigure 1–7**（含 eTable 4 之 glomerular 次群安全性表、eFigure 2/6 之亞型森林圖） |
+| 狀態 | **fetched=true, content_verified=true** |
+| 落地檔案 | `原始PDF/Neuen_2026_jama-glomerular-supp2.pdf` ／ `原始PDF/Neuen_2026_jama-glomerular-supp2.md` |
+| 取得管道 | **使用者以機構／訂閱權限自 JAMA 文章頁登入後下載**（第三輪自動化管道全數失敗，紀錄保留於下方） |
+| 版本 | JAMA 官方 supplement，作者列 Neuen BL, Perkovic V, Agarwal R 與主文一致，全篇英文 |
+| 轉檔 | converter = **llamaparse（agentic tier）** |
+| 防污染驗證 | 通過。3 處與來源 PDF 交叉比對全部相符：(1) 標題／DOI 區塊 PDF p1 vs MD line 3 逐字；(2) eTable 4 之 PDF p16（影像，目視）vs MD 521–618 逐位；(3) eFigure 6 之 PDF p22（影像，目視）vs MD 1253–1330 逐位。 |
+| **關鍵發現** | eTable 4（finerenone n=446 vs placebo n=457）：`Any hyperkalemia (AESI)` 73(16.4%) vs 70(15.3%)；因高血鉀永久停藥 **8(1.8%) vs 2(0.4%)**；`Any serious hyperkalemia` 4(0.9%) vs 4(0.9%)，其 `Leading to hospitalization` **3(0.7%) vs 4(0.9%)** — **即使在最窄定義下仍非零**，強化 §4.4。腳註定義：`Hyperkalemia was an AESI and defined as any investigator-reported AEs with MedDRA codes corresponding to the preferred terms hyperkalemia or blood potassium increased.` |
+| **⚠️ 引用紅線（三條）** | (1) eTable 4 為 **investigator-reported AESI**，**不得**用以陳述 K>5.5／>6.0 mmol/L 事件數（該表根本沒有）；(2) `Related to study drug` 之 finerenone 欄 `177 (26.2)` 為**來源端內部不一致**（177/446=39.7%；26.2% 對應 117/446），已用 `pdftotext -f 16 -l 16` 確認 PDF 原文即為 `177 (26.2)`，非轉檔錯誤 → **該列一律不引**；(3) eFigure 2／3／6／7 的數字**只存在於圖形層**，`pdftotext` 抓不到、僅 LlamaParse 視覺抽取可得；eFigure 6 已目視逐位覆核，**eFigure 2／3／7 僅結構性抽查**，逐字使用前須再做 `pdftoppm` 目視核對。 |
+| 第三輪嘗試記錄（保留） | (1) jamanetwork curl / tavily / r.jina.ai → 403/CAPTCHA；(2) Patchright + 真 Chrome → 文章頁載入成功但全頁 DOM 無 supplement PDF 連結；(3) `#multimedia-tab` 僅圖表 PNG；(4) ORBi 僅存主文；(5) PMC13242048 embargo 至 2026-12-05。 |
+
+### A-9b. JAMA Supplement 1（Bayer 試驗計畫書）— ⚠️ **僅落地 PDF，未轉 MD，且原則上無法 grep 驗證**
+
+| 項目 | 內容 |
+|---|---|
+| 落地檔案 | `原始PDF/Neuen_2026_jama-glomerular-supp1-protocol.pdf`（20.5 MB） |
+| 狀態 | **fetched=true, content_verified=false** |
+| 身分驗證 | ⚠️ **無法以文字抽取驗證**：`pdffonts` 顯示全部文字字型為 Type 3 `Custom` 編碼、無 embedded ToUnicode CMap，`pdftotext -layout` 在第 1／2／5／10／50 頁皆輸出亂碼（此為字型問題，**非污染跡象**）。改以 `pdftoppm` 轉 PNG 目視確認第 2 頁：Bayer `Clinical Study Protocol No. BAY 94-8862/21177`、標題 `FInerenone…Non-Diabetic Chronic Kidney Disease`、Protocol Number 21177、Compound BAY 94-8862/Finerenone、Acronym `FIND-CKD`、日期 09 JUN 2021；`pdfinfo` Title metadata 為 `JOI260064supp1_srcpdf.pdf`，與 JAMA supplement 命名一致。 |
+| **限制** | **依指示不轉 MD**，且**即使轉檔也無法以文字層 grep 回驗**。**一律不得引用其任何內容，亦不得聲稱曾對本檔做過 grep 驗證。** 若日後非引不可，只能以 `pdftoppm` 逐頁轉圖目視閱讀並在稿中明示此一驗證方式的限制。 |
+
 ---
 
 # ❌ 仍未取得
-
-## 0-A. FIND-CKD 主文 Supplementary Appendix（NEJM）【第三輪新增嘗試，2026-08-09】
-
-| 項目 | 內容 |
-|---|---|
-| 檔案 | `nejmoa2604625_appendix.pdf`（787.21 KB）；另有 Protocol `nejmoa2604625_protocol.pdf`（3.27 MB） |
-| 位置 | NEJM 文章頁 Supplementary Material 區（https://www.nejm.org/doi/full/10.1056/NEJMoa2604625） |
-| 嘗試記錄 | (1) 標準 suppl_file URL 直接 curl → Cloudflare 403；(2) tavily_extract 抓 PDF → 空；(3) r.jina.ai 代理 → CAPTCHA 擋；(4) vanilla Playwright（headless/headed + stealth flags）→ 卡在「請稍候…」Turnstile；(5) **Patchright + 本機真 Chrome → 文章頁面成功載入**，但 DOM 檢查發現 Appendix/Protocol 的 Download 按鈕為 `aria-disabled="true"` 且無 href——**權限鎖定**：只有 Disclosures 與 Data Sharing 兩檔對未登入者開放。 |
-| 結論 | **需訂閱／機構權限的 session 才能下載**。⚠️ 本檔的稽核規則不變：Table S8 等 appendix 內容在落地前一律不得引用。 |
-| ➡️ 請使用者 | 用您的 NEJM 帳號（您已能下載主文 PDF）到文章頁下載 `nejmoa2604625_appendix.pdf`（建議連 protocol 一起），放入 `原始PDF/`，我會接手轉檔＋驗證＋解封相關引用。**這是投稿前檢查清單的一項：確認 appendix 對高血鉀住院是否有第三種數字。** |
-
-## 0-B. JAMA glomerular 分析 Supplement 1–3【第三輪新增嘗試，2026-08-09】
-
-| 項目 | 內容 |
-|---|---|
-| 內容 | Supplement 1（trial protocol）、Supplement 2（statistical analysis plan）、Supplement 3（eTables/eFigures，含 eTable 4 等） |
-| 位置 | JAMA 文章頁（https://jamanetwork.com/journals/jama/fullarticle/2850124） |
-| 嘗試記錄 | (1) jamanetwork 直接 curl / tavily / r.jina.ai → Cloudflare 403/CAPTCHA；(2) Patchright + 真 Chrome → 文章頁載入成功，但全頁 DOM 無任何 supplement PDF 連結；(3) `#multimedia-tab` 只渲染圖表 PNG（cdn.jamanetwork.com 簽名 URL），無 supplement PDF；(4) ORBi（主文來源典藏庫）僅存主文一個 bitstream；(5) PMC 版 PMC13242048 embargo 至 **2026-12-05**。 |
-| 結論 | Supplement 連結為登入後才渲染的簽名 URL，**需 JAMA 權限**；或等 PMC embargo 到期（2026-12-05）。 |
-| ➡️ 請使用者 | 若有 JAMA 訂閱／機構權限，登入後於文章頁下載 Supplement 1–3 放入 `原始PDF/`；否則 2026-12-05 後我可從 PMC 抓。 |
 
 ## 1. DAPA-CKD correspondence — ✅ **已於第二輪取得，見上方 A-5**
 
@@ -208,7 +241,7 @@
 ## 【第二輪新增】版本與範圍限制（已取得者亦適用）
 
 - **`Bunkete_2021_fidelio-correspondence.md` 為作者自存版（HAL），且不是 PMID 33730470 對應的 Bakris/Agarwal Reply。** 引用時必須註明「作者自存版」、**不得引用頁碼**、**不得**用它推斷作者 Reply 的內容。標記為 ⚠️📄。
-- **未落地的補充材料一律不得引用**：INFINITY 線上 appendix（pp 2–16、p 20、p 24、p 25、p 26、p 33）、JAMA Supplement 1–3（eTable/eFigure）、FIND-CKD 主文 Supplementary Appendix（Table S8 等）。
+- ~~**未落地的補充材料一律不得引用**：INFINITY 線上 appendix、JAMA Supplement 1–3（eTable/eFigure）、FIND-CKD 主文 Supplementary Appendix（Table S8 等）。~~ **【第三／四輪更新】** INFINITY appendix（A-7）、FIND-CKD NEJM appendix（A-8）、JAMA Supplement 2（A-9）**均已落地並完成驗證，已解封**。**仍不可引用者只剩兩份 protocol PDF（A-8b、A-9b）**——僅存 PDF、未轉 MD；其中 A-9b 更因 Type 3 自訂字型而**根本無法以文字層 grep**。
 - **PMC13242048（JAMA glomerular）embargo 至 2026-12-05**；屆時可取得可公開再散布之版本，建議屆期重新下載以取代 ORBi 副本。
 - **PMID 更正**：CONFIDENCE 主試驗應為 **40470996**（原任務描述所載 40371574 疑為筆誤）。
 - **共通轉檔限制【第三輪更新】**：第二輪 6 檔（FIGARO-DKD、CONFIDENCE、INFINITY、JAMA glomerular、DAPA-CKD correspondence、FIDELIO-DKD correspondence）原因 `llamaparse_convert.py` 環境錯誤（`ImportError: cannot import name 'AsyncLlamaCloud' from 'llama_cloud'`，非額度用盡）而暫以 `pdftotext -layout` 產出；**環境修復後已於第三輪全數以 LlamaParse（agentic tier）重轉**，`converter = llamaparse`。舊版一律改名為同名 `.pdftotext.md.bak` 保存，**僅供追溯，不作為引用來源**。
@@ -216,4 +249,7 @@
   - LlamaParse 版（第二輪 6 檔）：斷行已合併、連字號已接回，整句多半可一次命中；但會帶 Markdown 標記（`<sup>1</sup>` 上標、`*Journal*` 斜體、`**HEADING**` 小標、表格轉為 HTML `<td>`），選片段時須避開或連同標記一起取，並實測 grep。
   - pdftotext 版（第一輪 5 檔：`Bakris_2020_FIDELIO-DKD.md`、`Heerspink_2020_DAPA-CKD.md`、`Heerspink_2025_FIND-CKD-design.md`、`Hobbs_2024_BARACK-D.md`、`Juurlink_2004_15295047.md`）：雙欄版面仍會斷行、拆連字號，須取單行殘片。
 - **⚠️ 換版後查出的實質更正**：`評論短信 FIND-CKD.md` §2.5(b) 與 §4.4 原將 FIGARO-DKD 那句住院比例（`or hospitalization (in 0.6% and 0.1%).`）標為出自 **Discussion**，LlamaParse 版顯示其實位於 **Results** 的 `**SAFETY OUTCOMES AND VITAL SIGNS**` 段——pdftotext 雙欄輸出把相鄰右欄的 Discussion 文字併在同一實體行所致。稿中兩處已更正。
+- **【第四輪新增】僅存 PDF、未轉 MD 者一律比照 📌 處理**：`FIND-CKD_2026_nejm-protocol.pdf`、`Neuen_2026_jama-glomerular-supp1-protocol.pdf`。無 MD 即無法 grep，**不得引用內文**；本檔對它們只記載「身分已驗證」與「驗證方式」，不記載任何可被當成事實引用的內容數字。
+- **【第四輪新增】圖形層數字的驗證等級低於文字層**：`Neuen_2026_jama-glomerular-supp2.md` 的 eFigure 2／3／6／7 數值源自 forest plot 影像，`pdftotext` 無法回驗，僅 LlamaParse 視覺抽取可得。eFigure 6 已 `pdftoppm` 目視逐位覆核；**eFigure 2／3／7 尚未逐頁覆核**，逐字引用前須補做。
+- **【第四輪新增】來源端本身的內部不一致**：`Neuen_2026_jama-glomerular-supp2.md` eTable 4 之 `Related to study drug`（finerenone）印為 `177 (26.2)`，177/446=39.7% 與 26.2% 不符（26.2% 對應 117/446）。已用 `pdftotext -f 16 -l 16` 確認 **PDF 原文即如此**，屬 JAMA supplement 之印刷／製表錯誤，非轉檔錯誤。**該列一律不引用。**
 - **可安全引用頁碼者**：FIGARO-DKD（2252-2263）、CONFIDENCE（533-43）、DAPA-CKD correspondence（388-390）。**JAMA glomerular 僅有 E1–E10 線上分頁**；**INFINITY 為線上先行版**（正式卷期頁 2375-2386 出自 metadata，非 PDF 版面），引用頁碼前建議再核對。
