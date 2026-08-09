@@ -47,9 +47,22 @@
 | 狀態 | **fetched=true, content_verified=true** |
 | 落地檔案 | `原始PDF/Neuen_2026_infinity-pooled.pdf` ／ `原始PDF/Neuen_2026_infinity-pooled.md` |
 | 取得管道 | **非預期來源：哥倫比亞 Universidad Simón Bolívar 之 DSpace 機構典藏 `bonga.unisimon.edu.co`**（由 tavily_search 命中 item 頁 → 解析出 bitstream 直連 → curl -L 下載，PDF v1.7, 10 頁）。Unpaywall／OpenAlex／Europe PMC／PMC／CORE／BASE／Semantic Scholar 全空；CrossRef 僅有 metadata 無 pdf_url；預期的 pure.rug.nl 與 unsworks.unsw.edu.au 站內查詢未命中。 |
-| 版本 | **Lancet 正式排版版**（running header `www.thelancet.com Published online June 5, 2026 https://doi.org/10.1016/S0140-6736(26)01009-3`），非 author manuscript。**⚠️ 線上 appendix（pp 2–16 等）未落地，appendix 內容一律不得引用。** |
+| 版本 | **Lancet 正式排版版**（running header `www.thelancet.com Published online June 5, 2026 https://doi.org/10.1016/S0140-6736(26)01009-3`），非 author manuscript。 |
 | 轉檔 | **converter = llamaparse（agentic tier，第三輪重轉）**；第二輪的 `pdftotext -layout` 版（934 行）保存為 `Neuen_2026_infinity-pooled.pdftotext.md.bak`，僅供追溯 |
 | 驗證 | 標題／24 位作者列／DOI／期刊 header 一致；MD grep 命中 `Neuen`、`INFINITY`、`FIND-CKD`、`14 574 participants` |
+
+## A-7. INFINITY supplementary appendix（第三輪取得，2026-08-09）
+
+| 項目 | 內容 |
+|---|---|
+| id | `Neuen_2026_infinity-appendix` |
+| 內容 | INFINITY 線上 appendix 全文 35 頁（Investigators、Table S1–S7、Figure S1–S10） |
+| 狀態 | **fetched=true, content_verified=true** |
+| 落地檔案 | `原始PDF/Neuen_2026_infinity-appendix.pdf` ／ `原始PDF/Neuen_2026_infinity-appendix.md` |
+| 取得管道 | **Elsevier CDN 直連**：由 PII 推出 URL `https://ars.els-cdn.com/content/image/1-s2.0-S0140673626010093-mmc1.pdf`，curl 直接下載（HTTP 200，PDF v1.6）；mmc2 不存在（404） |
+| 版本 | 出版社官方 supplementary appendix（首頁載明 `Supplement to: Neuen BL, Heerspink HJL, Perkovic V, et al.` 與正確 DOI；`We post it as supplied by the authors.`） |
+| 轉檔 | converter = llamaparse（agentic tier） |
+| 驗證 | Supplement-to 引用、DOI、頁數與 TOC 一致。**關鍵發現：Table S6（appendix p 23）Without diabetes 欄 N=793/791（=FIND-CKD 全體），hyperkalaemia SAE `Requiring hospitalisation` = `7 (0·9%)` vs `5 (0·6%)`** — 主稿選項 B 據此升級為直接引用（167 words、2 refs） |
 
 ## A-4. JAMA glomerular disease 分析
 
