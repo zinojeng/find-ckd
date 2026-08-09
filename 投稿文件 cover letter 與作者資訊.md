@@ -22,10 +22,10 @@
 >
 > Sincerely,
 >
-> Yaohsien Tseng, M.D.【學位請確認：M.D. / M.D., Ph.D.】
+> Yaohsien Tseng, M.D., Ph.D.
 > Division of Endocrinology and Metabolism, Tungs' Taichung Metroharbor Hospital
 > Taichung, Taiwan
-> Email: zinojeng@gmail.com【或改用機構信箱——NEJM 通訊作者建議用機構信箱，較易通過身分核驗】
+> Email: 【通訊作者於投稿系統自行填入】
 
 ---
 
@@ -36,10 +36,10 @@
 | 欄位 | 內容 |
 |---|---|
 | Full name（姓名，護照拼音） | **Yaohsien Tseng** |
-| Degrees（學位，如 M.D. / M.D., Ph.D.） | M.D.【請確認是否加列其他學位】 |
+| Degrees（學位，如 M.D. / M.D., Ph.D.） | **M.D., Ph.D.** |
 | Affiliation（**只能填 1 個**：科部, 醫院/機構） | Division of Endocrinology and Metabolism, Tungs' Taichung Metroharbor Hospital |
 | City, Country | Taichung, Taiwan |
-| Email（通訊作者信箱，所有往返由此人負責） | zinojeng@gmail.com【建議改機構信箱】 |
+| Email（通訊作者信箱，所有往返由此人負責） | 【通訊作者於投稿系統自行填入】 |
 | Telephone | 【 】 |
 | ORCID（NEJM 系統會要求） | 0000-0001-8330-7742（https://orcid.org/0000-0001-8330-7742） |
 | Role | **First author & Corresponding author** |
@@ -66,9 +66,9 @@
 
 > 信末署名格式（刊出時的樣子，供預覽）：
 >
-> Yaohsien Tseng, M.D.
+> Yaohsien Tseng, M.D., Ph.D.
 > Tungs' Taichung Metroharbor Hospital, Taichung, Taiwan
-> zinojeng@gmail.com
+> 【email——與投稿系統填入者一致】
 >
 > （NEJM 慣例：只有通訊作者附 email；多位作者依序列名，各附機構。）
 
