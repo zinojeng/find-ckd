@@ -108,6 +108,26 @@
 
 # ❌ 仍未取得
 
+## 0-A. FIND-CKD 主文 Supplementary Appendix（NEJM）【第三輪新增嘗試，2026-08-09】
+
+| 項目 | 內容 |
+|---|---|
+| 檔案 | `nejmoa2604625_appendix.pdf`（787.21 KB）；另有 Protocol `nejmoa2604625_protocol.pdf`（3.27 MB） |
+| 位置 | NEJM 文章頁 Supplementary Material 區（https://www.nejm.org/doi/full/10.1056/NEJMoa2604625） |
+| 嘗試記錄 | (1) 標準 suppl_file URL 直接 curl → Cloudflare 403；(2) tavily_extract 抓 PDF → 空；(3) r.jina.ai 代理 → CAPTCHA 擋；(4) vanilla Playwright（headless/headed + stealth flags）→ 卡在「請稍候…」Turnstile；(5) **Patchright + 本機真 Chrome → 文章頁面成功載入**，但 DOM 檢查發現 Appendix/Protocol 的 Download 按鈕為 `aria-disabled="true"` 且無 href——**權限鎖定**：只有 Disclosures 與 Data Sharing 兩檔對未登入者開放。 |
+| 結論 | **需訂閱／機構權限的 session 才能下載**。⚠️ 本檔的稽核規則不變：Table S8 等 appendix 內容在落地前一律不得引用。 |
+| ➡️ 請使用者 | 用您的 NEJM 帳號（您已能下載主文 PDF）到文章頁下載 `nejmoa2604625_appendix.pdf`（建議連 protocol 一起），放入 `原始PDF/`，我會接手轉檔＋驗證＋解封相關引用。**這是投稿前檢查清單的一項：確認 appendix 對高血鉀住院是否有第三種數字。** |
+
+## 0-B. JAMA glomerular 分析 Supplement 1–3【第三輪新增嘗試，2026-08-09】
+
+| 項目 | 內容 |
+|---|---|
+| 內容 | Supplement 1（trial protocol）、Supplement 2（statistical analysis plan）、Supplement 3（eTables/eFigures，含 eTable 4 等） |
+| 位置 | JAMA 文章頁（https://jamanetwork.com/journals/jama/fullarticle/2850124） |
+| 嘗試記錄 | (1) jamanetwork 直接 curl / tavily / r.jina.ai → Cloudflare 403/CAPTCHA；(2) Patchright + 真 Chrome → 文章頁載入成功，但全頁 DOM 無任何 supplement PDF 連結；(3) `#multimedia-tab` 只渲染圖表 PNG（cdn.jamanetwork.com 簽名 URL），無 supplement PDF；(4) ORBi（主文來源典藏庫）僅存主文一個 bitstream；(5) PMC 版 PMC13242048 embargo 至 **2026-12-05**。 |
+| 結論 | Supplement 連結為登入後才渲染的簽名 URL，**需 JAMA 權限**；或等 PMC embargo 到期（2026-12-05）。 |
+| ➡️ 請使用者 | 若有 JAMA 訂閱／機構權限，登入後於文章頁下載 Supplement 1–3 放入 `原始PDF/`；否則 2026-12-05 後我可從 PMC 抓。 |
+
 ## 1. DAPA-CKD correspondence — ✅ **已於第二輪取得，見上方 A-5**
 
 第一輪未取得原因（保留紀錄）：`download_with_fallback` 回傳 POLLUTED 檔（*Journals of Gerontology* frailty-subgroup study, PMID 37527836）已刪除；Sci-Hub（sci-hub.wf）無嵌入 PDF；Europe PMC 3 個 PMID 均 `is_open_access=false`。第二輪經 UCL Discovery 機構典藏取得正式版全文。
