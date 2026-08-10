@@ -26,7 +26,7 @@
 > Division of Endocrinology and Metabolism, Tungs' Taichung Metroharbor Hospital, Taichung, Taiwan
 >
 > James Cheng-Chung Wei, M.D., Ph.D.
-> 【Wei 教授之單一 affiliation，請確認：例 Department of Allergy, Immunology and Rheumatology, Chung Shan Medical University Hospital, Taichung, Taiwan】
+> Graduate Institute of Integrated Medicine, China Medical University, Taichung, Taiwan
 >
 > Corresponding author email: 【通訊作者於投稿系統自行填入】
 
@@ -53,7 +53,7 @@
 |---|---|
 | Full name | **James Cheng-Chung Wei** |
 | Degrees | M.D., Ph.D. |
-| Affiliation（1 個） | 【請確認：例 Department of Allergy, Immunology and Rheumatology, Chung Shan Medical University Hospital】 |
+| Affiliation（1 個） | Graduate Institute of Integrated Medicine, China Medical University |
 | City, Country | Taichung, Taiwan |
 | ORCID | 【 】 |
 
@@ -75,7 +75,7 @@
 > Tungs' Taichung Metroharbor Hospital, Taichung, Taiwan
 >
 > James Cheng-Chung Wei, M.D., Ph.D.
-> 【Chung Shan Medical University Hospital】, Taichung, Taiwan
+> China Medical University, Taichung, Taiwan
 > 【通訊作者 email——與投稿系統填入者一致】
 >
 > （NEJM 慣例：只有通訊作者附 email；多位作者依序列名，各附機構。）
@@ -96,10 +96,12 @@
 **建議揭露句（無利益衝突時）**：
 > No potential conflict of interest relevant to this letter was reported.
 
-### 3.2 AI-assisted technology 揭露（NEJM 投稿必答）
+### 3.2 AI-assisted technology 揭露（NEJM 投稿必答；簡短版）
 
 **建議揭露句（可直接貼用）**：
-> Large language model–based tools were used to assist with literature search, retrieval of full-text sources, and drafting. All statements, quotations, and numerical data were independently verified against the original publications by the author(s), who accept full responsibility for the integrity and accuracy of the content.
+> Artificial intelligence–assisted tools were used to refine wording and grammar. The authors verified all content against the original publications and take full responsibility for its accuracy.
+
+（若系統以複選題細問使用範圍，依實際情形勾選即可。）
 
 ### 3.3 其他聲明
 
