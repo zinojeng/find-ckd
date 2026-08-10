@@ -8,24 +8,27 @@
 
 ## 一、Cover Letter（英文，可直接貼入投稿系統的 Cover Letter 欄位）
 
+**Subject: Correspondence — Hyperkalemia-Related Hospitalization in FIND-CKD**
+
 > Dear Editors,
 >
-> We submit the enclosed letter, "Hyperkalemia-Related Hospitalization in FIND-CKD," for consideration as Correspondence regarding the article by Heerspink et al., "Finerenone in Persons with Chronic Kidney Disease without Diabetes" (August 6, 2026 issue; DOI: 10.1056/NEJMoa2604625).
+> We submit the enclosed letter for consideration as Correspondence regarding the article by Heerspink et al., "Finerenone in Persons with Chronic Kidney Disease without Diabetes" (August 6, 2026 issue; DOI: 10.1056/NEJMoa2604625).
 >
-> Our letter seeks clarification of an apparent discrepancy within the article: the Results section and Table 2 report that hyperkalemia led to hospitalization in 7 participants (0.9%) in the finerenone group and 5 (0.6%) in the placebo group, whereas the Discussion states that potassium increases led to "no hospitalizations." Because hospitalization for serious hyperkalemia was a prespecified safety outcome, and because the trial's favorable safety profile was achieved under protocolized eligibility and monitoring conditions, we believe accurate characterization of this endpoint is important for translating FIND-CKD to routine practice.
+> Our letter seeks clarification of an apparent discrepancy within the article: the Results section and Table 2 report that hyperkalemia led to hospitalization in 7 participants (0.9%) receiving finerenone and 5 (0.6%) receiving placebo, whereas the Discussion states that potassium increases led to "no hospitalizations." Because hospitalization for serious hyperkalemia was a prespecified safety outcome, and because the trial's favorable safety profile was achieved under protocolized eligibility and monitoring, accurate characterization of this endpoint matters for translating FIND-CKD to routine practice.
 >
-> The letter contains 171 words and 2 references, within the limits for Correspondence. It has not been published or submitted elsewhere, and it does not challenge the trial's primary efficacy findings.
->
-> We disclose the use of AI-assisted technology (large language models) in literature retrieval and drafting; all facts, quotations, and numbers were verified against the original publications by the author(s), who take full responsibility for the content. Conflict-of-interest disclosures for all authors are provided in the submission forms.
+> The letter contains 171 words and 2 references, within the Correspondence limits. It has not been published or submitted elsewhere and does not challenge the trial's primary efficacy findings. Conflict-of-interest disclosures for all authors are provided in the submission forms.
 >
 > Thank you for your consideration.
 >
 > Sincerely,
 >
 > Yaohsien Tseng, M.D., Ph.D.
-> Division of Endocrinology and Metabolism, Tungs' Taichung Metroharbor Hospital
-> Taichung, Taiwan
-> Email: 【通訊作者於投稿系統自行填入】
+> Division of Endocrinology and Metabolism, Tungs' Taichung Metroharbor Hospital, Taichung, Taiwan
+>
+> James Cheng-Chung Wei, M.D., Ph.D.
+> 【Wei 教授之單一 affiliation，請確認：例 Department of Allergy, Immunology and Rheumatology, Chung Shan Medical University Hospital, Taichung, Taiwan】
+>
+> Corresponding author email: 【通訊作者於投稿系統自行填入】
 
 ---
 
@@ -44,15 +47,17 @@
 | ORCID（NEJM 系統會要求） | 0000-0001-8330-7742（https://orcid.org/0000-0001-8330-7742） |
 | Role | **First author & Corresponding author** |
 
-### Author 2（如有；沒有就整列刪除）
+### Author 2
 
 | 欄位 | 內容 |
 |---|---|
-| Full name | 【 】 |
-| Degrees | 【 】 |
-| Affiliation（1 個） | 【 】 |
-| City, Country | 【 】 |
+| Full name | **James Cheng-Chung Wei** |
+| Degrees | M.D., Ph.D. |
+| Affiliation（1 個） | 【請確認：例 Department of Allergy, Immunology and Rheumatology, Chung Shan Medical University Hospital】 |
+| City, Country | Taichung, Taiwan |
 | ORCID | 【 】 |
+
+> ⚠️ **通訊作者請最終確認**：Author 1 表格目前標 Tseng 為 corresponding author；若改由 Wei 教授擔任通訊，請於投稿系統指定並由其填入 email，本檔署名順序不變（Tseng 為 first author）。
 
 ### Author 3（如有；上限 3 位）
 
@@ -68,7 +73,10 @@
 >
 > Yaohsien Tseng, M.D., Ph.D.
 > Tungs' Taichung Metroharbor Hospital, Taichung, Taiwan
-> 【email——與投稿系統填入者一致】
+>
+> James Cheng-Chung Wei, M.D., Ph.D.
+> 【Chung Shan Medical University Hospital】, Taichung, Taiwan
+> 【通訊作者 email——與投稿系統填入者一致】
 >
 > （NEJM 慣例：只有通訊作者附 email；多位作者依序列名，各附機構。）
 
